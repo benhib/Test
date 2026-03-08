@@ -1,5 +1,6 @@
-# Use an existing Ubuntu VNC + noVNC image (XFCE desktop)
 FROM accetto/ubuntu-vnc-xfce-g3:latest
+
+USER root
 
 # Install build tools and SDL dependencies
 RUN apt-get update && apt-get install -y \
@@ -19,5 +20,4 @@ RUN apt-get update && apt-get install -y \
     libwayland-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# Set default workdir
-WORKDIR /workspace
+    USER 1000
