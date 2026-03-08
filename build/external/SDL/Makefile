@@ -654,30 +654,6 @@ src/audio/SDL_wave.c.s:
 	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.s
 .PHONY : src/audio/SDL_wave.c.s
 
-src/audio/disk/SDL_diskaudio.o: src/audio/disk/SDL_diskaudio.c.o
-.PHONY : src/audio/disk/SDL_diskaudio.o
-
-# target to build an object file
-src/audio/disk/SDL_diskaudio.c.o:
-	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o
-.PHONY : src/audio/disk/SDL_diskaudio.c.o
-
-src/audio/disk/SDL_diskaudio.i: src/audio/disk/SDL_diskaudio.c.i
-.PHONY : src/audio/disk/SDL_diskaudio.i
-
-# target to preprocess a source file
-src/audio/disk/SDL_diskaudio.c.i:
-	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.i
-.PHONY : src/audio/disk/SDL_diskaudio.c.i
-
-src/audio/disk/SDL_diskaudio.s: src/audio/disk/SDL_diskaudio.c.s
-.PHONY : src/audio/disk/SDL_diskaudio.s
-
-# target to generate assembly for a file
-src/audio/disk/SDL_diskaudio.c.s:
-	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.s
-.PHONY : src/audio/disk/SDL_diskaudio.c.s
-
 src/audio/dummy/SDL_dummyaudio.o: src/audio/dummy/SDL_dummyaudio.c.o
 .PHONY : src/audio/dummy/SDL_dummyaudio.o
 
@@ -6968,9 +6944,6 @@ help:
 	@echo "... src/audio/SDL_wave.o"
 	@echo "... src/audio/SDL_wave.i"
 	@echo "... src/audio/SDL_wave.s"
-	@echo "... src/audio/disk/SDL_diskaudio.o"
-	@echo "... src/audio/disk/SDL_diskaudio.i"
-	@echo "... src/audio/disk/SDL_diskaudio.s"
 	@echo "... src/audio/dummy/SDL_dummyaudio.o"
 	@echo "... src/audio/dummy/SDL_dummyaudio.i"
 	@echo "... src/audio/dummy/SDL_dummyaudio.s"

@@ -381,12 +381,6 @@ SDL3_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 SDL3_SOURCE_DIR:STATIC=/workspaces/Test/external/SDL
 
-//Support the ALSA audio API
-SDL_ALSA:BOOL=ON
-
-//Dynamically load ALSA audio support
-SDL_ALSA_SHARED:BOOL=ON
-
 //Use AddressSanitizer to detect memory errors
 SDL_ASAN:BOOL=OFF
 
@@ -397,7 +391,7 @@ SDL_ASSEMBLY:BOOL=ON
 SDL_ASSERTIONS:STRING=auto
 
 //Enable the Audio subsystem
-SDL_AUDIO:BOOL=ON
+SDL_AUDIO:BOOL=OFF
 
 //Use AVX assembly routines
 SDL_AVX:BOOL=ON
@@ -474,14 +468,8 @@ SDL_DEPS_SHARED:BOOL=ON
 //Enable the Dialog subsystem
 SDL_DIALOG:BOOL=ON
 
-//Support the disk writer audio driver
-SDL_DISKAUDIO:BOOL=ON
-
 //Record dlopen dependencies in .note.dlopen section
 SDL_DLOPEN_NOTES:BOOL=ON
-
-//Support the dummy audio driver
-SDL_DUMMYAUDIO:BOOL=ON
 
 //Support the dummy camera driver
 SDL_DUMMYCAMERA:BOOL=ON
@@ -535,12 +523,6 @@ SDL_INSTALL:BOOL=OFF
 // subfolder for MSVC projects)
 SDL_INSTALL_CMAKEDIR_ROOT:STRING=lib/cmake/SDL3
 
-//Support the JACK audio API
-SDL_JACK:BOOL=ON
-
-//Dynamically load JACK audio support
-SDL_JACK_SHARED:BOOL=ON
-
 //Enable the Joystick subsystem
 SDL_JOYSTICK:BOOL=ON
 
@@ -583,9 +565,6 @@ SDL_OPENGLES:BOOL=ON
 //Use OpenVR video driver
 SDL_OPENVR:BOOL=OFF
 
-//Support the OSS audio API
-SDL_OSS:BOOL=OFF
-
 //Use Pipewire audio
 SDL_PIPEWIRE:BOOL=ON
 
@@ -600,12 +579,6 @@ SDL_PTHREADS:BOOL=ON
 
 //Use pthread semaphores
 SDL_PTHREADS_SEM:BOOL=ON
-
-//Use PulseAudio
-SDL_PULSEAUDIO:BOOL=ON
-
-//Dynamically load PulseAudio support
-SDL_PULSEAUDIO_SHARED:BOOL=ON
 
 //Enable the Render subsystem
 SDL_RENDER:BOOL=ON
@@ -624,12 +597,6 @@ SDL_RPATH:BOOL=ON
 
 //Enable the Sensor subsystem
 SDL_SENSOR:BOOL=ON
-
-//Support the sndio audio API
-SDL_SNDIO:BOOL=ON
-
-//Dynamically load the sndio audio API
-SDL_SNDIO_SHARED:BOOL=ON
 
 //Use SSE assembly routines
 SDL_SSE:BOOL=ON
@@ -670,6 +637,12 @@ SDL_VENDOR_INFO:STRING=
 //Enable the Video subsystem
 SDL_VIDEO:BOOL=ON
 
+//Disable Wayland video
+SDL_VIDEO_WAYLAND:BOOL=OFF
+
+//Disable X11 video
+SDL_VIDEO_X11:BOOL=OFF
+
 //Enable the virtual-joystick driver
 SDL_VIRTUAL_JOYSTICK:BOOL=ON
 
@@ -696,9 +669,6 @@ SDL_X11:BOOL=ON
 
 //Headless build
 SDL_X11_OFFSCREEN:UNINITIALIZED=ON:BOOL=
-
-//Headless build
-SDL_X11_OFFSCREEN=ON:BOOL=
 
 //Dynamically load X11 support
 SDL_X11_SHARED:BOOL=ON
@@ -1791,6 +1761,10 @@ OPENGL_xmesa_INCLUDE_DIR-ADVANCED:INTERNAL=1
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+//Support the ALSA audio API
+SDL_ALSA:INTERNAL=ON
+//Dynamically load ALSA audio support
+SDL_ALSA_SHARED:INTERNAL=ON
 //ADVANCED property for variable: SDL_CHECK_REQUIRED_INCLUDES
 SDL_CHECK_REQUIRED_INCLUDES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SDL_CHECK_REQUIRED_LINK_OPTIONS
@@ -1799,6 +1773,24 @@ SDL_CHECK_REQUIRED_LINK_OPTIONS-ADVANCED:INTERNAL=1
 SDL_CMAKE_C_COMPILER_LINKER_ID-ADVANCED:INTERNAL=1
 //Result of TRY_COMPILE
 SDL_CPU_CHECK_ALL:INTERNAL=TRUE
+//Support the disk writer audio driver
+SDL_DISKAUDIO:INTERNAL=ON
+//Support the dummy audio driver
+SDL_DUMMYAUDIO:INTERNAL=ON
+//Support the JACK audio API
+SDL_JACK:INTERNAL=ON
+//Dynamically load JACK audio support
+SDL_JACK_SHARED:INTERNAL=ON
+//Support the OSS audio API
+SDL_OSS:INTERNAL=OFF
+//Use PulseAudio
+SDL_PULSEAUDIO:INTERNAL=ON
+//Dynamically load PulseAudio support
+SDL_PULSEAUDIO_SHARED:INTERNAL=ON
+//Support the sndio audio API
+SDL_SNDIO:INTERNAL=ON
+//Dynamically load the sndio audio API
+SDL_SNDIO_SHARED:INTERNAL=ON
 //Have include X11/XKBlib.h
 SDL_VIDEO_DRIVER_X11_HAS_XKBLIB:INTERNAL=1
 //ADVANCED property for variable: X11_ICE_INCLUDE_PATH

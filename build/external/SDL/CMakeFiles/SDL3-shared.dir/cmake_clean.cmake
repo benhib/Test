@@ -42,8 +42,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o"
   "CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o.d"
-  "CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o"
-  "CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o"
   "CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o"

@@ -282,10 +282,6 @@ C_FLAGS = -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict
 
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
-# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
-
-# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
-
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
@@ -493,6 +489,8 @@ C_FLAGS = -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 

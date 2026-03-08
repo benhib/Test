@@ -251,7 +251,7 @@
 #endif
 
 /* Allow disabling of major subsystems */
-/* #undef SDL_AUDIO_DISABLED */
+#define SDL_AUDIO_DISABLED 1
 /* #undef SDL_VIDEO_DISABLED */
 /* #undef SDL_GPU_DISABLED */
 /* #undef SDL_RENDER_DISABLED */
@@ -270,7 +270,7 @@
 /* #undef SDL_AUDIO_DRIVER_OPENSLES */
 /* #undef SDL_AUDIO_DRIVER_AAUDIO */
 /* #undef SDL_AUDIO_DRIVER_COREAUDIO */
-#define SDL_AUDIO_DRIVER_DISK 1
+/* #undef SDL_AUDIO_DRIVER_DISK */
 /* #undef SDL_AUDIO_DRIVER_DSOUND */
 #define SDL_AUDIO_DRIVER_DUMMY 1
 /* #undef SDL_AUDIO_DRIVER_EMSCRIPTEN */

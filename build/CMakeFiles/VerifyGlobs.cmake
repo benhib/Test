@@ -93,26 +93,6 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # both_sources at external/SDL/cmake/sdlcommands.cmake:29 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/workspaces/Test/external/SDL/src/audio/disk/*.c")
-set(OLD_GLOB
-  "/workspaces/Test/external/SDL/src/audio/disk/SDL_diskaudio.c"
-  )
-if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
-  message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/workspaces/Test/build/CMakeFiles/cmake.verify_globs")
-endif()
-
-# both_sources at external/SDL/cmake/sdlcommands.cmake:29 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/workspaces/Test/external/SDL/src/audio/disk/*.h")
-set(OLD_GLOB
-  "/workspaces/Test/external/SDL/src/audio/disk/SDL_diskaudio.h"
-  )
-if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
-  message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/workspaces/Test/build/CMakeFiles/cmake.verify_globs")
-endif()
-
-# both_sources at external/SDL/cmake/sdlcommands.cmake:29 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/workspaces/Test/external/SDL/src/audio/dummy/*.c")
 set(OLD_GLOB
   "/workspaces/Test/external/SDL/src/audio/dummy/SDL_dummyaudio.c"

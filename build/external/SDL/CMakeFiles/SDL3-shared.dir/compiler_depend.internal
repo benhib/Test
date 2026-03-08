@@ -546,14 +546,6 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o
  /workspaces/Test/external/SDL/src/audio/SDL_wave.c
  /workspaces/Test/external/SDL/src/audio/SDL_wave.h
 
-external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o
- /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
- /usr/include/stdc-predef.h
- /workspaces/Test/external/SDL/src/SDL_internal.h
- /workspaces/Test/external/SDL/src/audio/SDL_sysaudio.h
- /workspaces/Test/external/SDL/src/audio/disk/SDL_diskaudio.c
- /workspaces/Test/external/SDL/src/audio/disk/SDL_diskaudio.h
-
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o
  /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
  /usr/include/stdc-predef.h

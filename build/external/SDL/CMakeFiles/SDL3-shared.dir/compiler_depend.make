@@ -525,13 +525,6 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o: external/SDL/CMa
   /workspaces/Test/external/SDL/src/audio/SDL_wave.c \
   /workspaces/Test/external/SDL/src/audio/SDL_wave.h
 
-external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  /usr/include/stdc-predef.h \
-  /workspaces/Test/external/SDL/src/SDL_internal.h \
-  /workspaces/Test/external/SDL/src/audio/SDL_sysaudio.h \
-  /workspaces/Test/external/SDL/src/audio/disk/SDL_diskaudio.c \
-  /workspaces/Test/external/SDL/src/audio/disk/SDL_diskaudio.h
-
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   /usr/include/stdc-predef.h \
   /workspaces/Test/external/SDL/src/SDL_internal.h \
@@ -8134,12 +8127,6 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: exter
 
 /workspaces/Test/external/SDL/src/haptic/SDL_syshaptic.h:
 
-/workspaces/Test/external/SDL/src/gpu/xr/SDL_openxrdyn.c:
-
-/workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c:
-
-/workspaces/Test/external/SDL/src/gpu/xr/SDL_gpu_openxr.c:
-
 /workspaces/Test/external/SDL/src/video/yuv2rgb/yuv_rgb_sse.c:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
@@ -8221,8 +8208,6 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: exter
 /usr/include/X11/Xproto.h:
 
 /workspaces/Test/external/SDL/include/SDL3/SDL_misc.h:
-
-/workspaces/Test/external/SDL/src/audio/disk/SDL_diskaudio.c:
 
 /workspaces/Test/external/SDL/include/SDL3/SDL_power.h:
 
@@ -8666,8 +8651,6 @@ external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /workspaces/Test/external/SDL/src/core/unix/SDL_poll.h:
 
-/workspaces/Test/external/SDL/src/audio/disk/SDL_diskaudio.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /workspaces/Test/external/SDL/include/SDL3/SDL_intrin.h:
@@ -8923,6 +8906,10 @@ external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 /workspaces/Test/external/SDL/src/dynapi/SDL_dynapi_overrides.h:
 
 /workspaces/Test/external/SDL/src/filesystem/SDL_filesystem.c:
+
+/workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c:
+
+/workspaces/Test/external/SDL/src/gpu/xr/SDL_gpu_openxr.c:
 
 /usr/include/X11/Xfuncs.h:
 
@@ -9527,3 +9514,5 @@ external/SDL/include-revision/SDL3/SDL_revision.h:
 /workspaces/Test/external/SDL/src/gpu/xr/SDL_gpu_openxr.h:
 
 /workspaces/Test/external/SDL/src/gpu/vulkan/SDL_gpu_vulkan_vkfuncs.h:
+
+/workspaces/Test/external/SDL/src/gpu/xr/SDL_openxrdyn.c:
