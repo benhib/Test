@@ -1,5 +1,11 @@
 cmake_minimum_required(VERSION 3.16)
-project(SDLTest C)
+project(MyApp C)
+
+# Build SDL from the submodule
+
+set(SDL_TEST OFF)
+set(SDL_TEST_LIBRARY OFF)
+set(SDL_EXAMPLES OFF)
 
 add_subdirectory(external/SDL)
 
