@@ -1,8 +1,13 @@
 {
-  "name": "SDL3 Desktop Codespace",
+  "name": "SDL Browser Desktop",
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "forwardPorts": [6901],
-  "postStartCommand": "cmake -S . -B build && cmake --build build"
+  "forwardPorts": [6080],
+  "portsAttributes": {
+    "6080": {
+      "label": "Desktop GUI",
+      "onAutoForward": "openBrowser"
+    }
+  }
 }

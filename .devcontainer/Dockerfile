@@ -1,13 +1,17 @@
-FROM accetto/ubuntu-vnc-xfce-g3:latest
+FROM ubuntu:22.04
 
-USER root
+ENV DEBIAN_FRONTEND=noninteractive
 
-# Install build tools and SDL dependencies
-RUN sudo apt-get update && apt-get install -y \
-    build-essential \
-    cmake \
+RUN apt-get update && apt-get install -y \
+    xfce4 \
+    xfce4-terminal \
+    xvfb \
+    x11vnc \
+    novnc \
+    websockify \
     git \
-    libsdl2-dev \
+    cmake \
+    build-essential \
     libx11-dev \
     libxext-dev \
     libxrandr-dev \
@@ -20,4 +24,9 @@ RUN sudo apt-get update && apt-get install -y \
     libwayland-dev \
     && rm -rf /var/lib/apt/lists/*
 
-    USER 1000
+WORKDIR /workspace
+
+COPY start-desktop.sh /start-desktop.sh
+RUN chmod +x /start-desktop.sh
+
+CMD ["/start-desktop.sh"]
