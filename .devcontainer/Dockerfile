@@ -3,7 +3,7 @@ FROM accetto/ubuntu-vnc-xfce-g3:latest
 USER root
 
 # Install build tools and SDL dependencies
-RUN apt-get update && apt-get install -y \
+RUN sudo apt-get update && apt-get install -y \
     build-essential \
     cmake \
     git \
