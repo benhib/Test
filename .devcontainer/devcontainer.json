@@ -1,0 +1,8 @@
+{
+  "name": "SDL3 Desktop Codespace",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [6901],
+  "postStartCommand": "cmake -S . -B build && cmake --build build"
+}
