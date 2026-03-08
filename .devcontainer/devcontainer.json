@@ -1,9 +1,0 @@
-{
-  "name": "SDL3 GUI Codespace",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
-  "postStartCommand": "mkdir -p build && cd build && cmake .. -DSDL_X11_XTEST=OFF -DSDL_VIDEO_X11=OFF -DSDL_VIDEO_WAYLAND=OFF -DSDL_AUDIO=OFF && cmake --build .",
-  "forwardPorts": [8080],
-  "remoteUser": "root"
-}
