@@ -1,8 +1,12 @@
 {
-  "name": "SDL Codespace",
+  "name": "SDL3 Headless Codespace",
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "forwardPorts": [6080],
-  "postStartCommand": ".devcontainer/start-desktop.sh"
+  "postStartCommand": "mkdir -p build && cd build && cmake .. && cmake --build .",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
 }

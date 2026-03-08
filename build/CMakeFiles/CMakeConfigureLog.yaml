@@ -7044,3 +7044,423 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:682 (check_library_exists)"
+      - "external/SDL/cmake/sdlchecks.cmake:290 (find_package)"
+      - "external/SDL/CMakeLists.txt:1834 (CheckX11)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-bbko06"
+      binary: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-bbko06"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/Test/external/SDL/cmake"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-bbko06'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_966ad/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_966ad.dir/build.make CMakeFiles/cmTC_966ad.dir/build
+        gmake[1]: Entering directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-bbko06'
+        Building C object CMakeFiles/cmTC_966ad.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_966ad.dir/CheckFunctionExists.c.o -c /workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-bbko06/CheckFunctionExists.c
+        Linking C executable cmTC_966ad
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_966ad.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay  -D_GNU_SOURCE=1 CMakeFiles/cmTC_966ad.dir/CheckFunctionExists.c.o -o cmTC_966ad  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: Leaving directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-bbko06'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:697 (check_function_exists)"
+      - "external/SDL/cmake/sdlchecks.cmake:290 (find_package)"
+      - "external/SDL/CMakeLists.txt:1834 (CheckX11)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-yde8Er"
+      binary: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-yde8Er"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/Test/external/SDL/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-yde8Er'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d1aae/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d1aae.dir/build.make CMakeFiles/cmTC_d1aae.dir/build
+        gmake[1]: Entering directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-yde8Er'
+        Building C object CMakeFiles/cmTC_d1aae.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_d1aae.dir/CheckFunctionExists.c.o -c /workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-yde8Er/CheckFunctionExists.c
+        Linking C executable cmTC_d1aae
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1aae.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname  -D_GNU_SOURCE=1 CMakeFiles/cmTC_d1aae.dir/CheckFunctionExists.c.o -o cmTC_d1aae 
+        gmake[1]: Leaving directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-yde8Er'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:711 (check_function_exists)"
+      - "external/SDL/cmake/sdlchecks.cmake:290 (find_package)"
+      - "external/SDL/CMakeLists.txt:1834 (CheckX11)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-WgfaMv"
+      binary: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-WgfaMv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/Test/external/SDL/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-WgfaMv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9c44e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9c44e.dir/build.make CMakeFiles/cmTC_9c44e.dir/build
+        gmake[1]: Entering directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-WgfaMv'
+        Building C object CMakeFiles/cmTC_9c44e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_9c44e.dir/CheckFunctionExists.c.o -c /workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-WgfaMv/CheckFunctionExists.c
+        Linking C executable cmTC_9c44e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c44e.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect  -D_GNU_SOURCE=1 CMakeFiles/cmTC_9c44e.dir/CheckFunctionExists.c.o -o cmTC_9c44e 
+        gmake[1]: Leaving directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-WgfaMv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:720 (check_function_exists)"
+      - "external/SDL/cmake/sdlchecks.cmake:290 (find_package)"
+      - "external/SDL/CMakeLists.txt:1834 (CheckX11)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-j4n1AU"
+      binary: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-j4n1AU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/Test/external/SDL/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-j4n1AU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_83246/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_83246.dir/build.make CMakeFiles/cmTC_83246.dir/build
+        gmake[1]: Entering directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-j4n1AU'
+        Building C object CMakeFiles/cmTC_83246.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_83246.dir/CheckFunctionExists.c.o -c /workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-j4n1AU/CheckFunctionExists.c
+        Linking C executable cmTC_83246
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83246.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove  -D_GNU_SOURCE=1 CMakeFiles/cmTC_83246.dir/CheckFunctionExists.c.o -o cmTC_83246 
+        gmake[1]: Leaving directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-j4n1AU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:729 (check_function_exists)"
+      - "external/SDL/cmake/sdlchecks.cmake:290 (find_package)"
+      - "external/SDL/CMakeLists.txt:1834 (CheckX11)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-JWjTHW"
+      binary: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-JWjTHW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/Test/external/SDL/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-JWjTHW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d7a02/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d7a02.dir/build.make CMakeFiles/cmTC_d7a02.dir/build
+        gmake[1]: Entering directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-JWjTHW'
+        Building C object CMakeFiles/cmTC_d7a02.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_d7a02.dir/CheckFunctionExists.c.o -c /workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-JWjTHW/CheckFunctionExists.c
+        Linking C executable cmTC_d7a02
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7a02.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat  -D_GNU_SOURCE=1 CMakeFiles/cmTC_d7a02.dir/CheckFunctionExists.c.o -o cmTC_d7a02 
+        gmake[1]: Leaving directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-JWjTHW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "external/SDL/cmake/sdlchecks.cmake:344 (check_symbol_exists)"
+      - "external/SDL/CMakeLists.txt:1834 (CheckX11)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-APYeHU"
+      binary: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-APYeHU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/Test/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_SHMAT_IN_LIBC"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-APYeHU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_eebf2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_eebf2.dir/build.make CMakeFiles/cmTC_eebf2.dir/build
+        gmake[1]: Entering directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-APYeHU'
+        Building C object CMakeFiles/cmTC_eebf2.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_eebf2.dir/CheckSymbolExists.c.o -c /workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-APYeHU/CheckSymbolExists.c
+        Linking C executable cmTC_eebf2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eebf2.dir/link.txt --verbose=1
+        /usr/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_eebf2.dir/CheckSymbolExists.c.o -o cmTC_eebf2 
+        gmake[1]: Leaving directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-APYeHU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/cmake/sdlchecks.cmake:4 (check_c_source_compiles)"
+      - "external/SDL/cmake/sdlchecks.cmake:383 (check_c_source_compiles_static)"
+      - "external/SDL/CMakeLists.txt:1834 (CheckX11)"
+    checks:
+      - "Performing Test HAVE_XGENERICEVENT"
+    directories:
+      source: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-pLHvAB"
+      binary: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-pLHvAB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/Test/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XGENERICEVENT"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-pLHvAB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ea602/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ea602.dir/build.make CMakeFiles/cmTC_ea602.dir/build
+        gmake[1]: Entering directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-pLHvAB'
+        Building C object CMakeFiles/cmTC_ea602.dir/src.c.o
+        /usr/bin/cc -DHAVE_XGENERICEVENT  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_ea602.dir/src.c.o -c /workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-pLHvAB/src.c
+        Linking C static library libcmTC_ea602.a
+        /usr/bin/cmake -P CMakeFiles/cmTC_ea602.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea602.dir/link.txt --verbose=1
+        /usr/bin/ar qc libcmTC_ea602.a CMakeFiles/cmTC_ea602.dir/src.c.o
+        /usr/bin/ranlib libcmTC_ea602.a
+        gmake[1]: Leaving directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-pLHvAB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/cmake/sdlchecks.cmake:397 (check_include_file)"
+      - "external/SDL/CMakeLists.txt:1834 (CheckX11)"
+    checks:
+      - "Looking for X11/XKBlib.h"
+    directories:
+      source: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-BXNNQW"
+      binary: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-BXNNQW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/Test/external/SDL/cmake"
+    buildResult:
+      variable: "SDL_VIDEO_DRIVER_X11_HAS_XKBLIB"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-BXNNQW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_97374/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_97374.dir/build.make CMakeFiles/cmTC_97374.dir/build
+        gmake[1]: Entering directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-BXNNQW'
+        Building C object CMakeFiles/cmTC_97374.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_97374.dir/CheckIncludeFile.c.o -c /workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-BXNNQW/CheckIncludeFile.c
+        Linking C executable cmTC_97374
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97374.dir/link.txt --verbose=1
+        /usr/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_97374.dir/CheckIncludeFile.c.o -o cmTC_97374  /usr/lib/x86_64-linux-gnu/libX11.so 
+        gmake[1]: Leaving directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-BXNNQW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/cmake/sdlchecks.cmake:433 (check_c_source_compiles)"
+      - "external/SDL/CMakeLists.txt:1834 (CheckX11)"
+    checks:
+      - "Performing Test HAVE_XINPUT2_SCROLLINFO"
+    directories:
+      source: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-TqPr50"
+      binary: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-TqPr50"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/Test/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT2_SCROLLINFO"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-TqPr50'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cfbcd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cfbcd.dir/build.make CMakeFiles/cmTC_cfbcd.dir/build
+        gmake[1]: Entering directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-TqPr50'
+        Building C object CMakeFiles/cmTC_cfbcd.dir/src.c.o
+        /usr/bin/cc -DHAVE_XINPUT2_SCROLLINFO  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_cfbcd.dir/src.c.o -c /workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-TqPr50/src.c
+        Linking C executable cmTC_cfbcd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfbcd.dir/link.txt --verbose=1
+        /usr/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_cfbcd.dir/src.c.o -o cmTC_cfbcd  /usr/lib/x86_64-linux-gnu/libX11.so 
+        gmake[1]: Leaving directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-TqPr50'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/cmake/sdlchecks.cmake:4 (check_c_source_compiles)"
+      - "external/SDL/cmake/sdlchecks.cmake:444 (check_c_source_compiles_static)"
+      - "external/SDL/CMakeLists.txt:1834 (CheckX11)"
+    checks:
+      - "Performing Test HAVE_XINPUT2_MULTITOUCH"
+    directories:
+      source: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-yopcxS"
+      binary: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-yopcxS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/Test/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT2_MULTITOUCH"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-yopcxS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ec100/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ec100.dir/build.make CMakeFiles/cmTC_ec100.dir/build
+        gmake[1]: Entering directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-yopcxS'
+        Building C object CMakeFiles/cmTC_ec100.dir/src.c.o
+        /usr/bin/cc -DHAVE_XINPUT2_MULTITOUCH  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_ec100.dir/src.c.o -c /workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-yopcxS/src.c
+        Linking C static library libcmTC_ec100.a
+        /usr/bin/cmake -P CMakeFiles/cmTC_ec100.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec100.dir/link.txt --verbose=1
+        /usr/bin/ar qc libcmTC_ec100.a CMakeFiles/cmTC_ec100.dir/src.c.o
+        /usr/bin/ranlib libcmTC_ec100.a
+        gmake[1]: Leaving directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-yopcxS'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/cmake/sdlchecks.cmake:459 (check_c_source_compiles)"
+      - "external/SDL/CMakeLists.txt:1834 (CheckX11)"
+    checks:
+      - "Performing Test HAVE_XINPUT2_GESTURE"
+    directories:
+      source: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-e6a4nC"
+      binary: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-e6a4nC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/Test/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT2_GESTURE"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-e6a4nC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e8f96/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e8f96.dir/build.make CMakeFiles/cmTC_e8f96.dir/build
+        gmake[1]: Entering directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-e6a4nC'
+        Building C object CMakeFiles/cmTC_e8f96.dir/src.c.o
+        /usr/bin/cc -DHAVE_XINPUT2_GESTURE  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_e8f96.dir/src.c.o -c /workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-e6a4nC/src.c
+        Linking C executable cmTC_e8f96
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8f96.dir/link.txt --verbose=1
+        /usr/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_e8f96.dir/src.c.o -o cmTC_e8f96  /usr/lib/x86_64-linux-gnu/libX11.so 
+        gmake[1]: Leaving directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-e6a4nC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/cmake/sdlchecks.cmake:4 (check_c_source_compiles)"
+      - "external/SDL/cmake/sdlchecks.cmake:480 (check_c_source_compiles_static)"
+      - "external/SDL/CMakeLists.txt:1834 (CheckX11)"
+    checks:
+      - "Performing Test HAVE_XFIXES_H"
+    directories:
+      source: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-KFrnax"
+      binary: "/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-KFrnax"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspaces/Test/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XFIXES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-KFrnax'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9d50a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9d50a.dir/build.make CMakeFiles/cmTC_9d50a.dir/build
+        gmake[1]: Entering directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-KFrnax'
+        Building C object CMakeFiles/cmTC_9d50a.dir/src.c.o
+        /usr/bin/cc -DHAVE_XFIXES_H  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_9d50a.dir/src.c.o -c /workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-KFrnax/src.c
+        Linking C static library libcmTC_9d50a.a
+        /usr/bin/cmake -P CMakeFiles/cmTC_9d50a.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d50a.dir/link.txt --verbose=1
+        /usr/bin/ar qc libcmTC_9d50a.a CMakeFiles/cmTC_9d50a.dir/src.c.o
+        /usr/bin/ranlib libcmTC_9d50a.a
+        gmake[1]: Leaving directory '/workspaces/Test/build/CMakeFiles/CMakeScratch/TryCompile-KFrnax'
+        
+      exitCode: 0
+...

@@ -1,15 +1,12 @@
+# Use official Ubuntu base for devcontainers
 FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
+# Install build tools, SDL dependencies, and Xvfb
 RUN apt-get update && apt-get install -y \
     build-essential \
     cmake \
     git \
-    xfce4 \
-    xfce4-terminal \
-    tigervnc-standalone-server \
-    novnc \
-    websockify \
-    x11-xserver-utils \
+    xvfb \
     libx11-dev \
     libxext-dev \
     libxrandr-dev \
@@ -18,6 +15,6 @@ RUN apt-get update && apt-get install -y \
     libxi-dev \
     libxfixes-dev \
     libxss-dev \
+    libxtst-dev \
     libwayland-dev \
-    libxkbcommon-dev \
     && rm -rf /var/lib/apt/lists/*

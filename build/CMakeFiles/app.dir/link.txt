@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/app.dir/src/main.c.o -o app  -Wl,-rpath,/workspaces/Test/build/external/SDL external/SDL/libSDL3.so.0.5.0 

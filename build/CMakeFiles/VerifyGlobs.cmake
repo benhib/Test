@@ -1309,6 +1309,39 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # both_sources at external/SDL/cmake/sdlcommands.cmake:29 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/workspaces/Test/external/SDL/src/video/x11/*.c")
+set(OLD_GLOB
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11clipboard.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11dyn.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11events.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11framebuffer.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11keyboard.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11messagebox.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11modes.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11mouse.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11opengl.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11opengles.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11pen.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11settings.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11shape.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11toolkit.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11touch.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11video.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11vulkan.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11window.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11xfixes.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11xinput2.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11xsync.c"
+  "/workspaces/Test/external/SDL/src/video/x11/SDL_x11xtest.c"
+  "/workspaces/Test/external/SDL/src/video/x11/edid-parse.c"
+  "/workspaces/Test/external/SDL/src/video/x11/xsettings-client.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/workspaces/Test/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# both_sources at external/SDL/cmake/sdlcommands.cmake:29 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/workspaces/Test/external/SDL/src/video/yuv2rgb/*.c")
 set(OLD_GLOB
   "/workspaces/Test/external/SDL/src/video/yuv2rgb/yuv_rgb_lsx.c"
