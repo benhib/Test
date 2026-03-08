@@ -1,7 +1,7 @@
-# Use Codespaces Ubuntu base
+# Base Codespaces Ubuntu image
 FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
-# Install SDL build tools, dependencies, and VNC/noVNC stack
+# Install build tools, SDL dependencies, VNC stack, lightweight desktop & terminal
 RUN apt-get update && apt-get install -y \
     build-essential \
     cmake \
@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
     xvfb \
     x11vnc \
     openbox \
+    lxterminal \
     python3 \
     python3-websockify \
     wget \

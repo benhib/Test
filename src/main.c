@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
     }
 
     SDL_Surface *surface = SDL_GetWindowSurface(win);
-    SDL_FillRect(surface, NULL, SDL_MapRGB(surface->format, 0, 128, 255)); // Blue background
+    SDL_FillRect(surface, NULL, SDL_MapRGB(surface->format, 0, 128, 255));
     SDL_UpdateWindowSurface(win);
 
     SDL_Event e;
@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
                 running = 0;
             }
         }
-        SDL_Delay(16); // ~60 FPS
+        SDL_Delay(16);
     }
 
     SDL_DestroyWindow(win);
