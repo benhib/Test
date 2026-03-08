@@ -3,6 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "postCreateCommand": "cmake -S . -B build && cmake --build build",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -10,6 +11,5 @@
         "ms-vscode.cmake-tools"
       ]
     }
-  },
-  "postCreateCommand": "cmake -S . -B build && cmake --build build"
+  }
 }

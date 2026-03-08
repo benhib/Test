@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
-project(SDL3Test C)
+project(SDLTest C)
 
-find_package(SDL3 REQUIRED)
+add_subdirectory(external/SDL)
 
 add_executable(app src/main.c)
 
