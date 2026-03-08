@@ -1,13 +1,30 @@
 {
-  "name": "SDL Browser Desktop",
+  "name": "SDL3 Desktop Application",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": ".."
   },
-  "forwardPorts": [6080],
+  "forwardPorts": [
+    6080
+  ],
   "portsAttributes": {
     "6080": {
-      "label": "Desktop GUI",
+      "label": "noVNC - Desktop GUI",
       "onAutoForward": "openBrowser"
     }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "remoteUser": "root",
+  "mounts": [],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "twxs.cmake"
+      ]
+    }
+  },
+  "remoteEnv": {
+    "DISPLAY": ":1"
   }
 }
