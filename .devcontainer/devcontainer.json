@@ -1,15 +1,8 @@
 {
-  "name": "SDL3 Codespace",
+  "name": "SDL Codespace",
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "cmake -S . -B build && cmake --build build",
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "ms-vscode.cpptools",
-        "ms-vscode.cmake-tools"
-      ]
-    }
-  }
+  "forwardPorts": [6080],
+  "postStartCommand": ".devcontainer/start-desktop.sh"
 }
