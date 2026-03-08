@@ -292,7 +292,7 @@ HAVE_XSS_H:FILEPATH=/usr/include/X11/extensions/scrnsaver.h
 HAVE_XSYNC_H:FILEPATH=/usr/include/X11/extensions/sync.h
 
 //Path to a file.
-HAVE_XTEST_H:FILEPATH=HAVE_XTEST_H-NOTFOUND
+HAVE_XTEST_H:FILEPATH=/usr/include/X11/extensions/XTest.h
 
 //Extra compile options of LibUSB
 LibUSB_COMPILE_OPTIONS:STRING=
@@ -694,6 +694,12 @@ SDL_WERROR:BOOL=OFF
 //Use X11 video driver
 SDL_X11:BOOL=ON
 
+//Headless build
+SDL_X11_OFFSCREEN:UNINITIALIZED=ON:BOOL=
+
+//Headless build
+SDL_X11_OFFSCREEN=ON:BOOL=
+
 //Dynamically load X11 support
 SDL_X11_SHARED:BOOL=ON
 
@@ -890,10 +896,10 @@ X11_Xt_INCLUDE_PATH:PATH=X11_Xt_INCLUDE_PATH-NOTFOUND
 X11_Xt_LIB:FILEPATH=X11_Xt_LIB-NOTFOUND
 
 //Path to a file.
-X11_Xtst_INCLUDE_PATH:PATH=X11_Xtst_INCLUDE_PATH-NOTFOUND
+X11_Xtst_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xtst_LIB:FILEPATH=X11_Xtst_LIB-NOTFOUND
+X11_Xtst_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXtst.so
 
 //Path to a file.
 X11_Xutil_INCLUDE_PATH:PATH=/usr/include
@@ -1157,7 +1163,7 @@ XRENDER_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXrender.so
 XSS_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXss.so
 
 //Path to a library.
-XTST_LIB:FILEPATH=XTST_LIB-NOTFOUND
+XTST_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXtst.so
 
 
 ########################

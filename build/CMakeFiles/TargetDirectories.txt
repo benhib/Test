@@ -1,4 +1,5 @@
 /workspaces/Test/build/CMakeFiles/app.dir
+/workspaces/Test/build/CMakeFiles/run.dir
 /workspaces/Test/build/CMakeFiles/edit_cache.dir
 /workspaces/Test/build/CMakeFiles/rebuild_cache.dir
 /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir

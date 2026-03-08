@@ -108,6 +108,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/app.dir/DependInfo.cmake"
+  "CMakeFiles/run.dir/DependInfo.cmake"
   "external/SDL/CMakeFiles/SDL3-shared.dir/DependInfo.cmake"
   "external/SDL/CMakeFiles/SDL3_test.dir/DependInfo.cmake"
   "external/SDL/CMakeFiles/SDL_uclibc.dir/DependInfo.cmake"

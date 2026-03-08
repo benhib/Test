@@ -1,12 +1,18 @@
-# Use official Ubuntu base for devcontainers
+# Use Codespaces Ubuntu base
 FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
-# Install build tools, SDL dependencies, and Xvfb
+# Install SDL build tools, dependencies, and VNC/noVNC stack
 RUN apt-get update && apt-get install -y \
     build-essential \
     cmake \
     git \
     xvfb \
+    x11vnc \
+    openbox \
+    python3 \
+    python3-websockify \
+    wget \
+    curl \
     libx11-dev \
     libxext-dev \
     libxrandr-dev \
@@ -18,3 +24,8 @@ RUN apt-get update && apt-get install -y \
     libxtst-dev \
     libwayland-dev \
     && rm -rf /var/lib/apt/lists/*
+
+# Download noVNC
+RUN mkdir -p /opt/novnc && \
+    wget -O /opt/novnc/latest.tar.gz https://github.com/novnc/noVNC/archive/refs/tags/v1.4.0.tar.gz && \
+    tar xzf /opt/novnc/latest.tar.gz --strip-components=1
