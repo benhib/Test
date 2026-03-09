@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=5 -DUSING_GENERATED_CONFIG_H
 
-C_INCLUDES = -I/workspaces/Test/build/external/SDL/include-config-/build_config -I/workspaces/Test/build/external/SDL/include-revision -I/workspaces/Test/external/SDL/include -I/workspaces/Test/external/SDL/src
+C_INCLUDES = -I/workspaces/Test/build/external/SDL/include-config-/build_config -I/workspaces/Test/build/external/SDL/include-revision -I/workspaces/Test/external/SDL/include -I/workspaces/Test/external/SDL/src -isystem /workspaces/Test/build/external/SDL/wayland-generated-protocols -isystem /usr/include/dbus-1.0 -isystem /usr/lib/x86_64-linux-gnu/dbus-1.0/include
 
 C_FLAGS = -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -idirafter/workspaces/Test/external/SDL/src/video/khronos -D_REENTRANT
 
@@ -298,6 +298,8 @@ C_FLAGS = -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict
 
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
@@ -346,6 +348,82 @@ C_FLAGS = -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict
 
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
@@ -361,6 +439,18 @@ C_FLAGS = -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
 # PCH options: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o_OPTIONS = -Winvalid-pch;-include;/workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 

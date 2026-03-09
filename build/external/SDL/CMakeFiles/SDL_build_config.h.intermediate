@@ -206,8 +206,8 @@
 
 #endif /* HAVE_LIBC */
 
-/* #undef HAVE_DBUS_DBUS_H */
-/* #undef HAVE_FCITX */
+#define HAVE_DBUS_DBUS_H 1
+#define HAVE_FCITX 1
 /* #undef HAVE_IBUS_IBUS_H */
 #define HAVE_INOTIFY_INIT1 1
 #define HAVE_INOTIFY 1
@@ -215,7 +215,7 @@
 #define HAVE_O_CLOEXEC 1
 
 #define HAVE_LINUX_INPUT_H 1
-/* #undef HAVE_LIBUDEV_H */
+#define HAVE_LIBUDEV_H 1
 /* #undef HAVE_LIBDECOR_H */
 /* #undef HAVE_LIBURING_H */
 /* #undef HAVE_FRIBIDI_H */
@@ -265,8 +265,8 @@
 /* #undef SDL_THREADS_DISABLED */
 
 /* Enable various audio drivers */
-/* #undef SDL_AUDIO_DRIVER_ALSA */
-/* #undef SDL_AUDIO_DRIVER_ALSA_DYNAMIC */
+#define SDL_AUDIO_DRIVER_ALSA 1
+#define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
 /* #undef SDL_AUDIO_DRIVER_OPENSLES */
 /* #undef SDL_AUDIO_DRIVER_AAUDIO */
 /* #undef SDL_AUDIO_DRIVER_COREAUDIO */
@@ -332,7 +332,7 @@
 /* #undef SDL_HAPTIC_PRIVATE */
 
 /* #undef SDL_LIBUSB_DYNAMIC */
-/* #undef SDL_UDEV_DYNAMIC */
+#define SDL_UDEV_DYNAMIC "libudev.so.1"
 
 /* Enable various process implementations */
 /* #undef SDL_PROCESS_DUMMY */
@@ -417,12 +417,12 @@
 /* #undef SDL_VIDEO_DRIVER_VIVANTE */
 /* #undef SDL_VIDEO_DRIVER_VIVANTE_VDK */
 /* #undef SDL_VIDEO_DRIVER_OPENVR */
-/* #undef SDL_VIDEO_DRIVER_WAYLAND */
-/* #undef SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC */
-/* #undef SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC_CURSOR */
-/* #undef SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC_EGL */
+#define SDL_VIDEO_DRIVER_WAYLAND 1
+#define SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC "libwayland-client.so.0"
+#define SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC_CURSOR "libwayland-cursor.so.0"
+#define SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC_EGL "libwayland-egl.so.1"
 /* #undef SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC_LIBDECOR */
-/* #undef SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC_XKBCOMMON */
+#define SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC_XKBCOMMON "libxkbcommon.so.0"
 /* #undef SDL_VIDEO_DRIVER_WINDOWS */
 #define SDL_VIDEO_DRIVER_X11 1
 #define SDL_VIDEO_DRIVER_X11_DYNAMIC "libX11.so.6"
@@ -457,7 +457,7 @@
 #define SDL_VIDEO_RENDER_GPU 1
 /* #undef SDL_VIDEO_RENDER_METAL */
 #define SDL_VIDEO_RENDER_VULKAN 1
-/* #undef SDL_VIDEO_RENDER_OGL */
+#define SDL_VIDEO_RENDER_OGL 1
 #define SDL_VIDEO_RENDER_OGL_ES2 1
 /* #undef SDL_VIDEO_RENDER_NGAGE */
 /* #undef SDL_VIDEO_RENDER_PS2 */
@@ -467,11 +467,11 @@
 /* #undef SDL_VIDEO_RENDER_PRIVATE */
 
 /* Enable OpenGL support */
-/* #undef SDL_VIDEO_OPENGL */
-/* #undef SDL_VIDEO_OPENGL_ES */
+#define SDL_VIDEO_OPENGL 1
+#define SDL_VIDEO_OPENGL_ES 1
 #define SDL_VIDEO_OPENGL_ES2 1
 /* #undef SDL_VIDEO_OPENGL_CGL */
-/* #undef SDL_VIDEO_OPENGL_GLX */
+#define SDL_VIDEO_OPENGL_GLX 1
 /* #undef SDL_VIDEO_OPENGL_WGL */
 #define SDL_VIDEO_OPENGL_EGL 1
 
@@ -562,7 +562,7 @@
 #define DYNAPI_NEEDS_DLOPEN 1
 
 /* Enable ime support */
-/* #undef SDL_USE_IME */
+#define SDL_USE_IME 1
 /* #undef SDL_DISABLE_WINDOWS_IME */
 /* #undef SDL_GDK_TEXTINPUT */
 
@@ -575,9 +575,9 @@
 /* #undef SDL_VIDEO_VITA_PVR_OGL */
 
 /* xkbcommon version info */
-#define SDL_XKBCOMMON_VERSION_MAJOR 
-#define SDL_XKBCOMMON_VERSION_MINOR 
-#define SDL_XKBCOMMON_VERSION_PATCH 
+#define SDL_XKBCOMMON_VERSION_MAJOR 1
+#define SDL_XKBCOMMON_VERSION_MINOR 4
+#define SDL_XKBCOMMON_VERSION_PATCH 0
 
 /* Libdecor version info */
 #define SDL_LIBDECOR_VERSION_MAJOR 

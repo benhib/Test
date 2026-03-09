@@ -654,6 +654,30 @@ src/audio/SDL_wave.c.s:
 	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.s
 .PHONY : src/audio/SDL_wave.c.s
 
+src/audio/alsa/SDL_alsa_audio.o: src/audio/alsa/SDL_alsa_audio.c.o
+.PHONY : src/audio/alsa/SDL_alsa_audio.o
+
+# target to build an object file
+src/audio/alsa/SDL_alsa_audio.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o
+.PHONY : src/audio/alsa/SDL_alsa_audio.c.o
+
+src/audio/alsa/SDL_alsa_audio.i: src/audio/alsa/SDL_alsa_audio.c.i
+.PHONY : src/audio/alsa/SDL_alsa_audio.i
+
+# target to preprocess a source file
+src/audio/alsa/SDL_alsa_audio.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.i
+.PHONY : src/audio/alsa/SDL_alsa_audio.c.i
+
+src/audio/alsa/SDL_alsa_audio.s: src/audio/alsa/SDL_alsa_audio.c.s
+.PHONY : src/audio/alsa/SDL_alsa_audio.s
+
+# target to generate assembly for a file
+src/audio/alsa/SDL_alsa_audio.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.s
+.PHONY : src/audio/alsa/SDL_alsa_audio.c.s
+
 src/audio/disk/SDL_diskaudio.o: src/audio/disk/SDL_diskaudio.c.o
 .PHONY : src/audio/disk/SDL_diskaudio.o
 
@@ -798,6 +822,30 @@ src/core/SDL_core_unsupported.c.s:
 	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.s
 .PHONY : src/core/SDL_core_unsupported.c.s
 
+src/core/linux/SDL_dbus.o: src/core/linux/SDL_dbus.c.o
+.PHONY : src/core/linux/SDL_dbus.o
+
+# target to build an object file
+src/core/linux/SDL_dbus.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o
+.PHONY : src/core/linux/SDL_dbus.c.o
+
+src/core/linux/SDL_dbus.i: src/core/linux/SDL_dbus.c.i
+.PHONY : src/core/linux/SDL_dbus.i
+
+# target to preprocess a source file
+src/core/linux/SDL_dbus.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.i
+.PHONY : src/core/linux/SDL_dbus.c.i
+
+src/core/linux/SDL_dbus.s: src/core/linux/SDL_dbus.c.s
+.PHONY : src/core/linux/SDL_dbus.s
+
+# target to generate assembly for a file
+src/core/linux/SDL_dbus.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.s
+.PHONY : src/core/linux/SDL_dbus.c.s
+
 src/core/linux/SDL_evdev.o: src/core/linux/SDL_evdev.c.o
 .PHONY : src/core/linux/SDL_evdev.o
 
@@ -870,6 +918,102 @@ src/core/linux/SDL_evdev_kbd.c.s:
 	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.s
 .PHONY : src/core/linux/SDL_evdev_kbd.c.s
 
+src/core/linux/SDL_fcitx.o: src/core/linux/SDL_fcitx.c.o
+.PHONY : src/core/linux/SDL_fcitx.o
+
+# target to build an object file
+src/core/linux/SDL_fcitx.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o
+.PHONY : src/core/linux/SDL_fcitx.c.o
+
+src/core/linux/SDL_fcitx.i: src/core/linux/SDL_fcitx.c.i
+.PHONY : src/core/linux/SDL_fcitx.i
+
+# target to preprocess a source file
+src/core/linux/SDL_fcitx.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.i
+.PHONY : src/core/linux/SDL_fcitx.c.i
+
+src/core/linux/SDL_fcitx.s: src/core/linux/SDL_fcitx.c.s
+.PHONY : src/core/linux/SDL_fcitx.s
+
+# target to generate assembly for a file
+src/core/linux/SDL_fcitx.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.s
+.PHONY : src/core/linux/SDL_fcitx.c.s
+
+src/core/linux/SDL_ime.o: src/core/linux/SDL_ime.c.o
+.PHONY : src/core/linux/SDL_ime.o
+
+# target to build an object file
+src/core/linux/SDL_ime.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o
+.PHONY : src/core/linux/SDL_ime.c.o
+
+src/core/linux/SDL_ime.i: src/core/linux/SDL_ime.c.i
+.PHONY : src/core/linux/SDL_ime.i
+
+# target to preprocess a source file
+src/core/linux/SDL_ime.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.i
+.PHONY : src/core/linux/SDL_ime.c.i
+
+src/core/linux/SDL_ime.s: src/core/linux/SDL_ime.c.s
+.PHONY : src/core/linux/SDL_ime.s
+
+# target to generate assembly for a file
+src/core/linux/SDL_ime.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.s
+.PHONY : src/core/linux/SDL_ime.c.s
+
+src/core/linux/SDL_progressbar.o: src/core/linux/SDL_progressbar.c.o
+.PHONY : src/core/linux/SDL_progressbar.o
+
+# target to build an object file
+src/core/linux/SDL_progressbar.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o
+.PHONY : src/core/linux/SDL_progressbar.c.o
+
+src/core/linux/SDL_progressbar.i: src/core/linux/SDL_progressbar.c.i
+.PHONY : src/core/linux/SDL_progressbar.i
+
+# target to preprocess a source file
+src/core/linux/SDL_progressbar.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.i
+.PHONY : src/core/linux/SDL_progressbar.c.i
+
+src/core/linux/SDL_progressbar.s: src/core/linux/SDL_progressbar.c.s
+.PHONY : src/core/linux/SDL_progressbar.s
+
+# target to generate assembly for a file
+src/core/linux/SDL_progressbar.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.s
+.PHONY : src/core/linux/SDL_progressbar.c.s
+
+src/core/linux/SDL_system_theme.o: src/core/linux/SDL_system_theme.c.o
+.PHONY : src/core/linux/SDL_system_theme.o
+
+# target to build an object file
+src/core/linux/SDL_system_theme.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o
+.PHONY : src/core/linux/SDL_system_theme.c.o
+
+src/core/linux/SDL_system_theme.i: src/core/linux/SDL_system_theme.c.i
+.PHONY : src/core/linux/SDL_system_theme.i
+
+# target to preprocess a source file
+src/core/linux/SDL_system_theme.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.i
+.PHONY : src/core/linux/SDL_system_theme.c.i
+
+src/core/linux/SDL_system_theme.s: src/core/linux/SDL_system_theme.c.s
+.PHONY : src/core/linux/SDL_system_theme.s
+
+# target to generate assembly for a file
+src/core/linux/SDL_system_theme.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.s
+.PHONY : src/core/linux/SDL_system_theme.c.s
+
 src/core/linux/SDL_threadprio.o: src/core/linux/SDL_threadprio.c.o
 .PHONY : src/core/linux/SDL_threadprio.o
 
@@ -893,6 +1037,30 @@ src/core/linux/SDL_threadprio.s: src/core/linux/SDL_threadprio.c.s
 src/core/linux/SDL_threadprio.c.s:
 	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_threadprio.c.s
 .PHONY : src/core/linux/SDL_threadprio.c.s
+
+src/core/linux/SDL_udev.o: src/core/linux/SDL_udev.c.o
+.PHONY : src/core/linux/SDL_udev.o
+
+# target to build an object file
+src/core/linux/SDL_udev.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o
+.PHONY : src/core/linux/SDL_udev.c.o
+
+src/core/linux/SDL_udev.i: src/core/linux/SDL_udev.c.i
+.PHONY : src/core/linux/SDL_udev.i
+
+# target to preprocess a source file
+src/core/linux/SDL_udev.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.i
+.PHONY : src/core/linux/SDL_udev.c.i
+
+src/core/linux/SDL_udev.s: src/core/linux/SDL_udev.c.s
+.PHONY : src/core/linux/SDL_udev.s
+
+# target to generate assembly for a file
+src/core/linux/SDL_udev.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.s
+.PHONY : src/core/linux/SDL_udev.c.s
 
 src/core/unix/SDL_appid.o: src/core/unix/SDL_appid.c.o
 .PHONY : src/core/unix/SDL_appid.o
@@ -6246,6 +6414,318 @@ src/video/offscreen/SDL_offscreenwindow.c.s:
 	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.s
 .PHONY : src/video/offscreen/SDL_offscreenwindow.c.s
 
+src/video/wayland/SDL_waylandclipboard.o: src/video/wayland/SDL_waylandclipboard.c.o
+.PHONY : src/video/wayland/SDL_waylandclipboard.o
+
+# target to build an object file
+src/video/wayland/SDL_waylandclipboard.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o
+.PHONY : src/video/wayland/SDL_waylandclipboard.c.o
+
+src/video/wayland/SDL_waylandclipboard.i: src/video/wayland/SDL_waylandclipboard.c.i
+.PHONY : src/video/wayland/SDL_waylandclipboard.i
+
+# target to preprocess a source file
+src/video/wayland/SDL_waylandclipboard.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.i
+.PHONY : src/video/wayland/SDL_waylandclipboard.c.i
+
+src/video/wayland/SDL_waylandclipboard.s: src/video/wayland/SDL_waylandclipboard.c.s
+.PHONY : src/video/wayland/SDL_waylandclipboard.s
+
+# target to generate assembly for a file
+src/video/wayland/SDL_waylandclipboard.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.s
+.PHONY : src/video/wayland/SDL_waylandclipboard.c.s
+
+src/video/wayland/SDL_waylandcolor.o: src/video/wayland/SDL_waylandcolor.c.o
+.PHONY : src/video/wayland/SDL_waylandcolor.o
+
+# target to build an object file
+src/video/wayland/SDL_waylandcolor.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o
+.PHONY : src/video/wayland/SDL_waylandcolor.c.o
+
+src/video/wayland/SDL_waylandcolor.i: src/video/wayland/SDL_waylandcolor.c.i
+.PHONY : src/video/wayland/SDL_waylandcolor.i
+
+# target to preprocess a source file
+src/video/wayland/SDL_waylandcolor.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.i
+.PHONY : src/video/wayland/SDL_waylandcolor.c.i
+
+src/video/wayland/SDL_waylandcolor.s: src/video/wayland/SDL_waylandcolor.c.s
+.PHONY : src/video/wayland/SDL_waylandcolor.s
+
+# target to generate assembly for a file
+src/video/wayland/SDL_waylandcolor.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.s
+.PHONY : src/video/wayland/SDL_waylandcolor.c.s
+
+src/video/wayland/SDL_waylanddatamanager.o: src/video/wayland/SDL_waylanddatamanager.c.o
+.PHONY : src/video/wayland/SDL_waylanddatamanager.o
+
+# target to build an object file
+src/video/wayland/SDL_waylanddatamanager.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o
+.PHONY : src/video/wayland/SDL_waylanddatamanager.c.o
+
+src/video/wayland/SDL_waylanddatamanager.i: src/video/wayland/SDL_waylanddatamanager.c.i
+.PHONY : src/video/wayland/SDL_waylanddatamanager.i
+
+# target to preprocess a source file
+src/video/wayland/SDL_waylanddatamanager.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.i
+.PHONY : src/video/wayland/SDL_waylanddatamanager.c.i
+
+src/video/wayland/SDL_waylanddatamanager.s: src/video/wayland/SDL_waylanddatamanager.c.s
+.PHONY : src/video/wayland/SDL_waylanddatamanager.s
+
+# target to generate assembly for a file
+src/video/wayland/SDL_waylanddatamanager.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.s
+.PHONY : src/video/wayland/SDL_waylanddatamanager.c.s
+
+src/video/wayland/SDL_waylanddyn.o: src/video/wayland/SDL_waylanddyn.c.o
+.PHONY : src/video/wayland/SDL_waylanddyn.o
+
+# target to build an object file
+src/video/wayland/SDL_waylanddyn.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o
+.PHONY : src/video/wayland/SDL_waylanddyn.c.o
+
+src/video/wayland/SDL_waylanddyn.i: src/video/wayland/SDL_waylanddyn.c.i
+.PHONY : src/video/wayland/SDL_waylanddyn.i
+
+# target to preprocess a source file
+src/video/wayland/SDL_waylanddyn.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.i
+.PHONY : src/video/wayland/SDL_waylanddyn.c.i
+
+src/video/wayland/SDL_waylanddyn.s: src/video/wayland/SDL_waylanddyn.c.s
+.PHONY : src/video/wayland/SDL_waylanddyn.s
+
+# target to generate assembly for a file
+src/video/wayland/SDL_waylanddyn.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.s
+.PHONY : src/video/wayland/SDL_waylanddyn.c.s
+
+src/video/wayland/SDL_waylandevents.o: src/video/wayland/SDL_waylandevents.c.o
+.PHONY : src/video/wayland/SDL_waylandevents.o
+
+# target to build an object file
+src/video/wayland/SDL_waylandevents.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o
+.PHONY : src/video/wayland/SDL_waylandevents.c.o
+
+src/video/wayland/SDL_waylandevents.i: src/video/wayland/SDL_waylandevents.c.i
+.PHONY : src/video/wayland/SDL_waylandevents.i
+
+# target to preprocess a source file
+src/video/wayland/SDL_waylandevents.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.i
+.PHONY : src/video/wayland/SDL_waylandevents.c.i
+
+src/video/wayland/SDL_waylandevents.s: src/video/wayland/SDL_waylandevents.c.s
+.PHONY : src/video/wayland/SDL_waylandevents.s
+
+# target to generate assembly for a file
+src/video/wayland/SDL_waylandevents.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.s
+.PHONY : src/video/wayland/SDL_waylandevents.c.s
+
+src/video/wayland/SDL_waylandkeyboard.o: src/video/wayland/SDL_waylandkeyboard.c.o
+.PHONY : src/video/wayland/SDL_waylandkeyboard.o
+
+# target to build an object file
+src/video/wayland/SDL_waylandkeyboard.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o
+.PHONY : src/video/wayland/SDL_waylandkeyboard.c.o
+
+src/video/wayland/SDL_waylandkeyboard.i: src/video/wayland/SDL_waylandkeyboard.c.i
+.PHONY : src/video/wayland/SDL_waylandkeyboard.i
+
+# target to preprocess a source file
+src/video/wayland/SDL_waylandkeyboard.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.i
+.PHONY : src/video/wayland/SDL_waylandkeyboard.c.i
+
+src/video/wayland/SDL_waylandkeyboard.s: src/video/wayland/SDL_waylandkeyboard.c.s
+.PHONY : src/video/wayland/SDL_waylandkeyboard.s
+
+# target to generate assembly for a file
+src/video/wayland/SDL_waylandkeyboard.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.s
+.PHONY : src/video/wayland/SDL_waylandkeyboard.c.s
+
+src/video/wayland/SDL_waylandmessagebox.o: src/video/wayland/SDL_waylandmessagebox.c.o
+.PHONY : src/video/wayland/SDL_waylandmessagebox.o
+
+# target to build an object file
+src/video/wayland/SDL_waylandmessagebox.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o
+.PHONY : src/video/wayland/SDL_waylandmessagebox.c.o
+
+src/video/wayland/SDL_waylandmessagebox.i: src/video/wayland/SDL_waylandmessagebox.c.i
+.PHONY : src/video/wayland/SDL_waylandmessagebox.i
+
+# target to preprocess a source file
+src/video/wayland/SDL_waylandmessagebox.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.i
+.PHONY : src/video/wayland/SDL_waylandmessagebox.c.i
+
+src/video/wayland/SDL_waylandmessagebox.s: src/video/wayland/SDL_waylandmessagebox.c.s
+.PHONY : src/video/wayland/SDL_waylandmessagebox.s
+
+# target to generate assembly for a file
+src/video/wayland/SDL_waylandmessagebox.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.s
+.PHONY : src/video/wayland/SDL_waylandmessagebox.c.s
+
+src/video/wayland/SDL_waylandmouse.o: src/video/wayland/SDL_waylandmouse.c.o
+.PHONY : src/video/wayland/SDL_waylandmouse.o
+
+# target to build an object file
+src/video/wayland/SDL_waylandmouse.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o
+.PHONY : src/video/wayland/SDL_waylandmouse.c.o
+
+src/video/wayland/SDL_waylandmouse.i: src/video/wayland/SDL_waylandmouse.c.i
+.PHONY : src/video/wayland/SDL_waylandmouse.i
+
+# target to preprocess a source file
+src/video/wayland/SDL_waylandmouse.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.i
+.PHONY : src/video/wayland/SDL_waylandmouse.c.i
+
+src/video/wayland/SDL_waylandmouse.s: src/video/wayland/SDL_waylandmouse.c.s
+.PHONY : src/video/wayland/SDL_waylandmouse.s
+
+# target to generate assembly for a file
+src/video/wayland/SDL_waylandmouse.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.s
+.PHONY : src/video/wayland/SDL_waylandmouse.c.s
+
+src/video/wayland/SDL_waylandopengles.o: src/video/wayland/SDL_waylandopengles.c.o
+.PHONY : src/video/wayland/SDL_waylandopengles.o
+
+# target to build an object file
+src/video/wayland/SDL_waylandopengles.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o
+.PHONY : src/video/wayland/SDL_waylandopengles.c.o
+
+src/video/wayland/SDL_waylandopengles.i: src/video/wayland/SDL_waylandopengles.c.i
+.PHONY : src/video/wayland/SDL_waylandopengles.i
+
+# target to preprocess a source file
+src/video/wayland/SDL_waylandopengles.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.i
+.PHONY : src/video/wayland/SDL_waylandopengles.c.i
+
+src/video/wayland/SDL_waylandopengles.s: src/video/wayland/SDL_waylandopengles.c.s
+.PHONY : src/video/wayland/SDL_waylandopengles.s
+
+# target to generate assembly for a file
+src/video/wayland/SDL_waylandopengles.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.s
+.PHONY : src/video/wayland/SDL_waylandopengles.c.s
+
+src/video/wayland/SDL_waylandshmbuffer.o: src/video/wayland/SDL_waylandshmbuffer.c.o
+.PHONY : src/video/wayland/SDL_waylandshmbuffer.o
+
+# target to build an object file
+src/video/wayland/SDL_waylandshmbuffer.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o
+.PHONY : src/video/wayland/SDL_waylandshmbuffer.c.o
+
+src/video/wayland/SDL_waylandshmbuffer.i: src/video/wayland/SDL_waylandshmbuffer.c.i
+.PHONY : src/video/wayland/SDL_waylandshmbuffer.i
+
+# target to preprocess a source file
+src/video/wayland/SDL_waylandshmbuffer.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.i
+.PHONY : src/video/wayland/SDL_waylandshmbuffer.c.i
+
+src/video/wayland/SDL_waylandshmbuffer.s: src/video/wayland/SDL_waylandshmbuffer.c.s
+.PHONY : src/video/wayland/SDL_waylandshmbuffer.s
+
+# target to generate assembly for a file
+src/video/wayland/SDL_waylandshmbuffer.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.s
+.PHONY : src/video/wayland/SDL_waylandshmbuffer.c.s
+
+src/video/wayland/SDL_waylandvideo.o: src/video/wayland/SDL_waylandvideo.c.o
+.PHONY : src/video/wayland/SDL_waylandvideo.o
+
+# target to build an object file
+src/video/wayland/SDL_waylandvideo.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o
+.PHONY : src/video/wayland/SDL_waylandvideo.c.o
+
+src/video/wayland/SDL_waylandvideo.i: src/video/wayland/SDL_waylandvideo.c.i
+.PHONY : src/video/wayland/SDL_waylandvideo.i
+
+# target to preprocess a source file
+src/video/wayland/SDL_waylandvideo.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.i
+.PHONY : src/video/wayland/SDL_waylandvideo.c.i
+
+src/video/wayland/SDL_waylandvideo.s: src/video/wayland/SDL_waylandvideo.c.s
+.PHONY : src/video/wayland/SDL_waylandvideo.s
+
+# target to generate assembly for a file
+src/video/wayland/SDL_waylandvideo.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.s
+.PHONY : src/video/wayland/SDL_waylandvideo.c.s
+
+src/video/wayland/SDL_waylandvulkan.o: src/video/wayland/SDL_waylandvulkan.c.o
+.PHONY : src/video/wayland/SDL_waylandvulkan.o
+
+# target to build an object file
+src/video/wayland/SDL_waylandvulkan.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o
+.PHONY : src/video/wayland/SDL_waylandvulkan.c.o
+
+src/video/wayland/SDL_waylandvulkan.i: src/video/wayland/SDL_waylandvulkan.c.i
+.PHONY : src/video/wayland/SDL_waylandvulkan.i
+
+# target to preprocess a source file
+src/video/wayland/SDL_waylandvulkan.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.i
+.PHONY : src/video/wayland/SDL_waylandvulkan.c.i
+
+src/video/wayland/SDL_waylandvulkan.s: src/video/wayland/SDL_waylandvulkan.c.s
+.PHONY : src/video/wayland/SDL_waylandvulkan.s
+
+# target to generate assembly for a file
+src/video/wayland/SDL_waylandvulkan.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.s
+.PHONY : src/video/wayland/SDL_waylandvulkan.c.s
+
+src/video/wayland/SDL_waylandwindow.o: src/video/wayland/SDL_waylandwindow.c.o
+.PHONY : src/video/wayland/SDL_waylandwindow.o
+
+# target to build an object file
+src/video/wayland/SDL_waylandwindow.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o
+.PHONY : src/video/wayland/SDL_waylandwindow.c.o
+
+src/video/wayland/SDL_waylandwindow.i: src/video/wayland/SDL_waylandwindow.c.i
+.PHONY : src/video/wayland/SDL_waylandwindow.i
+
+# target to preprocess a source file
+src/video/wayland/SDL_waylandwindow.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.i
+.PHONY : src/video/wayland/SDL_waylandwindow.c.i
+
+src/video/wayland/SDL_waylandwindow.s: src/video/wayland/SDL_waylandwindow.c.s
+.PHONY : src/video/wayland/SDL_waylandwindow.s
+
+# target to generate assembly for a file
+src/video/wayland/SDL_waylandwindow.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.s
+.PHONY : src/video/wayland/SDL_waylandwindow.c.s
+
 src/video/x11/SDL_x11clipboard.o: src/video/x11/SDL_x11clipboard.c.o
 .PHONY : src/video/x11/SDL_x11clipboard.o
 
@@ -6894,6 +7374,606 @@ src/video/yuv2rgb/yuv_rgb_std.c.s:
 	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.s
 .PHONY : src/video/yuv2rgb/yuv_rgb_std.c.s
 
+wayland-generated-protocols/alpha-modifier-v1-protocol.o: wayland-generated-protocols/alpha-modifier-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/alpha-modifier-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/alpha-modifier-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/alpha-modifier-v1-protocol.c.o
+
+wayland-generated-protocols/alpha-modifier-v1-protocol.i: wayland-generated-protocols/alpha-modifier-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/alpha-modifier-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/alpha-modifier-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/alpha-modifier-v1-protocol.c.i
+
+wayland-generated-protocols/alpha-modifier-v1-protocol.s: wayland-generated-protocols/alpha-modifier-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/alpha-modifier-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/alpha-modifier-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/alpha-modifier-v1-protocol.c.s
+
+wayland-generated-protocols/color-management-v1-protocol.o: wayland-generated-protocols/color-management-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/color-management-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/color-management-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/color-management-v1-protocol.c.o
+
+wayland-generated-protocols/color-management-v1-protocol.i: wayland-generated-protocols/color-management-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/color-management-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/color-management-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/color-management-v1-protocol.c.i
+
+wayland-generated-protocols/color-management-v1-protocol.s: wayland-generated-protocols/color-management-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/color-management-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/color-management-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/color-management-v1-protocol.c.s
+
+wayland-generated-protocols/cursor-shape-v1-protocol.o: wayland-generated-protocols/cursor-shape-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/cursor-shape-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/cursor-shape-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/cursor-shape-v1-protocol.c.o
+
+wayland-generated-protocols/cursor-shape-v1-protocol.i: wayland-generated-protocols/cursor-shape-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/cursor-shape-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/cursor-shape-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/cursor-shape-v1-protocol.c.i
+
+wayland-generated-protocols/cursor-shape-v1-protocol.s: wayland-generated-protocols/cursor-shape-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/cursor-shape-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/cursor-shape-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/cursor-shape-v1-protocol.c.s
+
+wayland-generated-protocols/fractional-scale-v1-protocol.o: wayland-generated-protocols/fractional-scale-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/fractional-scale-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/fractional-scale-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/fractional-scale-v1-protocol.c.o
+
+wayland-generated-protocols/fractional-scale-v1-protocol.i: wayland-generated-protocols/fractional-scale-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/fractional-scale-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/fractional-scale-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/fractional-scale-v1-protocol.c.i
+
+wayland-generated-protocols/fractional-scale-v1-protocol.s: wayland-generated-protocols/fractional-scale-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/fractional-scale-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/fractional-scale-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/fractional-scale-v1-protocol.c.s
+
+wayland-generated-protocols/frog-color-management-v1-protocol.o: wayland-generated-protocols/frog-color-management-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/frog-color-management-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/frog-color-management-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/frog-color-management-v1-protocol.c.o
+
+wayland-generated-protocols/frog-color-management-v1-protocol.i: wayland-generated-protocols/frog-color-management-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/frog-color-management-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/frog-color-management-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/frog-color-management-v1-protocol.c.i
+
+wayland-generated-protocols/frog-color-management-v1-protocol.s: wayland-generated-protocols/frog-color-management-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/frog-color-management-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/frog-color-management-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/frog-color-management-v1-protocol.c.s
+
+wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.o: wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o
+
+wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.i: wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.i
+
+wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.s: wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.s
+
+wayland-generated-protocols/input-timestamps-unstable-v1-protocol.o: wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/input-timestamps-unstable-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o
+
+wayland-generated-protocols/input-timestamps-unstable-v1-protocol.i: wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/input-timestamps-unstable-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.i
+
+wayland-generated-protocols/input-timestamps-unstable-v1-protocol.s: wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/input-timestamps-unstable-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.s
+
+wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.o: wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o
+
+wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.i: wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.i
+
+wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.s: wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.s
+
+wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.o: wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o
+
+wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.i: wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.i
+
+wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.s: wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.s
+
+wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.o: wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o
+
+wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.i: wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.i
+
+wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.s: wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.s
+
+wayland-generated-protocols/pointer-warp-v1-protocol.o: wayland-generated-protocols/pointer-warp-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/pointer-warp-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/pointer-warp-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/pointer-warp-v1-protocol.c.o
+
+wayland-generated-protocols/pointer-warp-v1-protocol.i: wayland-generated-protocols/pointer-warp-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/pointer-warp-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/pointer-warp-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/pointer-warp-v1-protocol.c.i
+
+wayland-generated-protocols/pointer-warp-v1-protocol.s: wayland-generated-protocols/pointer-warp-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/pointer-warp-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/pointer-warp-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/pointer-warp-v1-protocol.c.s
+
+wayland-generated-protocols/primary-selection-unstable-v1-protocol.o: wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/primary-selection-unstable-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o
+
+wayland-generated-protocols/primary-selection-unstable-v1-protocol.i: wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/primary-selection-unstable-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.i
+
+wayland-generated-protocols/primary-selection-unstable-v1-protocol.s: wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/primary-selection-unstable-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.s
+
+wayland-generated-protocols/relative-pointer-unstable-v1-protocol.o: wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/relative-pointer-unstable-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o
+
+wayland-generated-protocols/relative-pointer-unstable-v1-protocol.i: wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/relative-pointer-unstable-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.i
+
+wayland-generated-protocols/relative-pointer-unstable-v1-protocol.s: wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/relative-pointer-unstable-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.s
+
+wayland-generated-protocols/single-pixel-buffer-v1-protocol.o: wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/single-pixel-buffer-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o
+
+wayland-generated-protocols/single-pixel-buffer-v1-protocol.i: wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/single-pixel-buffer-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.i
+
+wayland-generated-protocols/single-pixel-buffer-v1-protocol.s: wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/single-pixel-buffer-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.s
+
+wayland-generated-protocols/tablet-v2-protocol.o: wayland-generated-protocols/tablet-v2-protocol.c.o
+.PHONY : wayland-generated-protocols/tablet-v2-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/tablet-v2-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o
+.PHONY : wayland-generated-protocols/tablet-v2-protocol.c.o
+
+wayland-generated-protocols/tablet-v2-protocol.i: wayland-generated-protocols/tablet-v2-protocol.c.i
+.PHONY : wayland-generated-protocols/tablet-v2-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/tablet-v2-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.i
+.PHONY : wayland-generated-protocols/tablet-v2-protocol.c.i
+
+wayland-generated-protocols/tablet-v2-protocol.s: wayland-generated-protocols/tablet-v2-protocol.c.s
+.PHONY : wayland-generated-protocols/tablet-v2-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/tablet-v2-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.s
+.PHONY : wayland-generated-protocols/tablet-v2-protocol.c.s
+
+wayland-generated-protocols/text-input-unstable-v3-protocol.o: wayland-generated-protocols/text-input-unstable-v3-protocol.c.o
+.PHONY : wayland-generated-protocols/text-input-unstable-v3-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/text-input-unstable-v3-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o
+.PHONY : wayland-generated-protocols/text-input-unstable-v3-protocol.c.o
+
+wayland-generated-protocols/text-input-unstable-v3-protocol.i: wayland-generated-protocols/text-input-unstable-v3-protocol.c.i
+.PHONY : wayland-generated-protocols/text-input-unstable-v3-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/text-input-unstable-v3-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.i
+.PHONY : wayland-generated-protocols/text-input-unstable-v3-protocol.c.i
+
+wayland-generated-protocols/text-input-unstable-v3-protocol.s: wayland-generated-protocols/text-input-unstable-v3-protocol.c.s
+.PHONY : wayland-generated-protocols/text-input-unstable-v3-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/text-input-unstable-v3-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.s
+.PHONY : wayland-generated-protocols/text-input-unstable-v3-protocol.c.s
+
+wayland-generated-protocols/viewporter-protocol.o: wayland-generated-protocols/viewporter-protocol.c.o
+.PHONY : wayland-generated-protocols/viewporter-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/viewporter-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o
+.PHONY : wayland-generated-protocols/viewporter-protocol.c.o
+
+wayland-generated-protocols/viewporter-protocol.i: wayland-generated-protocols/viewporter-protocol.c.i
+.PHONY : wayland-generated-protocols/viewporter-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/viewporter-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.i
+.PHONY : wayland-generated-protocols/viewporter-protocol.c.i
+
+wayland-generated-protocols/viewporter-protocol.s: wayland-generated-protocols/viewporter-protocol.c.s
+.PHONY : wayland-generated-protocols/viewporter-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/viewporter-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.s
+.PHONY : wayland-generated-protocols/viewporter-protocol.c.s
+
+wayland-generated-protocols/wayland-protocol.o: wayland-generated-protocols/wayland-protocol.c.o
+.PHONY : wayland-generated-protocols/wayland-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/wayland-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o
+.PHONY : wayland-generated-protocols/wayland-protocol.c.o
+
+wayland-generated-protocols/wayland-protocol.i: wayland-generated-protocols/wayland-protocol.c.i
+.PHONY : wayland-generated-protocols/wayland-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/wayland-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.i
+.PHONY : wayland-generated-protocols/wayland-protocol.c.i
+
+wayland-generated-protocols/wayland-protocol.s: wayland-generated-protocols/wayland-protocol.c.s
+.PHONY : wayland-generated-protocols/wayland-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/wayland-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.s
+.PHONY : wayland-generated-protocols/wayland-protocol.c.s
+
+wayland-generated-protocols/xdg-activation-v1-protocol.o: wayland-generated-protocols/xdg-activation-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-activation-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/xdg-activation-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-activation-v1-protocol.c.o
+
+wayland-generated-protocols/xdg-activation-v1-protocol.i: wayland-generated-protocols/xdg-activation-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-activation-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/xdg-activation-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-activation-v1-protocol.c.i
+
+wayland-generated-protocols/xdg-activation-v1-protocol.s: wayland-generated-protocols/xdg-activation-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-activation-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/xdg-activation-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-activation-v1-protocol.c.s
+
+wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.o: wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o
+
+wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.i: wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.i
+
+wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.s: wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.s
+
+wayland-generated-protocols/xdg-dialog-v1-protocol.o: wayland-generated-protocols/xdg-dialog-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-dialog-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/xdg-dialog-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-dialog-v1-protocol.c.o
+
+wayland-generated-protocols/xdg-dialog-v1-protocol.i: wayland-generated-protocols/xdg-dialog-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-dialog-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/xdg-dialog-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-dialog-v1-protocol.c.i
+
+wayland-generated-protocols/xdg-dialog-v1-protocol.s: wayland-generated-protocols/xdg-dialog-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-dialog-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/xdg-dialog-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-dialog-v1-protocol.c.s
+
+wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.o: wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o
+
+wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.i: wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.i
+
+wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.s: wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.s
+
+wayland-generated-protocols/xdg-output-unstable-v1-protocol.o: wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-output-unstable-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o
+
+wayland-generated-protocols/xdg-output-unstable-v1-protocol.i: wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-output-unstable-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.i
+
+wayland-generated-protocols/xdg-output-unstable-v1-protocol.s: wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-output-unstable-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.s
+
+wayland-generated-protocols/xdg-shell-protocol.o: wayland-generated-protocols/xdg-shell-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-shell-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/xdg-shell-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-shell-protocol.c.o
+
+wayland-generated-protocols/xdg-shell-protocol.i: wayland-generated-protocols/xdg-shell-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-shell-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/xdg-shell-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-shell-protocol.c.i
+
+wayland-generated-protocols/xdg-shell-protocol.s: wayland-generated-protocols/xdg-shell-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-shell-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/xdg-shell-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-shell-protocol.c.s
+
+wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.o: wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.o
+
+# target to build an object file
+wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o
+.PHONY : wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o
+
+wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.i: wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.i
+
+# target to preprocess a source file
+wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.i:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.i
+.PHONY : wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.i
+
+wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.s: wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.s
+
+# target to generate assembly for a file
+wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.s:
+	cd /workspaces/Test/build && $(MAKE) $(MAKESILENT) -f external/SDL/CMakeFiles/SDL3-shared.dir/build.make external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.s
+.PHONY : wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -6968,6 +8048,9 @@ help:
 	@echo "... src/audio/SDL_wave.o"
 	@echo "... src/audio/SDL_wave.i"
 	@echo "... src/audio/SDL_wave.s"
+	@echo "... src/audio/alsa/SDL_alsa_audio.o"
+	@echo "... src/audio/alsa/SDL_alsa_audio.i"
+	@echo "... src/audio/alsa/SDL_alsa_audio.s"
 	@echo "... src/audio/disk/SDL_diskaudio.o"
 	@echo "... src/audio/disk/SDL_diskaudio.i"
 	@echo "... src/audio/disk/SDL_diskaudio.s"
@@ -6986,6 +8069,9 @@ help:
 	@echo "... src/core/SDL_core_unsupported.o"
 	@echo "... src/core/SDL_core_unsupported.i"
 	@echo "... src/core/SDL_core_unsupported.s"
+	@echo "... src/core/linux/SDL_dbus.o"
+	@echo "... src/core/linux/SDL_dbus.i"
+	@echo "... src/core/linux/SDL_dbus.s"
 	@echo "... src/core/linux/SDL_evdev.o"
 	@echo "... src/core/linux/SDL_evdev.i"
 	@echo "... src/core/linux/SDL_evdev.s"
@@ -6995,9 +8081,24 @@ help:
 	@echo "... src/core/linux/SDL_evdev_kbd.o"
 	@echo "... src/core/linux/SDL_evdev_kbd.i"
 	@echo "... src/core/linux/SDL_evdev_kbd.s"
+	@echo "... src/core/linux/SDL_fcitx.o"
+	@echo "... src/core/linux/SDL_fcitx.i"
+	@echo "... src/core/linux/SDL_fcitx.s"
+	@echo "... src/core/linux/SDL_ime.o"
+	@echo "... src/core/linux/SDL_ime.i"
+	@echo "... src/core/linux/SDL_ime.s"
+	@echo "... src/core/linux/SDL_progressbar.o"
+	@echo "... src/core/linux/SDL_progressbar.i"
+	@echo "... src/core/linux/SDL_progressbar.s"
+	@echo "... src/core/linux/SDL_system_theme.o"
+	@echo "... src/core/linux/SDL_system_theme.i"
+	@echo "... src/core/linux/SDL_system_theme.s"
 	@echo "... src/core/linux/SDL_threadprio.o"
 	@echo "... src/core/linux/SDL_threadprio.i"
 	@echo "... src/core/linux/SDL_threadprio.s"
+	@echo "... src/core/linux/SDL_udev.o"
+	@echo "... src/core/linux/SDL_udev.i"
+	@echo "... src/core/linux/SDL_udev.s"
 	@echo "... src/core/unix/SDL_appid.o"
 	@echo "... src/core/unix/SDL_appid.i"
 	@echo "... src/core/unix/SDL_appid.s"
@@ -7667,6 +8768,45 @@ help:
 	@echo "... src/video/offscreen/SDL_offscreenwindow.o"
 	@echo "... src/video/offscreen/SDL_offscreenwindow.i"
 	@echo "... src/video/offscreen/SDL_offscreenwindow.s"
+	@echo "... src/video/wayland/SDL_waylandclipboard.o"
+	@echo "... src/video/wayland/SDL_waylandclipboard.i"
+	@echo "... src/video/wayland/SDL_waylandclipboard.s"
+	@echo "... src/video/wayland/SDL_waylandcolor.o"
+	@echo "... src/video/wayland/SDL_waylandcolor.i"
+	@echo "... src/video/wayland/SDL_waylandcolor.s"
+	@echo "... src/video/wayland/SDL_waylanddatamanager.o"
+	@echo "... src/video/wayland/SDL_waylanddatamanager.i"
+	@echo "... src/video/wayland/SDL_waylanddatamanager.s"
+	@echo "... src/video/wayland/SDL_waylanddyn.o"
+	@echo "... src/video/wayland/SDL_waylanddyn.i"
+	@echo "... src/video/wayland/SDL_waylanddyn.s"
+	@echo "... src/video/wayland/SDL_waylandevents.o"
+	@echo "... src/video/wayland/SDL_waylandevents.i"
+	@echo "... src/video/wayland/SDL_waylandevents.s"
+	@echo "... src/video/wayland/SDL_waylandkeyboard.o"
+	@echo "... src/video/wayland/SDL_waylandkeyboard.i"
+	@echo "... src/video/wayland/SDL_waylandkeyboard.s"
+	@echo "... src/video/wayland/SDL_waylandmessagebox.o"
+	@echo "... src/video/wayland/SDL_waylandmessagebox.i"
+	@echo "... src/video/wayland/SDL_waylandmessagebox.s"
+	@echo "... src/video/wayland/SDL_waylandmouse.o"
+	@echo "... src/video/wayland/SDL_waylandmouse.i"
+	@echo "... src/video/wayland/SDL_waylandmouse.s"
+	@echo "... src/video/wayland/SDL_waylandopengles.o"
+	@echo "... src/video/wayland/SDL_waylandopengles.i"
+	@echo "... src/video/wayland/SDL_waylandopengles.s"
+	@echo "... src/video/wayland/SDL_waylandshmbuffer.o"
+	@echo "... src/video/wayland/SDL_waylandshmbuffer.i"
+	@echo "... src/video/wayland/SDL_waylandshmbuffer.s"
+	@echo "... src/video/wayland/SDL_waylandvideo.o"
+	@echo "... src/video/wayland/SDL_waylandvideo.i"
+	@echo "... src/video/wayland/SDL_waylandvideo.s"
+	@echo "... src/video/wayland/SDL_waylandvulkan.o"
+	@echo "... src/video/wayland/SDL_waylandvulkan.i"
+	@echo "... src/video/wayland/SDL_waylandvulkan.s"
+	@echo "... src/video/wayland/SDL_waylandwindow.o"
+	@echo "... src/video/wayland/SDL_waylandwindow.i"
+	@echo "... src/video/wayland/SDL_waylandwindow.s"
 	@echo "... src/video/x11/SDL_x11clipboard.o"
 	@echo "... src/video/x11/SDL_x11clipboard.i"
 	@echo "... src/video/x11/SDL_x11clipboard.s"
@@ -7748,6 +8888,81 @@ help:
 	@echo "... src/video/yuv2rgb/yuv_rgb_std.o"
 	@echo "... src/video/yuv2rgb/yuv_rgb_std.i"
 	@echo "... src/video/yuv2rgb/yuv_rgb_std.s"
+	@echo "... wayland-generated-protocols/alpha-modifier-v1-protocol.o"
+	@echo "... wayland-generated-protocols/alpha-modifier-v1-protocol.i"
+	@echo "... wayland-generated-protocols/alpha-modifier-v1-protocol.s"
+	@echo "... wayland-generated-protocols/color-management-v1-protocol.o"
+	@echo "... wayland-generated-protocols/color-management-v1-protocol.i"
+	@echo "... wayland-generated-protocols/color-management-v1-protocol.s"
+	@echo "... wayland-generated-protocols/cursor-shape-v1-protocol.o"
+	@echo "... wayland-generated-protocols/cursor-shape-v1-protocol.i"
+	@echo "... wayland-generated-protocols/cursor-shape-v1-protocol.s"
+	@echo "... wayland-generated-protocols/fractional-scale-v1-protocol.o"
+	@echo "... wayland-generated-protocols/fractional-scale-v1-protocol.i"
+	@echo "... wayland-generated-protocols/fractional-scale-v1-protocol.s"
+	@echo "... wayland-generated-protocols/frog-color-management-v1-protocol.o"
+	@echo "... wayland-generated-protocols/frog-color-management-v1-protocol.i"
+	@echo "... wayland-generated-protocols/frog-color-management-v1-protocol.s"
+	@echo "... wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.o"
+	@echo "... wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.i"
+	@echo "... wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.s"
+	@echo "... wayland-generated-protocols/input-timestamps-unstable-v1-protocol.o"
+	@echo "... wayland-generated-protocols/input-timestamps-unstable-v1-protocol.i"
+	@echo "... wayland-generated-protocols/input-timestamps-unstable-v1-protocol.s"
+	@echo "... wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.o"
+	@echo "... wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.i"
+	@echo "... wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.s"
+	@echo "... wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.o"
+	@echo "... wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.i"
+	@echo "... wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.s"
+	@echo "... wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.o"
+	@echo "... wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.i"
+	@echo "... wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.s"
+	@echo "... wayland-generated-protocols/pointer-warp-v1-protocol.o"
+	@echo "... wayland-generated-protocols/pointer-warp-v1-protocol.i"
+	@echo "... wayland-generated-protocols/pointer-warp-v1-protocol.s"
+	@echo "... wayland-generated-protocols/primary-selection-unstable-v1-protocol.o"
+	@echo "... wayland-generated-protocols/primary-selection-unstable-v1-protocol.i"
+	@echo "... wayland-generated-protocols/primary-selection-unstable-v1-protocol.s"
+	@echo "... wayland-generated-protocols/relative-pointer-unstable-v1-protocol.o"
+	@echo "... wayland-generated-protocols/relative-pointer-unstable-v1-protocol.i"
+	@echo "... wayland-generated-protocols/relative-pointer-unstable-v1-protocol.s"
+	@echo "... wayland-generated-protocols/single-pixel-buffer-v1-protocol.o"
+	@echo "... wayland-generated-protocols/single-pixel-buffer-v1-protocol.i"
+	@echo "... wayland-generated-protocols/single-pixel-buffer-v1-protocol.s"
+	@echo "... wayland-generated-protocols/tablet-v2-protocol.o"
+	@echo "... wayland-generated-protocols/tablet-v2-protocol.i"
+	@echo "... wayland-generated-protocols/tablet-v2-protocol.s"
+	@echo "... wayland-generated-protocols/text-input-unstable-v3-protocol.o"
+	@echo "... wayland-generated-protocols/text-input-unstable-v3-protocol.i"
+	@echo "... wayland-generated-protocols/text-input-unstable-v3-protocol.s"
+	@echo "... wayland-generated-protocols/viewporter-protocol.o"
+	@echo "... wayland-generated-protocols/viewporter-protocol.i"
+	@echo "... wayland-generated-protocols/viewporter-protocol.s"
+	@echo "... wayland-generated-protocols/wayland-protocol.o"
+	@echo "... wayland-generated-protocols/wayland-protocol.i"
+	@echo "... wayland-generated-protocols/wayland-protocol.s"
+	@echo "... wayland-generated-protocols/xdg-activation-v1-protocol.o"
+	@echo "... wayland-generated-protocols/xdg-activation-v1-protocol.i"
+	@echo "... wayland-generated-protocols/xdg-activation-v1-protocol.s"
+	@echo "... wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.o"
+	@echo "... wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.i"
+	@echo "... wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.s"
+	@echo "... wayland-generated-protocols/xdg-dialog-v1-protocol.o"
+	@echo "... wayland-generated-protocols/xdg-dialog-v1-protocol.i"
+	@echo "... wayland-generated-protocols/xdg-dialog-v1-protocol.s"
+	@echo "... wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.o"
+	@echo "... wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.i"
+	@echo "... wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.s"
+	@echo "... wayland-generated-protocols/xdg-output-unstable-v1-protocol.o"
+	@echo "... wayland-generated-protocols/xdg-output-unstable-v1-protocol.i"
+	@echo "... wayland-generated-protocols/xdg-output-unstable-v1-protocol.s"
+	@echo "... wayland-generated-protocols/xdg-shell-protocol.o"
+	@echo "... wayland-generated-protocols/xdg-shell-protocol.i"
+	@echo "... wayland-generated-protocols/xdg-shell-protocol.s"
+	@echo "... wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.o"
+	@echo "... wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.i"
+	@echo "... wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.s"
 .PHONY : help
 
 

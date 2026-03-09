@@ -69,11 +69,211 @@ include external/SDL/CMakeFiles/SDL3-shared.dir/progress.make
 # Include the compile flags for this target's objects.
 include external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 
+external/SDL/wayland-generated-protocols/alpha-modifier-v1-protocol.c: external/SDL/wayland-generated-protocols/alpha-modifier-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating wayland-generated-protocols/alpha-modifier-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/alpha-modifier-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/alpha-modifier-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/color-management-v1-protocol.c: external/SDL/wayland-generated-protocols/color-management-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating wayland-generated-protocols/color-management-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/color-management-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/color-management-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/cursor-shape-v1-protocol.c: external/SDL/wayland-generated-protocols/cursor-shape-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating wayland-generated-protocols/cursor-shape-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/cursor-shape-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/cursor-shape-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/fractional-scale-v1-protocol.c: external/SDL/wayland-generated-protocols/fractional-scale-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating wayland-generated-protocols/fractional-scale-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/fractional-scale-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/fractional-scale-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/frog-color-management-v1-protocol.c: external/SDL/wayland-generated-protocols/frog-color-management-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating wayland-generated-protocols/frog-color-management-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/frog-color-management-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/frog-color-management-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c: external/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/idle-inhibit-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c: external/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/input-timestamps-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c: external/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/keyboard-shortcuts-inhibit-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c: external/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/pointer-constraints-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c: external/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/pointer-gestures-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/pointer-warp-v1-protocol.c: external/SDL/wayland-generated-protocols/pointer-warp-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating wayland-generated-protocols/pointer-warp-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/pointer-warp-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-warp-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c: external/SDL/wayland-generated-protocols/primary-selection-unstable-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating wayland-generated-protocols/primary-selection-unstable-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/primary-selection-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c: external/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/relative-pointer-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c: external/SDL/wayland-generated-protocols/single-pixel-buffer-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating wayland-generated-protocols/single-pixel-buffer-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/single-pixel-buffer-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/tablet-v2-protocol.c: external/SDL/wayland-generated-protocols/tablet-v2-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating wayland-generated-protocols/tablet-v2-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/tablet-v2.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/tablet-v2-protocol.c
+
+external/SDL/wayland-generated-protocols/text-input-unstable-v3-protocol.c: external/SDL/wayland-generated-protocols/text-input-unstable-v3-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating wayland-generated-protocols/text-input-unstable-v3-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/text-input-unstable-v3.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/text-input-unstable-v3-protocol.c
+
+external/SDL/wayland-generated-protocols/viewporter-protocol.c: external/SDL/wayland-generated-protocols/viewporter-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating wayland-generated-protocols/viewporter-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/viewporter.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/viewporter-protocol.c
+
+external/SDL/wayland-generated-protocols/wayland-protocol.c: external/SDL/wayland-generated-protocols/wayland-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating wayland-generated-protocols/wayland-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/wayland.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/wayland-protocol.c
+
+external/SDL/wayland-generated-protocols/xdg-activation-v1-protocol.c: external/SDL/wayland-generated-protocols/xdg-activation-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating wayland-generated-protocols/xdg-activation-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/xdg-activation-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-activation-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c: external/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/xdg-decoration-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/xdg-dialog-v1-protocol.c: external/SDL/wayland-generated-protocols/xdg-dialog-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating wayland-generated-protocols/xdg-dialog-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/xdg-dialog-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-dialog-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c: external/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/xdg-foreign-unstable-v2.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c
+
+external/SDL/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c: external/SDL/wayland-generated-protocols/xdg-output-unstable-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating wayland-generated-protocols/xdg-output-unstable-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/xdg-output-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/xdg-shell-protocol.c: external/SDL/wayland-generated-protocols/xdg-shell-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating wayland-generated-protocols/xdg-shell-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/xdg-shell.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-shell-protocol.c
+
+external/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c: external/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner private-code /workspaces/Test/external/SDL/wayland-protocols/xdg-toplevel-icon-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c
+
+external/SDL/wayland-generated-protocols/alpha-modifier-v1-client-protocol.h: ../external/SDL/wayland-protocols/alpha-modifier-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating wayland-generated-protocols/alpha-modifier-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/alpha-modifier-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/alpha-modifier-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/color-management-v1-client-protocol.h: ../external/SDL/wayland-protocols/color-management-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating wayland-generated-protocols/color-management-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/color-management-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/color-management-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/cursor-shape-v1-client-protocol.h: ../external/SDL/wayland-protocols/cursor-shape-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating wayland-generated-protocols/cursor-shape-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/cursor-shape-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/cursor-shape-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/fractional-scale-v1-client-protocol.h: ../external/SDL/wayland-protocols/fractional-scale-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating wayland-generated-protocols/fractional-scale-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/fractional-scale-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/fractional-scale-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/frog-color-management-v1-client-protocol.h: ../external/SDL/wayland-protocols/frog-color-management-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating wayland-generated-protocols/frog-color-management-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/frog-color-management-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/frog-color-management-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-client-protocol.h: ../external/SDL/wayland-protocols/idle-inhibit-unstable-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating wayland-generated-protocols/idle-inhibit-unstable-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/idle-inhibit-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-client-protocol.h: ../external/SDL/wayland-protocols/input-timestamps-unstable-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating wayland-generated-protocols/input-timestamps-unstable-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/input-timestamps-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-client-protocol.h: ../external/SDL/wayland-protocols/keyboard-shortcuts-inhibit-unstable-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/keyboard-shortcuts-inhibit-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-client-protocol.h: ../external/SDL/wayland-protocols/pointer-constraints-unstable-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating wayland-generated-protocols/pointer-constraints-unstable-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/pointer-constraints-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-client-protocol.h: ../external/SDL/wayland-protocols/pointer-gestures-unstable-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating wayland-generated-protocols/pointer-gestures-unstable-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/pointer-gestures-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/pointer-warp-v1-client-protocol.h: ../external/SDL/wayland-protocols/pointer-warp-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating wayland-generated-protocols/pointer-warp-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/pointer-warp-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-warp-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/primary-selection-unstable-v1-client-protocol.h: ../external/SDL/wayland-protocols/primary-selection-unstable-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating wayland-generated-protocols/primary-selection-unstable-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/primary-selection-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/primary-selection-unstable-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-client-protocol.h: ../external/SDL/wayland-protocols/relative-pointer-unstable-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating wayland-generated-protocols/relative-pointer-unstable-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/relative-pointer-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/single-pixel-buffer-v1-client-protocol.h: ../external/SDL/wayland-protocols/single-pixel-buffer-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating wayland-generated-protocols/single-pixel-buffer-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/single-pixel-buffer-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/single-pixel-buffer-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/tablet-v2-client-protocol.h: ../external/SDL/wayland-protocols/tablet-v2.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating wayland-generated-protocols/tablet-v2-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/tablet-v2.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/tablet-v2-client-protocol.h
+
+external/SDL/wayland-generated-protocols/text-input-unstable-v3-client-protocol.h: ../external/SDL/wayland-protocols/text-input-unstable-v3.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating wayland-generated-protocols/text-input-unstable-v3-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/text-input-unstable-v3.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/text-input-unstable-v3-client-protocol.h
+
+external/SDL/wayland-generated-protocols/viewporter-client-protocol.h: ../external/SDL/wayland-protocols/viewporter.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating wayland-generated-protocols/viewporter-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/viewporter.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/viewporter-client-protocol.h
+
+external/SDL/wayland-generated-protocols/wayland-client-protocol.h: ../external/SDL/wayland-protocols/wayland.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating wayland-generated-protocols/wayland-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/wayland.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/wayland-client-protocol.h
+
+external/SDL/wayland-generated-protocols/xdg-activation-v1-client-protocol.h: ../external/SDL/wayland-protocols/xdg-activation-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating wayland-generated-protocols/xdg-activation-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/xdg-activation-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-activation-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-client-protocol.h: ../external/SDL/wayland-protocols/xdg-decoration-unstable-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating wayland-generated-protocols/xdg-decoration-unstable-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/xdg-decoration-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/xdg-dialog-v1-client-protocol.h: ../external/SDL/wayland-protocols/xdg-dialog-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating wayland-generated-protocols/xdg-dialog-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/xdg-dialog-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-dialog-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-client-protocol.h: ../external/SDL/wayland-protocols/xdg-foreign-unstable-v2.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating wayland-generated-protocols/xdg-foreign-unstable-v2-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/xdg-foreign-unstable-v2.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-client-protocol.h
+
+external/SDL/wayland-generated-protocols/xdg-output-unstable-v1-client-protocol.h: ../external/SDL/wayland-protocols/xdg-output-unstable-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating wayland-generated-protocols/xdg-output-unstable-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/xdg-output-unstable-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-output-unstable-v1-client-protocol.h
+
+external/SDL/wayland-generated-protocols/xdg-shell-client-protocol.h: ../external/SDL/wayland-protocols/xdg-shell.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating wayland-generated-protocols/xdg-shell-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/xdg-shell.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-shell-client-protocol.h
+
+external/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-client-protocol.h: ../external/SDL/wayland-protocols/xdg-toplevel-icon-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating wayland-generated-protocols/xdg-toplevel-icon-v1-client-protocol.h"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/wayland-scanner client-header /workspaces/Test/external/SDL/wayland-protocols/xdg-toplevel-icon-v1.xml /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-client-protocol.h
+
 external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c
 external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -x c-header -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch -MF CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch.d -o CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch -c /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.i: cmake_force
@@ -89,7 +289,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o: ../external/SDL/src/SDL.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o -MF CMakeFiles/SDL3-shared.dir/src/SDL.c.o.d -o CMakeFiles/SDL3-shared.dir/src/SDL.c.o -c /workspaces/Test/external/SDL/src/SDL.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.i: cmake_force
@@ -105,7 +305,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o: ../external/SDL/src/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o -MF CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o.d -o CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o -c /workspaces/Test/external/SDL/src/SDL_assert.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.i: cmake_force
@@ -121,7 +321,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.o: ../external/SDL/src/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.o -MF CMakeFiles/SDL3-shared.dir/src/SDL_error.c.o.d -o CMakeFiles/SDL3-shared.dir/src/SDL_error.c.o -c /workspaces/Test/external/SDL/src/SDL_error.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.i: cmake_force
@@ -137,7 +337,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.o: ../external/SDL/src/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.o -MF CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.o.d -o CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.o -c /workspaces/Test/external/SDL/src/SDL_guid.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.i: cmake_force
@@ -153,7 +353,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.o: ../external/SDL/s
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.o -MF CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.o.d -o CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.o -c /workspaces/Test/external/SDL/src/SDL_hashtable.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.i: cmake_force
@@ -169,7 +369,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.o: ../external/SDL/src/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.o -MF CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.o.d -o CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.o -c /workspaces/Test/external/SDL/src/SDL_hints.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.i: cmake_force
@@ -185,7 +385,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.o: ../external/SDL/src/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.o -MF CMakeFiles/SDL3-shared.dir/src/SDL_list.c.o.d -o CMakeFiles/SDL3-shared.dir/src/SDL_list.c.o -c /workspaces/Test/external/SDL/src/SDL_list.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.i: cmake_force
@@ -201,7 +401,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.o: ../external/SDL/src/SDL
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.o -MF CMakeFiles/SDL3-shared.dir/src/SDL_log.c.o.d -o CMakeFiles/SDL3-shared.dir/src/SDL_log.c.o -c /workspaces/Test/external/SDL/src/SDL_log.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.i: cmake_force
@@ -217,7 +417,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.o: ../external/SDL/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.o -MF CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.o.d -o CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.o -c /workspaces/Test/external/SDL/src/SDL_properties.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.i: cmake_force
@@ -233,7 +433,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o: ../external/SDL/src/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o -MF CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o.d -o CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o -c /workspaces/Test/external/SDL/src/SDL_utils.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.i: cmake_force
@@ -249,7 +449,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.o -MF CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.o.d -o CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.o -c /workspaces/Test/external/SDL/src/atomic/SDL_atomic.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.i: cmake_force
@@ -265,7 +465,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.o: ../external
 external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.o -MF CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.o.d -o CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.o -c /workspaces/Test/external/SDL/src/atomic/SDL_spinlock.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.i: cmake_force
@@ -281,7 +481,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.o: ../external/SDL
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.o -MF CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.o.d -o CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.o -c /workspaces/Test/external/SDL/src/audio/SDL_audio.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.i: cmake_force
@@ -297,7 +497,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.o: ../external/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.o -MF CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.o.d -o CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.o -c /workspaces/Test/external/SDL/src/audio/SDL_audiocvt.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.i: cmake_force
@@ -313,7 +513,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.o: ../external/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.o -MF CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.o.d -o CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.o -c /workspaces/Test/external/SDL/src/audio/SDL_audiodev.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.i: cmake_force
@@ -329,7 +529,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.o: ../externa
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.o -MF CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.o.d -o CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.o -c /workspaces/Test/external/SDL/src/audio/SDL_audioqueue.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.i: cmake_force
@@ -345,7 +545,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.o: ../exte
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.o -MF CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.o.d -o CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.o -c /workspaces/Test/external/SDL/src/audio/SDL_audioresample.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.i: cmake_force
@@ -361,7 +561,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.o: ../exter
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.o -MF CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.o.d -o CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.o -c /workspaces/Test/external/SDL/src/audio/SDL_audiotypecvt.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.i: cmake_force
@@ -377,7 +577,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.o: ../external/SDL
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.o -MF CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.o.d -o CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.o -c /workspaces/Test/external/SDL/src/audio/SDL_mixer.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.i: cmake_force
@@ -393,7 +593,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o: ../external/SDL/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o -MF CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o.d -o CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o -c /workspaces/Test/external/SDL/src/audio/SDL_wave.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.i: cmake_force
@@ -409,7 +609,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o -MF CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o.d -o CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o -c /workspaces/Test/external/SDL/src/camera/SDL_camera.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.i: cmake_force
@@ -425,7 +625,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.o -c /workspaces/Test/external/SDL/src/core/SDL_core_unsupported.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.i: cmake_force
@@ -441,7 +641,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o: ../external
 external/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o -MF CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o.d -o CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o -c /workspaces/Test/external/SDL/src/cpuinfo/SDL_cpuinfo.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.i: cmake_force
@@ -455,7 +655,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.s: cmake_force
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o: ../external/SDL/src/dynapi/SDL_dynapi.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o -MF CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o.d -o CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o -c /workspaces/Test/external/SDL/src/dynapi/SDL_dynapi.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.i: cmake_force
@@ -471,7 +671,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.o: ../extern
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.o -c /workspaces/Test/external/SDL/src/events/SDL_categories.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.i: cmake_force
@@ -487,7 +687,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.o: ../e
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.o -c /workspaces/Test/external/SDL/src/events/SDL_clipboardevents.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.i: cmake_force
@@ -503,7 +703,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.o: ../ext
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.o -c /workspaces/Test/external/SDL/src/events/SDL_displayevents.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.i: cmake_force
@@ -519,7 +719,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.o: ../extern
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.o -c /workspaces/Test/external/SDL/src/events/SDL_dropevents.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.i: cmake_force
@@ -535,7 +735,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o -c /workspaces/Test/external/SDL/src/events/SDL_events.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.i: cmake_force
@@ -551,7 +751,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.o: ../extern
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.o -c /workspaces/Test/external/SDL/src/events/SDL_eventwatch.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.i: cmake_force
@@ -567,7 +767,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.o: ../external
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.o -c /workspaces/Test/external/SDL/src/events/SDL_keyboard.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.i: cmake_force
@@ -583,7 +783,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.o -c /workspaces/Test/external/SDL/src/events/SDL_keymap.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.i: cmake_force
@@ -599,7 +799,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.o: ..
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.o -c /workspaces/Test/external/SDL/src/events/SDL_keysym_to_keycode.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.i: cmake_force
@@ -615,7 +815,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.o: .
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.o -c /workspaces/Test/external/SDL/src/events/SDL_keysym_to_scancode.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.i: cmake_force
@@ -631,7 +831,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.o: ../external/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.o -c /workspaces/Test/external/SDL/src/events/SDL_mouse.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.i: cmake_force
@@ -647,7 +847,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.o: ../external/SDL/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.o -c /workspaces/Test/external/SDL/src/events/SDL_pen.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.i: cmake_force
@@ -663,7 +863,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o: ../external/SDL
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o -c /workspaces/Test/external/SDL/src/events/SDL_quit.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.i: cmake_force
@@ -679,7 +879,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.o: ../e
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.o -c /workspaces/Test/external/SDL/src/events/SDL_scancode_tables.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.i: cmake_force
@@ -695,7 +895,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.o: ../external/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.o -c /workspaces/Test/external/SDL/src/events/SDL_touch.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.i: cmake_force
@@ -711,7 +911,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.o: ../exte
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.o -c /workspaces/Test/external/SDL/src/events/SDL_windowevents.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.i: cmake_force
@@ -727,7 +927,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.o: ../external/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.o -MF CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.o.d -o CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.o -c /workspaces/Test/external/SDL/src/events/imKStoUCS.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.i: cmake_force
@@ -743,7 +943,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.o -MF CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.o.d -o CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.o -c /workspaces/Test/external/SDL/src/filesystem/SDL_filesystem.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.i: cmake_force
@@ -759,7 +959,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.o: ../external/SDL/src
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.o -MF CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.o.d -o CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.o -c /workspaces/Test/external/SDL/src/gpu/SDL_gpu.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.i: cmake_force
@@ -775,7 +975,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_gpu_openxr.c.o: ../extern
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_gpu_openxr.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_gpu_openxr.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_gpu_openxr.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_gpu_openxr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_gpu_openxr.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_gpu_openxr.c.o -MF CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_gpu_openxr.c.o.d -o CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_gpu_openxr.c.o -c /workspaces/Test/external/SDL/src/gpu/xr/SDL_gpu_openxr.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_gpu_openxr.c.i: cmake_force
@@ -791,7 +991,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_openxrdyn.c.o: ../externa
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_openxrdyn.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_openxrdyn.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_openxrdyn.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_openxrdyn.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_openxrdyn.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_openxrdyn.c.o -MF CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_openxrdyn.c.o.d -o CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_openxrdyn.c.o -c /workspaces/Test/external/SDL/src/gpu/xr/SDL_openxrdyn.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/xr/SDL_openxrdyn.c.i: cmake_force
@@ -807,7 +1007,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.o -MF CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.o.d -o CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.o -c /workspaces/Test/external/SDL/src/haptic/SDL_haptic.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.i: cmake_force
@@ -823,7 +1023,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o -MF CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o.d -o CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o -c /workspaces/Test/external/SDL/src/hidapi/SDL_hidapi.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.i: cmake_force
@@ -839,7 +1039,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.o: ../external/SDL/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.o -MF CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.o.d -o CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.o -c /workspaces/Test/external/SDL/src/io/SDL_asyncio.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.i: cmake_force
@@ -855,7 +1055,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o: ../external/SDL
 external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o -MF CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o.d -o CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o -c /workspaces/Test/external/SDL/src/io/SDL_iostream.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.i: cmake_force
@@ -871,7 +1071,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.o: 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.o -MF CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.o.d -o CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.o -c /workspaces/Test/external/SDL/src/io/generic/SDL_asyncio_generic.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.i: cmake_force
@@ -887,7 +1087,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o: ../externa
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o -c /workspaces/Test/external/SDL/src/joystick/SDL_gamepad.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.i: cmake_force
@@ -903,7 +1103,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.o: ../extern
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.o -c /workspaces/Test/external/SDL/src/joystick/SDL_joystick.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.i: cmake_force
@@ -919,7 +1119,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.o -c /workspaces/Test/external/SDL/src/joystick/SDL_steam_virtual_gamepad.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.i: cmake_force
@@ -935,7 +1135,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.o: ../ext
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.o -c /workspaces/Test/external/SDL/src/joystick/controller_type.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.i: cmake_force
@@ -951,7 +1151,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o -MF CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o.d -o CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o -c /workspaces/Test/external/SDL/src/locale/SDL_locale.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.i: cmake_force
@@ -967,7 +1167,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o: ../exte
 external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o -MF CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o.d -o CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o -c /workspaces/Test/external/SDL/src/main/SDL_main_callbacks.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.i: cmake_force
@@ -983,7 +1183,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o: ../external/SDL
 external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o -MF CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o.d -o CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o -c /workspaces/Test/external/SDL/src/main/SDL_runapp.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.i: cmake_force
@@ -999,7 +1199,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o: ../external/SDL
 external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o -MF CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o.d -o CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o -c /workspaces/Test/external/SDL/src/misc/SDL_libusb.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.i: cmake_force
@@ -1015,7 +1215,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o: ../external/SDL/sr
 external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o -MF CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o.d -o CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o -c /workspaces/Test/external/SDL/src/misc/SDL_url.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.i: cmake_force
@@ -1031,7 +1231,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o: ../external/SDL
 external/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o -MF CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o.d -o CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o -c /workspaces/Test/external/SDL/src/power/SDL_power.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.i: cmake_force
@@ -1047,7 +1247,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o -c /workspaces/Test/external/SDL/src/render/SDL_render.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.i: cmake_force
@@ -1063,7 +1263,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o: .
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o -c /workspaces/Test/external/SDL/src/render/SDL_render_unsupported.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.i: cmake_force
@@ -1079,7 +1279,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.o -c /workspaces/Test/external/SDL/src/render/SDL_yuv_sw.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.i: cmake_force
@@ -1095,7 +1295,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.o: 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.o -c /workspaces/Test/external/SDL/src/render/direct3d/SDL_render_d3d.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.i: cmake_force
@@ -1111,7 +1311,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.o:
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.o -c /workspaces/Test/external/SDL/src/render/direct3d/SDL_shaders_d3d.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.i: cmake_force
@@ -1127,7 +1327,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.o -c /workspaces/Test/external/SDL/src/render/direct3d11/SDL_render_d3d11.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.i: cmake_force
@@ -1143,7 +1343,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o -c /workspaces/Test/external/SDL/src/render/direct3d11/SDL_shaders_d3d11.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.i: cmake_force
@@ -1159,7 +1359,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.o -c /workspaces/Test/external/SDL/src/render/direct3d12/SDL_render_d3d12.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.i: cmake_force
@@ -1175,7 +1375,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.o -c /workspaces/Test/external/SDL/src/render/direct3d12/SDL_shaders_d3d12.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.i: cmake_force
@@ -1191,7 +1391,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.o: ../
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.o -c /workspaces/Test/external/SDL/src/render/gpu/SDL_pipeline_gpu.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.i: cmake_force
@@ -1207,7 +1407,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.o -c /workspaces/Test/external/SDL/src/render/gpu/SDL_render_gpu.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.i: cmake_force
@@ -1223,7 +1423,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o: ../e
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o -c /workspaces/Test/external/SDL/src/render/gpu/SDL_shaders_gpu.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.i: cmake_force
@@ -1239,7 +1439,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.o: .
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.o -c /workspaces/Test/external/SDL/src/render/ngage/SDL_render_ngage.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.i: cmake_force
@@ -1255,7 +1455,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.o: ../
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.o -c /workspaces/Test/external/SDL/src/render/opengl/SDL_render_gl.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.i: cmake_force
@@ -1271,7 +1471,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.o: ..
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.o -c /workspaces/Test/external/SDL/src/render/opengl/SDL_shaders_gl.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.i: cmake_force
@@ -1287,7 +1487,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.o -c /workspaces/Test/external/SDL/src/render/opengles2/SDL_render_gles2.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.i: cmake_force
@@ -1303,7 +1503,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.o -c /workspaces/Test/external/SDL/src/render/opengles2/SDL_shaders_gles2.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.i: cmake_force
@@ -1319,7 +1519,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.o -c /workspaces/Test/external/SDL/src/render/ps2/SDL_render_ps2.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.i: cmake_force
@@ -1335,7 +1535,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.o -c /workspaces/Test/external/SDL/src/render/psp/SDL_render_psp.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.i: cmake_force
@@ -1351,7 +1551,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.o -c /workspaces/Test/external/SDL/src/render/software/SDL_blendfillrect.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.i: cmake_force
@@ -1367,7 +1567,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.o: .
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.o -c /workspaces/Test/external/SDL/src/render/software/SDL_blendline.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.i: cmake_force
@@ -1383,7 +1583,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.o: 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.o -c /workspaces/Test/external/SDL/src/render/software/SDL_blendpoint.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.i: cmake_force
@@ -1399,7 +1599,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.o: ..
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.o -c /workspaces/Test/external/SDL/src/render/software/SDL_drawline.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.i: cmake_force
@@ -1415,7 +1615,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.o: .
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.o -c /workspaces/Test/external/SDL/src/render/software/SDL_drawpoint.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.i: cmake_force
@@ -1431,7 +1631,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o: .
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o -c /workspaces/Test/external/SDL/src/render/software/SDL_render_sw.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.i: cmake_force
@@ -1447,7 +1647,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.o: ..
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.o -c /workspaces/Test/external/SDL/src/render/software/SDL_triangle.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.i: cmake_force
@@ -1463,7 +1663,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o -c /workspaces/Test/external/SDL/src/render/vitagxm/SDL_render_vita_gxm.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.i: cmake_force
@@ -1479,7 +1679,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_m
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o -c /workspaces/Test/external/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.i: cmake_force
@@ -1495,7 +1695,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_t
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o -c /workspaces/Test/external/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.i: cmake_force
@@ -1511,7 +1711,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.o:
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.o -c /workspaces/Test/external/SDL/src/render/vulkan/SDL_render_vulkan.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.i: cmake_force
@@ -1527,7 +1727,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.o
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.o -c /workspaces/Test/external/SDL/src/render/vulkan/SDL_shaders_vulkan.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.i: cmake_force
@@ -1543,7 +1743,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.o -MF CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.o.d -o CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.o -c /workspaces/Test/external/SDL/src/sensor/SDL_sensor.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.i: cmake_force
@@ -1559,7 +1759,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.o: ../external/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_crc16.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.i: cmake_force
@@ -1575,7 +1775,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.o: ../external/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_crc32.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.i: cmake_force
@@ -1591,7 +1791,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_getenv.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.i: cmake_force
@@ -1607,7 +1807,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.o: ../external/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_iconv.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.i: cmake_force
@@ -1623,7 +1823,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_malloc.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.i: cmake_force
@@ -1639,7 +1839,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_memcpy.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.i: cmake_force
@@ -1655,7 +1855,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.o: ../external/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_memmove.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.i: cmake_force
@@ -1671,7 +1871,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_memset.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.i: cmake_force
@@ -1687,7 +1887,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_mslibc.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.i: cmake_force
@@ -1703,7 +1903,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.o: ../external/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_murmur3.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.i: cmake_force
@@ -1719,7 +1919,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.o: ../external/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_qsort.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.i: cmake_force
@@ -1735,7 +1935,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_random.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.i: cmake_force
@@ -1751,7 +1951,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_stdlib.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.i: cmake_force
@@ -1767,7 +1967,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_string.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.i: cmake_force
@@ -1783,7 +1983,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.o: ../external/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.o -MF CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.o.d -o CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.o -c /workspaces/Test/external/SDL/src/stdlib/SDL_strtokr.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.i: cmake_force
@@ -1799,7 +1999,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.o: ../external
 external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.o -MF CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.o.d -o CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.o -c /workspaces/Test/external/SDL/src/storage/SDL_storage.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.i: cmake_force
@@ -1815,7 +2015,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o -MF CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o.d -o CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o -c /workspaces/Test/external/SDL/src/thread/SDL_thread.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.i: cmake_force
@@ -1831,7 +2031,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.o: ../external/SDL/s
 external/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.o -MF CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.o.d -o CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.o -c /workspaces/Test/external/SDL/src/time/SDL_time.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.i: cmake_force
@@ -1847,7 +2047,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.o: ../external/SDL
 external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.o -MF CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.o.d -o CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.o -c /workspaces/Test/external/SDL/src/timer/SDL_timer.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.i: cmake_force
@@ -1863,7 +2063,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.o: ../external/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.o -c /workspaces/Test/external/SDL/src/video/SDL_RLEaccel.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.i: cmake_force
@@ -1879,7 +2079,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.o: ../external/SDL/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.o -c /workspaces/Test/external/SDL/src/video/SDL_blit.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.i: cmake_force
@@ -1895,7 +2095,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.o: ../external/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.o -c /workspaces/Test/external/SDL/src/video/SDL_blit_0.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.i: cmake_force
@@ -1911,7 +2111,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.o: ../external/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.o -c /workspaces/Test/external/SDL/src/video/SDL_blit_1.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.i: cmake_force
@@ -1927,7 +2127,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.o: ../external/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.o -c /workspaces/Test/external/SDL/src/video/SDL_blit_A.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.i: cmake_force
@@ -1943,7 +2143,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.o: ../external/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.o -c /workspaces/Test/external/SDL/src/video/SDL_blit_N.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.i: cmake_force
@@ -1959,7 +2159,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.o: ../external
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.o -c /workspaces/Test/external/SDL/src/video/SDL_blit_auto.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.i: cmake_force
@@ -1975,7 +2175,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.o: ../external
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.o -c /workspaces/Test/external/SDL/src/video/SDL_blit_copy.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.i: cmake_force
@@ -1991,7 +2191,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.o: ../external
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.o -c /workspaces/Test/external/SDL/src/video/SDL_blit_slow.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.i: cmake_force
@@ -2007,7 +2207,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.o: ../external/SDL/s
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.o -c /workspaces/Test/external/SDL/src/video/SDL_bmp.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.i: cmake_force
@@ -2023,7 +2223,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o: ../external
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o -c /workspaces/Test/external/SDL/src/video/SDL_clipboard.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.i: cmake_force
@@ -2039,7 +2239,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.o: ../external/SDL/s
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.o -c /workspaces/Test/external/SDL/src/video/SDL_egl.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.i: cmake_force
@@ -2055,7 +2255,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.o: ../external/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.o -c /workspaces/Test/external/SDL/src/video/SDL_fillrect.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.i: cmake_force
@@ -2071,7 +2271,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.o: ../external/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.o -c /workspaces/Test/external/SDL/src/video/SDL_pixels.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.i: cmake_force
@@ -2087,7 +2287,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.o: ../external/SDL/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.o -c /workspaces/Test/external/SDL/src/video/SDL_rect.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.i: cmake_force
@@ -2103,7 +2303,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.o: ../external/SD
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.o -c /workspaces/Test/external/SDL/src/video/SDL_rotate.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.i: cmake_force
@@ -2119,7 +2319,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o: ../external/SDL/s
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o -c /workspaces/Test/external/SDL/src/video/SDL_stb.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.i: cmake_force
@@ -2135,7 +2335,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.o -c /workspaces/Test/external/SDL/src/video/SDL_stretch.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.i: cmake_force
@@ -2151,7 +2351,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.o -c /workspaces/Test/external/SDL/src/video/SDL_surface.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.i: cmake_force
@@ -2167,7 +2367,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.o: ../external/SDL
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.o -c /workspaces/Test/external/SDL/src/video/SDL_video.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.i: cmake_force
@@ -2183,7 +2383,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.o: ../
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.o -c /workspaces/Test/external/SDL/src/video/SDL_video_unsupported.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.i: cmake_force
@@ -2199,7 +2399,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.o: ../exter
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.o -c /workspaces/Test/external/SDL/src/video/SDL_vulkan_utils.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.i: cmake_force
@@ -2215,7 +2415,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.o: ../external/SDL/s
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.o -c /workspaces/Test/external/SDL/src/video/SDL_yuv.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.i: cmake_force
@@ -2231,7 +2431,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o -c /workspaces/Test/external/SDL/src/video/yuv2rgb/yuv_rgb_lsx.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.i: cmake_force
@@ -2247,7 +2447,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o -c /workspaces/Test/external/SDL/src/video/yuv2rgb/yuv_rgb_sse.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.i: cmake_force
@@ -2263,7 +2463,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o -c /workspaces/Test/external/SDL/src/video/yuv2rgb/yuv_rgb_std.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.i: cmake_force
@@ -2279,7 +2479,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o: ../e
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o -MF CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o.d -o CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o -c /workspaces/Test/external/SDL/src/audio/dummy/SDL_dummyaudio.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.i: cmake_force
@@ -2295,7 +2495,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o: ../ext
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o -MF CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o.d -o CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o -c /workspaces/Test/external/SDL/src/audio/disk/SDL_diskaudio.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.i: cmake_force
@@ -2311,7 +2511,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.o: .
 external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.o -MF CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.o.d -o CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.o -c /workspaces/Test/external/SDL/src/camera/dummy/SDL_camera_dummy.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.i: cmake_force
@@ -2327,7 +2527,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.o: ../
 external/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.o -MF CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.o.d -o CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.o -c /workspaces/Test/external/SDL/src/loadso/dlopen/SDL_sysloadso.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.i: cmake_force
@@ -2343,7 +2543,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o -c /workspaces/Test/external/SDL/src/joystick/virtual/SDL_virtualjoystick.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.i: cmake_force
@@ -2359,7 +2559,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o: ../e
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o -c /workspaces/Test/external/SDL/src/video/dummy/SDL_nullevents.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.i: cmake_force
@@ -2375,7 +2575,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o:
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o -c /workspaces/Test/external/SDL/src/video/dummy/SDL_nullframebuffer.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.i: cmake_force
@@ -2391,7 +2591,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o -c /workspaces/Test/external/SDL/src/video/dummy/SDL_nullvideo.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.i: cmake_force
@@ -2402,12 +2602,28 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.s"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/dummy/SDL_nullvideo.c -o CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.s
 
+external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o: ../external/SDL/src/audio/alsa/SDL_alsa_audio.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o -MF CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o.d -o CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o -c /workspaces/Test/external/SDL/src/audio/alsa/SDL_alsa_audio.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/audio/alsa/SDL_alsa_audio.c > CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/audio/alsa/SDL_alsa_audio.c -o CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.s
+
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o: ../external/SDL/src/video/x11/SDL_x11clipboard.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11clipboard.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.i: cmake_force
@@ -2423,7 +2639,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o: ../externa
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11dyn.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.i: cmake_force
@@ -2439,7 +2655,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.o: ../exte
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11events.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.i: cmake_force
@@ -2455,7 +2671,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11framebuffer.c.o: ..
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11framebuffer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11framebuffer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11framebuffer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11framebuffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11framebuffer.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11framebuffer.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11framebuffer.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11framebuffer.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11framebuffer.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11framebuffer.c.i: cmake_force
@@ -2471,7 +2687,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11keyboard.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11keyboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11keyboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11keyboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11keyboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11keyboard.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11keyboard.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11keyboard.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11keyboard.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11keyboard.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11keyboard.c.i: cmake_force
@@ -2487,7 +2703,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11messagebox.c.o: ../
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11messagebox.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11messagebox.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11messagebox.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11messagebox.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11messagebox.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11messagebox.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11messagebox.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11messagebox.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11messagebox.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11messagebox.c.i: cmake_force
@@ -2503,7 +2719,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11modes.c.o: ../exter
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11modes.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11modes.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11modes.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11modes.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11modes.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11modes.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11modes.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11modes.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11modes.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11modes.c.i: cmake_force
@@ -2519,7 +2735,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11mouse.c.o: ../exter
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11mouse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11mouse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11mouse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11mouse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11mouse.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11mouse.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11mouse.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11mouse.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11mouse.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11mouse.c.i: cmake_force
@@ -2535,7 +2751,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengl.c.o: ../exte
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengl.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengl.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengl.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengl.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11opengl.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengl.c.i: cmake_force
@@ -2551,7 +2767,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengles.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengles.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengles.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengles.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengles.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengles.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengles.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengles.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengles.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11opengles.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengles.c.i: cmake_force
@@ -2567,7 +2783,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11pen.c.o: ../externa
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11pen.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11pen.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11pen.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11pen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11pen.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11pen.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11pen.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11pen.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11pen.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11pen.c.i: cmake_force
@@ -2583,7 +2799,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11settings.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11settings.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11settings.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11settings.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11settings.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11settings.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11settings.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11settings.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11settings.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11settings.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11settings.c.i: cmake_force
@@ -2599,7 +2815,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11shape.c.o: ../exter
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11shape.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11shape.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11shape.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11shape.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11shape.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11shape.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11shape.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11shape.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11shape.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11shape.c.i: cmake_force
@@ -2615,7 +2831,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11toolkit.c.o: ../ext
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11toolkit.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11toolkit.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11toolkit.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11toolkit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11toolkit.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11toolkit.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11toolkit.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11toolkit.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11toolkit.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11toolkit.c.i: cmake_force
@@ -2631,7 +2847,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11touch.c.o: ../exter
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11touch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11touch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11touch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11touch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11touch.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11touch.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11touch.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11touch.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11touch.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11touch.c.i: cmake_force
@@ -2647,7 +2863,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11video.c.o: ../exter
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11video.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11video.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11video.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11video.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11video.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11video.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11video.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11video.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11video.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11video.c.i: cmake_force
@@ -2663,7 +2879,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11vulkan.c.o: ../exte
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11vulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11vulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11vulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11vulkan.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11vulkan.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11vulkan.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11vulkan.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11vulkan.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11vulkan.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11vulkan.c.i: cmake_force
@@ -2679,7 +2895,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11window.c.o: ../exte
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11window.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11window.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11window.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11window.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11window.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11window.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11window.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11window.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11window.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11window.c.i: cmake_force
@@ -2695,7 +2911,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xfixes.c.o: ../exte
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xfixes.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xfixes.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xfixes.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xfixes.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xfixes.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xfixes.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xfixes.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xfixes.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11xfixes.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xfixes.c.i: cmake_force
@@ -2711,7 +2927,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xinput2.c.o: ../ext
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xinput2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xinput2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xinput2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xinput2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xinput2.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xinput2.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xinput2.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xinput2.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11xinput2.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xinput2.c.i: cmake_force
@@ -2727,7 +2943,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xsync.c.o: ../exter
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xsync.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xsync.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xsync.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xsync.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xsync.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xsync.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xsync.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xsync.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11xsync.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xsync.c.i: cmake_force
@@ -2743,7 +2959,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xtest.c.o: ../exter
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xtest.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xtest.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xtest.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xtest.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xtest.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xtest.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xtest.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xtest.c.o -c /workspaces/Test/external/SDL/src/video/x11/SDL_x11xtest.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xtest.c.i: cmake_force
@@ -2759,7 +2975,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/edid-parse.c.o: ../externa
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/edid-parse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/edid-parse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/edid-parse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/edid-parse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/edid-parse.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/edid-parse.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/edid-parse.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/edid-parse.c.o -c /workspaces/Test/external/SDL/src/video/x11/edid-parse.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/edid-parse.c.i: cmake_force
@@ -2775,7 +2991,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.o: ../e
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.o -c /workspaces/Test/external/SDL/src/video/x11/xsettings-client.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.i: cmake_force
@@ -2786,12 +3002,620 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.s"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/x11/xsettings-client.c -o CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.s
 
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o: ../external/SDL/src/video/wayland/SDL_waylandclipboard.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o -c /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandclipboard.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandclipboard.c > CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandclipboard.c -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o: ../external/SDL/src/video/wayland/SDL_waylandcolor.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o -c /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandcolor.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandcolor.c > CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandcolor.c -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o: ../external/SDL/src/video/wayland/SDL_waylanddatamanager.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o -c /workspaces/Test/external/SDL/src/video/wayland/SDL_waylanddatamanager.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/video/wayland/SDL_waylanddatamanager.c > CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/wayland/SDL_waylanddatamanager.c -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o: ../external/SDL/src/video/wayland/SDL_waylanddyn.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o -c /workspaces/Test/external/SDL/src/video/wayland/SDL_waylanddyn.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/video/wayland/SDL_waylanddyn.c > CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/wayland/SDL_waylanddyn.c -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o: ../external/SDL/src/video/wayland/SDL_waylandevents.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o -c /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandevents.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandevents.c > CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandevents.c -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o: ../external/SDL/src/video/wayland/SDL_waylandkeyboard.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o -c /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandkeyboard.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandkeyboard.c > CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandkeyboard.c -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o: ../external/SDL/src/video/wayland/SDL_waylandmessagebox.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o -c /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandmessagebox.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandmessagebox.c > CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandmessagebox.c -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o: ../external/SDL/src/video/wayland/SDL_waylandmouse.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o -c /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandmouse.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandmouse.c > CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandmouse.c -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o: ../external/SDL/src/video/wayland/SDL_waylandopengles.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o -c /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandopengles.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandopengles.c > CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandopengles.c -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o: ../external/SDL/src/video/wayland/SDL_waylandshmbuffer.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o -c /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandshmbuffer.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandshmbuffer.c > CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandshmbuffer.c -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o: ../external/SDL/src/video/wayland/SDL_waylandvideo.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o -c /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandvideo.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandvideo.c > CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandvideo.c -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o: ../external/SDL/src/video/wayland/SDL_waylandvulkan.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o -c /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandvulkan.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandvulkan.c > CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandvulkan.c -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o: ../external/SDL/src/video/wayland/SDL_waylandwindow.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o -c /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandwindow.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandwindow.c > CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/video/wayland/SDL_waylandwindow.c -o CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o: external/SDL/wayland-generated-protocols/alpha-modifier-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/alpha-modifier-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/alpha-modifier-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/alpha-modifier-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o: external/SDL/wayland-generated-protocols/color-management-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/color-management-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/color-management-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/color-management-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o: external/SDL/wayland-generated-protocols/cursor-shape-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/cursor-shape-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/cursor-shape-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/cursor-shape-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o: external/SDL/wayland-generated-protocols/fractional-scale-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/fractional-scale-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/fractional-scale-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/fractional-scale-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o: external/SDL/wayland-generated-protocols/frog-color-management-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/frog-color-management-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/frog-color-management-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/frog-color-management-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o: external/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o: external/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o: external/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o: external/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o: external/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o: external/SDL/wayland-generated-protocols/pointer-warp-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-warp-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-warp-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/pointer-warp-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o: external/SDL/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o: external/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o: external/SDL/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o: external/SDL/wayland-generated-protocols/tablet-v2-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/tablet-v2-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/tablet-v2-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/tablet-v2-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o: external/SDL/wayland-generated-protocols/text-input-unstable-v3-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/text-input-unstable-v3-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/text-input-unstable-v3-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/text-input-unstable-v3-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o: external/SDL/wayland-generated-protocols/viewporter-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/viewporter-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/viewporter-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/viewporter-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o: external/SDL/wayland-generated-protocols/wayland-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/wayland-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/wayland-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/wayland-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o: external/SDL/wayland-generated-protocols/xdg-activation-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-activation-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-activation-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-activation-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o: external/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o: external/SDL/wayland-generated-protocols/xdg-dialog-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-dialog-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-dialog-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-dialog-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o: external/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o: external/SDL/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o: external/SDL/wayland-generated-protocols/xdg-shell-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-shell-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-shell-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-shell-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o: external/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o -MF CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o.d -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o -c /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c > CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/build/external/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c -o CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.s
+
 external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o: ../external/SDL/src/tray/unix/SDL_tray.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o -MF CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o.d -o CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o -c /workspaces/Test/external/SDL/src/tray/unix/SDL_tray.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.i: cmake_force
@@ -2807,7 +3631,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o: ../external
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o -c /workspaces/Test/external/SDL/src/core/unix/SDL_appid.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.i: cmake_force
@@ -2823,7 +3647,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_fribidi.c.o: ../extern
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_fribidi.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_fribidi.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_fribidi.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_fribidi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_fribidi.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_fribidi.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_fribidi.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_fribidi.c.o -c /workspaces/Test/external/SDL/src/core/unix/SDL_fribidi.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_fribidi.c.i: cmake_force
@@ -2839,7 +3663,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_gtk.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_gtk.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_gtk.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_gtk.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_gtk.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_gtk.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_gtk.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_gtk.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_gtk.c.o -c /workspaces/Test/external/SDL/src/core/unix/SDL_gtk.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_gtk.c.i: cmake_force
@@ -2855,7 +3679,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_libthai.c.o: ../extern
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_libthai.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_libthai.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_libthai.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_libthai.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_libthai.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_libthai.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_libthai.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_libthai.c.o -c /workspaces/Test/external/SDL/src/core/unix/SDL_libthai.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_libthai.c.i: cmake_force
@@ -2871,7 +3695,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.o: ../external/
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.o -c /workspaces/Test/external/SDL/src/core/unix/SDL_poll.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.i: cmake_force
@@ -2887,7 +3711,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o: ../
 external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o -MF CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o.d -o CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o -c /workspaces/Test/external/SDL/src/camera/v4l2/SDL_camera_v4l2.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.i: cmake_force
@@ -2903,7 +3727,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o: ../e
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o -MF CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o.d -o CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o -c /workspaces/Test/external/SDL/src/haptic/linux/SDL_syshaptic.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.i: cmake_force
@@ -2914,12 +3738,108 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.s"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/haptic/linux/SDL_syshaptic.c -o CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.s
 
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o: ../external/SDL/src/core/linux/SDL_dbus.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o -c /workspaces/Test/external/SDL/src/core/linux/SDL_dbus.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/core/linux/SDL_dbus.c > CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/core/linux/SDL_dbus.c -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o: ../external/SDL/src/core/linux/SDL_system_theme.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o -c /workspaces/Test/external/SDL/src/core/linux/SDL_system_theme.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/core/linux/SDL_system_theme.c > CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/core/linux/SDL_system_theme.c -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o: ../external/SDL/src/core/linux/SDL_progressbar.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o -c /workspaces/Test/external/SDL/src/core/linux/SDL_progressbar.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/core/linux/SDL_progressbar.c > CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/core/linux/SDL_progressbar.c -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o: ../external/SDL/src/core/linux/SDL_ime.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o -c /workspaces/Test/external/SDL/src/core/linux/SDL_ime.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/core/linux/SDL_ime.c > CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/core/linux/SDL_ime.c -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o: ../external/SDL/src/core/linux/SDL_fcitx.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o -c /workspaces/Test/external/SDL/src/core/linux/SDL_fcitx.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/core/linux/SDL_fcitx.c > CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/core/linux/SDL_fcitx.c -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.s
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o: ../external/SDL/src/core/linux/SDL_udev.c
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o -c /workspaces/Test/external/SDL/src/core/linux/SDL_udev.c
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.i"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /workspaces/Test/external/SDL/src/core/linux/SDL_udev.c > CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.i
+
+external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.s"
+	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /workspaces/Test/external/SDL/src/core/linux/SDL_udev.c -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.s
+
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o: ../external/SDL/src/core/linux/SDL_evdev.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o -c /workspaces/Test/external/SDL/src/core/linux/SDL_evdev.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.i: cmake_force
@@ -2935,7 +3855,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o: ../ext
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o -c /workspaces/Test/external/SDL/src/core/linux/SDL_evdev_kbd.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.i: cmake_force
@@ -2951,7 +3871,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_capabilities.c.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_capabilities.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_capabilities.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_capabilities.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_capabilities.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_capabilities.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_capabilities.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_capabilities.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_capabilities.c.o -c /workspaces/Test/external/SDL/src/core/linux/SDL_evdev_capabilities.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_capabilities.c.i: cmake_force
@@ -2967,7 +3887,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_threadprio.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_threadprio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_threadprio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_threadprio.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_threadprio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_threadprio.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_threadprio.c.o -MF CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_threadprio.c.o.d -o CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_threadprio.c.o -c /workspaces/Test/external/SDL/src/core/linux/SDL_threadprio.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_threadprio.c.i: cmake_force
@@ -2983,7 +3903,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_8bitdo.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.i: cmake_force
@@ -2999,7 +3919,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_combined.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.i: cmake_force
@@ -3015,7 +3935,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.i: cmake_force
@@ -3031,7 +3951,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_gamecube.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.i: cmake_force
@@ -3047,7 +3967,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamesir.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamesir.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamesir.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamesir.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamesir.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamesir.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamesir.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamesir.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamesir.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_gamesir.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamesir.c.i: cmake_force
@@ -3063,7 +3983,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.o: 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_gip.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.i: cmake_force
@@ -3079,7 +3999,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.o
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_lg4ff.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.i: cmake_force
@@ -3095,7 +4015,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o:
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_luna.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.i: cmake_force
@@ -3111,7 +4031,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o: 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_ps3.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.i: cmake_force
@@ -3127,7 +4047,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o: 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_ps4.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.i: cmake_force
@@ -3143,7 +4063,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o: 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_ps5.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.i: cmake_force
@@ -3159,7 +4079,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_rumble.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.i: cmake_force
@@ -3175,7 +4095,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_shield.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.i: cmake_force
@@ -3191,7 +4111,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_sinput.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.i: cmake_force
@@ -3207,7 +4127,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_stadia.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.i: cmake_force
@@ -3223,7 +4143,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_steam.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.i: cmake_force
@@ -3239,7 +4159,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hor
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_steam_hori.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.i: cmake_force
@@ -3255,7 +4175,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_tri
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_steam_triton.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.i: cmake_force
@@ -3271,7 +4191,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_steamdeck.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.i: cmake_force
@@ -3287,7 +4207,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_switch.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.i: cmake_force
@@ -3303,7 +4223,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.i: cmake_force
@@ -3319,7 +4239,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o: 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_wii.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.i: cmake_force
@@ -3335,7 +4255,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_xbox360.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.i: cmake_force
@@ -3351,7 +4271,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_xbox360w.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.i: cmake_force
@@ -3367,7 +4287,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_xboxone.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.i: cmake_force
@@ -3383,7 +4303,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapi_zuiki.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.i: cmake_force
@@ -3399,7 +4319,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_hidapijoystick.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.i: cmake_force
@@ -3415,7 +4335,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descripto
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.o -c /workspaces/Test/external/SDL/src/joystick/hidapi/SDL_report_descriptor.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.i: cmake_force
@@ -3431,7 +4351,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o: 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o -MF CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o.d -o CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o -c /workspaces/Test/external/SDL/src/haptic/hidapi/SDL_hidapihaptic.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.i: cmake_force
@@ -3447,7 +4367,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o -MF CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o.d -o CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o -c /workspaces/Test/external/SDL/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.i: cmake_force
@@ -3463,7 +4383,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/linux/SDL_sysjoystick.c.o: 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/linux/SDL_sysjoystick.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/linux/SDL_sysjoystick.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/linux/SDL_sysjoystick.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/linux/SDL_sysjoystick.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/linux/SDL_sysjoystick.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/linux/SDL_sysjoystick.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/linux/SDL_sysjoystick.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/linux/SDL_sysjoystick.c.o -c /workspaces/Test/external/SDL/src/joystick/linux/SDL_sysjoystick.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/linux/SDL_sysjoystick.c.i: cmake_force
@@ -3479,7 +4399,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o: ..
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o -MF CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o.d -o CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o -c /workspaces/Test/external/SDL/src/thread/pthread/SDL_systhread.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.i: cmake_force
@@ -3495,7 +4415,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o: ../
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o -MF CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o.d -o CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o -c /workspaces/Test/external/SDL/src/thread/pthread/SDL_sysmutex.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.i: cmake_force
@@ -3511,7 +4431,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o: ../e
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o -MF CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o.d -o CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o -c /workspaces/Test/external/SDL/src/thread/pthread/SDL_syscond.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.i: cmake_force
@@ -3527,7 +4447,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o: ..
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o -MF CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o.d -o CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o -c /workspaces/Test/external/SDL/src/thread/pthread/SDL_sysrwlock.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.i: cmake_force
@@ -3543,7 +4463,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o -MF CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o.d -o CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o -c /workspaces/Test/external/SDL/src/thread/pthread/SDL_systls.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.i: cmake_force
@@ -3559,7 +4479,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o -MF CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o.d -o CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o -c /workspaces/Test/external/SDL/src/thread/pthread/SDL_syssem.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.i: cmake_force
@@ -3575,7 +4495,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/unix/SDL_sysurl.c.o: ../externa
 external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/unix/SDL_sysurl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/unix/SDL_sysurl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/unix/SDL_sysurl.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/unix/SDL_sysurl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/unix/SDL_sysurl.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/unix/SDL_sysurl.c.o -MF CMakeFiles/SDL3-shared.dir/src/misc/unix/SDL_sysurl.c.o.d -o CMakeFiles/SDL3-shared.dir/src/misc/unix/SDL_sysurl.c.o -c /workspaces/Test/external/SDL/src/misc/unix/SDL_sysurl.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/misc/unix/SDL_sysurl.c.i: cmake_force
@@ -3591,7 +4511,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o: ../ext
 external/SDL/CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o -MF CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o.d -o CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o -c /workspaces/Test/external/SDL/src/power/linux/SDL_syspower.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.i: cmake_force
@@ -3607,7 +4527,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/unix/SDL_syslocale.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/unix/SDL_syslocale.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/unix/SDL_syslocale.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/unix/SDL_syslocale.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/unix/SDL_syslocale.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/unix/SDL_syslocale.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/unix/SDL_syslocale.c.o -MF CMakeFiles/SDL3-shared.dir/src/locale/unix/SDL_syslocale.c.o.d -o CMakeFiles/SDL3-shared.dir/src/locale/unix/SDL_syslocale.c.o -c /workspaces/Test/external/SDL/src/locale/unix/SDL_syslocale.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/locale/unix/SDL_syslocale.c.i: cmake_force
@@ -3623,7 +4543,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.o -MF CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.o.d -o CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.o -c /workspaces/Test/external/SDL/src/filesystem/unix/SDL_sysfilesystem.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.i: cmake_force
@@ -3639,7 +4559,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o -MF CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o.d -o CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o -c /workspaces/Test/external/SDL/src/storage/generic/SDL_genericstorage.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.i: cmake_force
@@ -3655,7 +4575,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o: 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o -MF CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o.d -o CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o -c /workspaces/Test/external/SDL/src/storage/steam/SDL_steamstorage.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.i: cmake_force
@@ -3671,7 +4591,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o: .
 external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o -MF CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o.d -o CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o -c /workspaces/Test/external/SDL/src/filesystem/posix/SDL_sysfsops.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.i: cmake_force
@@ -3687,7 +4607,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: ../extern
 external/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o -MF CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o.d -o CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o -c /workspaces/Test/external/SDL/src/time/unix/SDL_systime.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.i: cmake_force
@@ -3703,7 +4623,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o: ../exte
 external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o -MF CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o.d -o CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o -c /workspaces/Test/external/SDL/src/timer/unix/SDL_systimer.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.i: cmake_force
@@ -3719,7 +4639,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o: ../external/S
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o -MF CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o.d -o CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o -c /workspaces/Test/external/SDL/src/dialog/SDL_dialog.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.i: cmake_force
@@ -3735,7 +4655,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o: ../exte
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o -MF CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o.d -o CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o -c /workspaces/Test/external/SDL/src/dialog/SDL_dialog_utils.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.i: cmake_force
@@ -3751,7 +4671,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_unixdialog.c.o: ../e
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_unixdialog.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_unixdialog.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_unixdialog.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_unixdialog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_unixdialog.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_unixdialog.c.o -MF CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_unixdialog.c.o.d -o CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_unixdialog.c.o -c /workspaces/Test/external/SDL/src/dialog/unix/SDL_unixdialog.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_unixdialog.c.i: cmake_force
@@ -3767,7 +4687,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_portaldialog.c.o: ..
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_portaldialog.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_portaldialog.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_portaldialog.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_portaldialog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_portaldialog.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_portaldialog.c.o -MF CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_portaldialog.c.o.d -o CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_portaldialog.c.o -c /workspaces/Test/external/SDL/src/dialog/unix/SDL_portaldialog.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_portaldialog.c.i: cmake_force
@@ -3783,7 +4703,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitydialog.c.o: ..
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitydialog.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitydialog.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitydialog.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitydialog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitydialog.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitydialog.c.o -MF CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitydialog.c.o.d -o CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitydialog.c.o -c /workspaces/Test/external/SDL/src/dialog/unix/SDL_zenitydialog.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitydialog.c.i: cmake_force
@@ -3799,7 +4719,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitymessagebox.c.o
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitymessagebox.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitymessagebox.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitymessagebox.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitymessagebox.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitymessagebox.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitymessagebox.c.o -MF CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitymessagebox.c.o.d -o CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitymessagebox.c.o -c /workspaces/Test/external/SDL/src/dialog/unix/SDL_zenitymessagebox.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitymessagebox.c.i: cmake_force
@@ -3815,7 +4735,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o: ../external
 external/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o -MF CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o.d -o CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o -c /workspaces/Test/external/SDL/src/process/SDL_process.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.i: cmake_force
@@ -3831,7 +4751,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o: 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o -MF CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o.d -o CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o -c /workspaces/Test/external/SDL/src/process/posix/SDL_posixprocess.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.i: cmake_force
@@ -3847,7 +4767,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o -c /workspaces/Test/external/SDL/src/video/offscreen/SDL_offscreenevents.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.i: cmake_force
@@ -3863,7 +4783,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebu
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o -c /workspaces/Test/external/SDL/src/video/offscreen/SDL_offscreenframebuffer.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.i: cmake_force
@@ -3879,7 +4799,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengle
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o -c /workspaces/Test/external/SDL/src/video/offscreen/SDL_offscreenopengles.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.i: cmake_force
@@ -3895,7 +4815,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o -c /workspaces/Test/external/SDL/src/video/offscreen/SDL_offscreenvideo.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.i: cmake_force
@@ -3911,7 +4831,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o -c /workspaces/Test/external/SDL/src/video/offscreen/SDL_offscreenvulkan.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.i: cmake_force
@@ -3927,7 +4847,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o -c /workspaces/Test/external/SDL/src/video/offscreen/SDL_offscreenwindow.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.i: cmake_force
@@ -3943,7 +4863,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o: ../external
 external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o -MF CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o.d -o CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o -c /workspaces/Test/external/SDL/src/tray/SDL_tray_utils.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.i: cmake_force
@@ -3959,7 +4879,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o: ../ex
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o -MF CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o.d -o CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o -c /workspaces/Test/external/SDL/src/gpu/vulkan/SDL_gpu_vulkan.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.i: cmake_force
@@ -3975,7 +4895,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o: ..
 external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o -MF CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o.d -o CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o -c /workspaces/Test/external/SDL/src/sensor/dummy/SDL_dummysensor.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.i: cmake_force
@@ -3991,7 +4911,7 @@ external/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c
 external/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 external/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 external/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o: external/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object external/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o"
 	cd /workspaces/Test/build/external/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -include /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT external/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o -MF CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o.d -o CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o -c /workspaces/Test/external/SDL/src/main/generic/SDL_sysmain_callbacks.c
 
 external/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.i: cmake_force
@@ -4149,6 +5069,7 @@ SDL3__shared_OBJECTS = \
 "CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.o" \
@@ -4173,6 +5094,44 @@ SDL3__shared_OBJECTS = \
 "CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xtest.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/video/x11/edid-parse.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o" \
+"CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_fribidi.c.o" \
@@ -4181,6 +5140,12 @@ SDL3__shared_OBJECTS = \
 "CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_capabilities.c.o" \
@@ -4399,6 +5364,7 @@ external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/joyst
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.o
@@ -4423,6 +5389,44 @@ external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xtest.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/edid-parse.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_fribidi.c.o
@@ -4431,6 +5435,12 @@ external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o
+external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_capabilities.c.o
@@ -4503,7 +5513,7 @@ external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/build.mak
 external/SDL/libSDL3.so.0.5.0: external/SDL/libSDL_uclibc.a
 external/SDL/libSDL3.so.0.5.0: ../external/SDL/src/dynapi/SDL_dynapi.sym
 external/SDL/libSDL3.so.0.5.0: external/SDL/CMakeFiles/SDL3-shared.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Linking C shared library libSDL3.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Linking C shared library libSDL3.so"
 	cd /workspaces/Test/build/external/SDL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL3-shared.dir/link.txt --verbose=$(VERBOSE)
 	cd /workspaces/Test/build/external/SDL && $(CMAKE_COMMAND) -E cmake_symlink_library libSDL3.so.0.5.0 libSDL3.so.0 libSDL3.so
 
@@ -4521,7 +5531,56 @@ external/SDL/CMakeFiles/SDL3-shared.dir/clean:
 	cd /workspaces/Test/build/external/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL3-shared.dir/cmake_clean.cmake
 .PHONY : external/SDL/CMakeFiles/SDL3-shared.dir/clean
 
-external/SDL/CMakeFiles/SDL3-shared.dir/depend:
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/alpha-modifier-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/alpha-modifier-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/color-management-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/color-management-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/cursor-shape-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/cursor-shape-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/fractional-scale-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/fractional-scale-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/frog-color-management-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/frog-color-management-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/pointer-warp-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/pointer-warp-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/primary-selection-unstable-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/single-pixel-buffer-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/tablet-v2-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/tablet-v2-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/text-input-unstable-v3-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/text-input-unstable-v3-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/viewporter-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/viewporter-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/wayland-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/wayland-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-activation-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-activation-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-dialog-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-dialog-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-output-unstable-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-shell-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-shell-protocol.c
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-client-protocol.h
+external/SDL/CMakeFiles/SDL3-shared.dir/depend: external/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c
 	cd /workspaces/Test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspaces/Test /workspaces/Test/external/SDL /workspaces/Test/build /workspaces/Test/build/external/SDL /workspaces/Test/build/external/SDL/CMakeFiles/SDL3-shared.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/SDL/CMakeFiles/SDL3-shared.dir/depend
 

@@ -93,6 +93,16 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # both_sources at external/SDL/cmake/sdlcommands.cmake:29 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/workspaces/Test/external/SDL/src/audio/alsa/*.c")
+set(OLD_GLOB
+  "/workspaces/Test/external/SDL/src/audio/alsa/SDL_alsa_audio.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/workspaces/Test/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# both_sources at external/SDL/cmake/sdlcommands.cmake:29 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/workspaces/Test/external/SDL/src/audio/disk/*.c")
 set(OLD_GLOB
   "/workspaces/Test/external/SDL/src/audio/disk/SDL_diskaudio.c"
@@ -1302,6 +1312,28 @@ set(OLD_GLOB
   "/workspaces/Test/external/SDL/src/video/offscreen/SDL_offscreenvideo.h"
   "/workspaces/Test/external/SDL/src/video/offscreen/SDL_offscreenvulkan.h"
   "/workspaces/Test/external/SDL/src/video/offscreen/SDL_offscreenwindow.h"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/workspaces/Test/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# both_sources at external/SDL/cmake/sdlcommands.cmake:29 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/workspaces/Test/external/SDL/src/video/wayland/*.c")
+set(OLD_GLOB
+  "/workspaces/Test/external/SDL/src/video/wayland/SDL_waylandclipboard.c"
+  "/workspaces/Test/external/SDL/src/video/wayland/SDL_waylandcolor.c"
+  "/workspaces/Test/external/SDL/src/video/wayland/SDL_waylanddatamanager.c"
+  "/workspaces/Test/external/SDL/src/video/wayland/SDL_waylanddyn.c"
+  "/workspaces/Test/external/SDL/src/video/wayland/SDL_waylandevents.c"
+  "/workspaces/Test/external/SDL/src/video/wayland/SDL_waylandkeyboard.c"
+  "/workspaces/Test/external/SDL/src/video/wayland/SDL_waylandmessagebox.c"
+  "/workspaces/Test/external/SDL/src/video/wayland/SDL_waylandmouse.c"
+  "/workspaces/Test/external/SDL/src/video/wayland/SDL_waylandopengles.c"
+  "/workspaces/Test/external/SDL/src/video/wayland/SDL_waylandshmbuffer.c"
+  "/workspaces/Test/external/SDL/src/video/wayland/SDL_waylandvideo.c"
+  "/workspaces/Test/external/SDL/src/video/wayland/SDL_waylandvulkan.c"
+  "/workspaces/Test/external/SDL/src/video/wayland/SDL_waylandwindow.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
