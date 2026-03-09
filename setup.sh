@@ -2,25 +2,45 @@
 
 set -e
 
+# ===== Set German Keyboard Layout =====
+echo "Configuring German keyboard layout..."
+export DEBIAN_FRONTEND=noninteractive
+echo 'keyboard-configuration keyboard-configuration/layout select German' | debconf-set-selections
+echo 'keyboard-configuration keyboard-configuration/variant select German' | debconf-set-selections
+dpkg-reconfigure --frontend noninteractive keyboard-configuration > /dev/null 2>&1 || true
+echo "✓ German keyboard configured"
+echo ""
+
+# Cleanup function called on EXIT
 cleanup() {
+    echo ""
     echo "╔════════════════════════════════════════════╗"
     echo "║   Shutting down...                         ║"
     echo "╚════════════════════════════════════════════╝"
     echo ""
 
+    echo "Stopping XFCE..."
     pkill -f startxfce4 || true
     sleep 1
 
+    echo "Stopping websockify..."
     pkill -f websockify || true
     sleep 1
 
+    echo "Stopping x11vnc..."
     pkill x11vnc || true
     sleep 1
 
+    echo "Stopping Xvfb..."
     pkill Xvfb || true
     sleep 1
+
+    echo ""
+    echo "✓ All services stopped"
+    echo ""
 }
 
+# Register cleanup on EXIT (triggered by Ctrl+C or exit)
 trap cleanup EXIT
 
 echo "╔════════════════════════════════════════════╗"
@@ -51,7 +71,7 @@ echo "[2/4] Initializing SDL3 submodule..."
 
 cd /workspaces/Test
 
-# Prüfe ob .git existiert
+# Check if .git directory exists
 if [ ! -d ".git" ]; then
     echo "✗ Not a git repository"
     exit 1
@@ -132,8 +152,8 @@ echo ""
 echo "🌐 Access your desktop:"
 echo "   http://localhost:6080/vnc.html"
 echo ""
-echo "🖥️  Your app is on the desktop:"
-echo "   /root/Desktop/main"
+echo "Press Ctrl+C or type 'exit' to stop and shut down services..."
 echo ""
-echo "Double-click 'main' to start the application!"
-echo ""
+
+# Keep the script alive so desktop remains open
+tail -f /dev/null
