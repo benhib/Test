@@ -321,11 +321,17 @@ int main(int argc, char *argv[]) {
     printf("[PHASE 5] Closing application...\n");
     cleanup(&app);
 
+    FILE *file = fopen("../data/output.txt", "a");
+    fputs("TEST!!!\n", file);
+    fclose(file);
+
+
     printf("\n");
     printf("╔════════════════════════════════════════╗\n");
     printf("║  Application closed successfully      ║\n");
     printf("║  Output saved to: data/output.txt     ║\n");
     printf("╚════════════════════════════════════════╝\n");
+    printf("NEWWWWWW\n");
     printf("\n");
 
     return 0;
