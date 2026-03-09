@@ -1,35 +1,12 @@
 {
-  "name": "SDL3 Desktop Application",
+  "name": "SDL3 Desktop",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
-  "features": {
-    "ghcr.io/devcontainers/features/git:1": {},
-    "ghcr.io/devcontainers/features/github-cli:1": {}
-  },
-  "onCreateCommand": [
-    "apt-get", "update"
-  ],
-  "postCreateCommand": [
-    "bash",
-    "-c",
-    "set -e; apt-get install -y xvfb x11vnc novnc websockify xfce4 xfce4-terminal cmake build-essential libx11-dev libxext-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libxfixes-dev libxss-dev libxtst-dev libwayland-dev libxkbcommon-dev libdbus-1-dev libudev-dev libgl1-mesa-dev libasound2-dev pkg-config && bash .devcontainer/post-create.sh"
-  ],
+  "remoteUser": "root",
   "forwardPorts": [6080],
   "portsAttributes": {
     "6080": {
-      "label": "noVNC - Desktop GUI",
+      "label": "noVNC",
       "onAutoForward": "openBrowser"
-    }
-  },
-  "remoteUser": "root",
-  "remoteEnv": {
-    "DISPLAY": ":1"
-  },
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "ms-vscode.cpptools",
-        "twxs.cmake"
-      ]
     }
   }
 }
