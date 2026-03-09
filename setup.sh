@@ -2,6 +2,27 @@
 
 set -e
 
+cleanup() {
+    echo "╔════════════════════════════════════════════╗"
+    echo "║   Shutting down...                         ║"
+    echo "╚════════════════════════════════════════════╝"
+    echo ""
+
+    pkill -f startxfce4 || true
+    sleep 1
+
+    pkill -f websockify || true
+    sleep 1
+
+    pkill x11vnc || true
+    sleep 1
+
+    pkill Xvfb || true
+    sleep 1
+}
+
+trap cleanup EXIT
+
 echo "╔════════════════════════════════════════════╗"
 echo "║   SDL3 Codespaces Setup                    ║"
 echo "╚════════════════════════════════════════════╝"
@@ -61,17 +82,16 @@ mkdir -p build
 cd build
 
 echo "  → Running CMake..."
-cmake .. > cmake.log 2>&1 || (cat cmake.log && exit 1)
+cmake ..
 
 echo "  → Building..."
-make > make.log 2>&1 || (cat make.log && exit 1)
+make
 
 if [ ! -f "app" ]; then
     echo "✗ Build failed - executable not found"
-    exit 1
+else
+    echo "✓ Build successful"
 fi
-
-echo "✓ Build successful"
 echo ""
 
 # ===== Step 4: Start Desktop =====
