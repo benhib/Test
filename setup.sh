@@ -7,9 +7,9 @@ echo "║   SDL3 Codespaces Setup                    ║"
 echo "╚════════════════════════════════════════════╝"
 echo ""
 
-# ===== SCHRITT 1: Abhängigkeiten installieren =====
+# ===== STEP 1: Dependencies =====
 echo "[1/4] Installing dependencies..."
-echo "(Dies kann 3-5 Minuten dauern...)"
+echo "(This may take up to 5 minutes...)"
 echo ""
 
 apt-get update -qq
@@ -25,7 +25,7 @@ apt-get install -y -qq \
 echo "✓ Dependencies installed"
 echo ""
 
-# ===== SCHRITT 2: SDL3 Submodule initialisieren =====
+# ===== Step 2 : Submodules =====
 echo "[2/4] Initializing SDL3 submodule..."
 
 cd /workspaces/Test
@@ -44,9 +44,16 @@ else
     echo "✗ SDL3 CMakeLists.txt still not found"
     exit 1
 fi
+
+if [ -f "external/SDL_ttf/CMakeLists.txt" ]; then
+    echo "✓ SDL3_ttf submodule initialized"
+else
+    echo "✗ SDL3_ttf CMakeLists.txt still not found"
+    exit 1
+fi
 echo ""
 
-# ===== SCHRITT 3: Projekt bauen =====
+# ===== Step 3: Auto Build App =====
 echo "[3/4] Building SDL3 application..."
 
 rm -rf build
@@ -67,17 +74,11 @@ fi
 echo "✓ Build successful"
 echo ""
 
-# ===== SCHRITT 4: Desktop vorbereiten =====
+# ===== Step 4: Start Desktop =====
 echo "[4/4] Setting up desktop..."
 
 mkdir -p /root/Desktop
-cp app /root/Desktop/main
-chmod +x /root/Desktop/main
 
-echo "✓ App installed to /root/Desktop/main"
-echo ""
-
-# ===== Desktop Services starten =====
 echo "Starting desktop services..."
 echo ""
 
@@ -85,7 +86,7 @@ export DISPLAY=:1
 
 # Xvfb
 echo "  → Starting Xvfb..."
-nohup Xvfb :1 -screen 0 1024x768x24 > /tmp/xvfb.log 2>&1 &
+nohup Xvfb :1 -screen 0 1200x900x24 > /tmp/xvfb.log 2>&1 &
 sleep 2
 
 # x11vnc
