@@ -1,6 +1,7 @@
 {
-  "name": "LaTeX pre-installed",
+  "name": "LaTeX pre-installed mit Paketen",
   "image": "qmcgaw/latexdevcontainer:latest",
+  "postCreateCommand": "tlmgr update --self && tlmgr install collection-langgerman collection-latexextra",
   "customizations": {
     "vscode": {
       "extensions": [
