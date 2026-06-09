@@ -1,13 +1,10 @@
 {
-  "name": "LaTeX Codespace",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "features": {
-    "ghcr.io/devcontainers/features/texlive:1": {}
-  },
+  "name": "LaTeX pre-installed",
+  "image": "qmcgaw/latexdevcontainer:latest",
   "customizations": {
     "vscode": {
       "extensions": [
-        "James-Yu.latex-workshop" // Installiert direkt die beste LaTeX-Erweiterung
+        "James-Yu.latex-workshop"
       ]
     }
   }
