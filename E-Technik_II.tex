@@ -1,0 +1,695 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{geometry}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{array}
+\usepackage{circuitikz}
+\usetikzlibrary{angles,quotes}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+\renewcommand{\tabularxcolumn}[1]{m{#1}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\geometry{margin=1.5cm}
+\setlist[itemize]{left=0pt,itemsep=2pt,topsep=2pt}
+
+% Zentrierter X-Typ für tabularx
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\title{\textbf{Formelsammlung: Grundlagen der Elektrotechnik II}}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Allgemein}
+
+\subsection*{Mittelwerte und Kennwerte}
+
+\textbf{Arithmetischer Mittelwert} $\rightarrow$ zeitliche Mittelung / Gleichanteil:
+\[ \overline{f} = \frac{1}{T} \int_{0}^{T} f(t) \, \mathrm{d}t \qquad \text{bei Sinus: } \overline{f} = 0 \]
+
+\textbf{Gleichrichtwert} $\rightarrow$ gleicher Strom im Mittel:
+\[ \overline{|f|} = \frac{1}{T} \int_{0}^{T} |f(t)| \, \mathrm{d}t = \frac{1}{2\pi} \int_{0}^{2\pi} |f(x)| \, \mathrm{d}x \qquad \text{bei Sinus: } \overline{|f|} = \frac{2}{\pi} \cdot \hat{A} \]
+
+\textbf{Effektivwert (RMS)} $\rightarrow$ gleiche thermische Leistung im Mittel:
+\[ f_{\text{eff}} = \sqrt{\frac{1}{T} \int_{0}^{T} f^2(t) \, \mathrm{d}t} = \sqrt{\frac{1}{2\pi} \int_{0}^{2\pi} f^2(x) \, \mathrm{d}x} \qquad \text{bei Sinus: } f_{\text{eff}} = \frac{\hat{A}}{\sqrt{2}} \]
+
+\subsection*{Grundgleichungen und Signal-Addition}
+\[ \omega = 2\pi f \qquad T = \frac{1}{f} \qquad \varphi_{ui} = \varphi_u - \varphi_i \]
+
+\textbf{Addition von zwei Sinussignalen gleicher Frequenz mit Phasenverschiebung:}
+\[ u_1 = A_1 \cdot \sin(\omega t + \varphi_1) \qquad u_2 = A_2 \cdot \sin(\omega t + \varphi_2) \]
+\[ a = A_1 \cdot \cos(\varphi_1) + A_2 \cdot \cos(\varphi_2) \qquad b = A_1 \cdot \sin(\varphi_1) + A_2 \cdot \sin(\varphi_2) \]
+\[ \hat{A}_{\text{ges}} = \sqrt{a^2 + b^2} \qquad \varphi_{\text{ges}} = \arctan\left(\frac{b}{a}\right) \qquad u_{\text{ges}} = \hat{A}_{\text{ges}} \cdot \sin(\omega t + \varphi_{\text{ges}}) \]
+
+\subsection*{Phasenwinkel \& Quadranten-Korrektur}
+\begin{center}
+\small
+\begin{tabular}{ccccc}
+\toprule
+\textbf{Quadrant} & \textbf{Realteil ($a$)} & \textbf{Imaginärteil ($b$)} & \textbf{Mathematischer Winkel $\varphi$} & \textbf{Taschenrechner-Korrektur} \\
+\midrule
+\textbf{I} & $> 0$ & $> 0$ & $\arctan(b/a)$ & $\varphi_{\text{real}} = \arctan(b/a)$ \\ \addlinespace
+\textbf{II} & $< 0$ & $> 0$ & $\arctan(b/a) + 180^\circ$ & $\varphi_{\text{real}} = \arctan(b/a) + 180^\circ$ \\ \addlinespace
+\textbf{III} & $< 0$ & $< 0$ & $\arctan(b/a) - 180^\circ$ & $\varphi_{\text{real}} = \arctan(b/a) - 180^\circ$ \\ \addlinespace
+\textbf{IV} & $> 0$ & $< 0$ & $\arctan(b/a)$ & $\varphi_{\text{real}} = \arctan(b/a) + 360^\circ$ \\ \bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{Komplexe Transformation}
+\[ u(t) = \hat{u}\sin(\omega t + \varphi_u) \quad \rightarrow \quad \underline{U} = \hat{U} \cdot e^{\mathrm{j}\varphi_u} = \hat{U} \cdot (\cos(\varphi_u) + \mathrm{j}\sin\varphi_u) \qquad \text{mit } \hat{U} = \frac{\hat{u}}{\sqrt{2}} \]
+
+\textbf{Komplexe Widerstände (Impedanz und Admittanz):}
+\[ \underline{Z} = \frac{\underline{U}}{\underline{I}} = R + \mathrm{j}X = Z \cdot e^{\mathrm{j}\varphi_z} \implies \underline{Y} = \frac{1}{\underline{Z}} = G + \mathrm{j}B \]
+\[ \text{Scheinwert / Betrag: } Z = |\underline{Z}| = \sqrt{a^2 + b^2} = \sqrt{R^2 + X^2} \qquad \text{Phasenwinkel: } \varphi_z = \arctan\left(\frac{X}{R}\right) \]
+
+\subsection*{Komplexe Rechenregeln}
+Gegeben: $\underline{Z}_1 = a_1 + \mathrm{j}b_1 = Z_1 e^{\mathrm{j}\varphi_1}$ \quad und \quad $\underline{Z}_2 = a_2 + \mathrm{j}b_2 = Z_2 e^{\mathrm{j}\varphi_2}$
+
+\begin{tabularx}{\textwidth}{rX}
+\textbf{Addition / Subtraktion:} & $\underline{Z}_1 \pm \underline{Z}_2 = (a_1 \pm a_2) + \mathrm{j}(b_1 \pm b_2)$ \\ \addlinespace
+\textbf{Multiplikation:} & $\underline{Z}_1 \cdot \underline{Z}_2 = (Z_1 \cdot Z_2) \cdot e^{\mathrm{j}(\varphi_1 + \varphi_2)} = (a_1 a_2 - b_1 b_2) + \mathrm{j}(a_1 b_2 + a_2 b_1)$ \\ \addlinespace
+\textbf{Division:} & \dots \dots \dots \\ \addlinespace
+\textbf{Konjugiert komplex:} & $\underline{Z}^* = a - \mathrm{j}b = Z \cdot e^{-\mathrm{j}\varphi}$ \\ \addlinespace
+\textbf{Kehrwert:} & $\frac{1}{\underline{Z}} = \frac{\underline{Z}^*}{|\underline{Z}|^2} = \frac{a - \mathrm{j}b}{a^2 + b^2} = \frac{a}{a^2 + b^2} - \mathrm{j}\frac{b}{a^2 + b^2}$
+\end{tabularx}
+
+\section{Bauteile}
+
+\begin{tabularx}{\textwidth}{lXX}
+\toprule
+\textbf{Bauteil} & \textbf{Wechselstrom-Kenngrößen} & \textbf{Phasenbeziehung} \\
+\midrule
+\textbf{Ohmscher Widerstand} & $\underline{Z} = R \qquad \underline{Y} = \frac{1}{R}$ & $\varphi_{ui} = 0^\circ$ \quad (Spannung und Strom in Phase) \\ \addlinespace
+\textbf{Ideale Spule} & $\underline{Z} = \mathrm{j}\omega L \qquad \underline{Y} = -\mathrm{j}\frac{1}{\omega L}$ & $\varphi_{ui} = +90^\circ$ \quad (Der Strom eilt der Spannung nach) \\ \addlinespace
+\textbf{Idealer Kondensator} & $\underline{Z} = -\mathrm{j}\frac{1}{\omega C} = \frac{1}{\mathrm{j}\omega C} \qquad \underline{Y} = \mathrm{j}\omega C$ & $\varphi_{ui} = -90^\circ$ \quad (Der Strom eilt der Spannung vor) \\ \bottomrule
+\end{tabularx}
+
+\subsection*{Reale Bauteile}
+\begin{tabularx}{\textwidth}{XX}
+\textbf{Reale Spule (Reihe $R-L$):} & \textbf{Realer Kondensator (Parallel $R-C$):} \\
+$\tan(\delta) = d = \frac{R}{\omega L} = \frac{1}{\tan(\varphi_{ui})}$ & $\tan(\varphi_{ui}) = -\omega C R$ \\ \addlinespace
+$Q = \tan(\varphi_{ui}) = \frac{\omega L}{R} = \frac{1}{d}$ & $d = \tan(\delta) = \frac{1}{\omega C R} \qquad Q = \tan(\varphi_{ui}) = -\omega C R = \frac{1}{d}$ \\
+\multicolumn{2}{l}{\small \textit{Mit $\delta$: Verlustwinkel, $d$: Verlustfaktor, $Q$: Gütefaktor}}
+\end{tabularx}
+
+\section{Schaltungen}
+
+\subsection{R-C Reihenschaltung}
+\begin{center}
+\begin{circuitikz}[scale=1, transform shape]
+    \draw (0,2) to[short, o-, i={\color{red}$\underline{I}$}] (1,2)
+          to[R, l=$R$] (2.5,2)
+          to[C, l=$C$] (4,2)
+          to[short, -o] (5,2);
+    \node[above=1cm] at (0,1) {\color{blue}$\underline{U}$};
+\end{circuitikz}
+\end{center}
+
+\noindent
+\begin{tabularx}{\textwidth}{XX}
+\begin{itemize}
+\item $\underline{Z} = R - \mathrm{j}\frac{1}{\omega C}$
+\item $\underline{Y} = \frac{R + \mathrm{j}\frac{1}{\omega C}}{R^2 + \left(\frac{1}{\omega C}\right)^2}$
+\item $\varphi_{ui} = \arctan\left(-\frac{1}{\omega C R}\right)$
+\item \textbf{Transformation nach Parallel:}
+\item $R' = R \cdot \left(1 + \frac{1}{(\omega C R)^2}\right)$
+\item $C' = \frac{C}{1 + (\omega C R)^2}$
+\end{itemize}
+&
+\begin{center}
+\begin{tikzpicture}[scale=1.3, >=stealth]
+\coordinate (O) at (0,0);
+\coordinate (UR) at (1.6,0);
+\coordinate (UC) at (1.6,-1.2);
+\draw[dashed, gray!80] (0.8,-0.6) circle (1.0);
+\draw[line width=1.2pt, red, ->] (O) -- (2.4,0) node[right] {$\underline{I}$};
+\draw[thick, blue, ->] (O) -- (UR) node[above] {$\underline{U}_R$};
+\draw[thick, blue, ->] (UR) -- (UC) node[right] {$\underline{U}_C$};
+\draw[thick, blue, ->] (O) -- (UC) node[below left] {$\underline{U}_{\text{ges}}$};
+\draw[gray] (1.45,0) -- (1.45,-0.15) -- (1.6,-0.15);
+\draw[->, gray, thin] (0.5,0) arc (0:-36.8:0.5);
+\node[blue] at (0.7,-0.2) {\small $\varphi_{ui}$};
+\end{tikzpicture}
+\end{center}
+\\ \end{tabularx}
+
+\subsection{R-C Parallelschaltung}
+\begin{center}
+\begin{circuitikz}[scale=0.9, transform shape]
+\draw (0,1) to[short, o-, i={\color{red}$\underline{I}$}] (1,1) -- (1.5,1);
+\draw (1.5,1) -- (1.5,1.8) to[R, l=$R'$] (3.5,1.8) -- (3.5,1);
+\draw (1.5,1) -- (1.5,0.2) to[C, l=$C'$] (3.5,0.2) -- (3.5,1);
+\draw (3.5,1) -- (4,1) to[short, -o] (5,1);
+\node[above=0.2cm] at (0,1) {\color{blue}$\underline{U}$};
+\end{circuitikz}
+\end{center}
+
+\noindent
+\begin{tabularx}{\textwidth}{XX}
+\begin{itemize}
+\item $\underline{Z} = \frac{R' - \mathrm{j}\omega C' R'^2}{1 + (\omega C' R')^2}$
+\item $\underline{Y} = \frac{1}{R'} + \mathrm{j}\omega C'$
+\item $\varphi_{ui} = \arctan(-\omega C' R')$
+\item \textbf{Transformation nach Reihe:}
+\item $R = \frac{R'}{1 + (\omega C' R')^2}$
+\item $C = C' \cdot \left(1 + \frac{1}{(\omega C' R')^2}\right)$
+\end{itemize}
+&
+\begin{center}
+\begin{tikzpicture}[scale=1.3, >=stealth]
+\coordinate (O) at (0,0);
+\coordinate (IR) at (1.6,0);
+\coordinate (IC) at (1.6,1.2);
+\draw[dashed, gray!80] (0.8,0.6) circle (1.0);
+\draw[line width=1.2pt, blue, ->] (O) -- (2.4,0) node[right] {$\underline{U}$};
+\draw[thick, red, ->] (O) -- (IR) node[below] {$\underline{I}_{R'}$};
+\draw[thick, red, ->] (IR) -- (IC) node[right] {$\underline{I}_{C'}$};
+\draw[thick, red, ->] (O) -- (IC) node[above left] {$\underline{I}_{\text{ges}}$};
+\draw[gray] (1.45,0) -- (1.45,0.15) -- (1.6,0.15);
+\draw[->, gray, thin] (0.5,0) arc (0:36.8:0.5);
+\node[red] at (0.7,0.2) {\small $\varphi_{ui}$};
+\end{tikzpicture}
+\end{center}
+\\ \end{tabularx}
+
+\subsection{R-L Reihenschaltung}
+\begin{center}
+\begin{circuitikz}[scale=1, transform shape]
+    \draw (0,2) to[short, o-, i={\color{red}$\underline{I}$}] (1,2)
+          to[R, l=$R$] (2.5,2)
+          to[L, l=$L$] (4,2)
+          to[short, -o] (5,2);
+    \node[above=1cm] at (0,1) {\color{blue}$\underline{U}$};
+\end{circuitikz}
+\end{center}
+
+\noindent
+\begin{tabularx}{\textwidth}{XX}
+\begin{itemize}
+\item $\underline{Z} = R + \mathrm{j}\omega L$
+\item $\underline{Y} = \frac{R - \mathrm{j}\omega L}{R^2 + (\omega L)^2}$
+\item $\varphi_{ui} = \arctan\left(\frac{\omega L}{R}\right)$
+\item \textbf{Transformation nach Parallel:}
+\item $R' = R \cdot \left(1 + \left(\frac{\omega L}{R}\right)^2\right)$
+\item $L' = L \cdot \left(1 + \left(\frac{R}{\omega L}\right)^2\right)$
+\end{itemize}
+&
+\begin{center}
+\begin{tikzpicture}[scale=1.3, >=stealth]
+\coordinate (O) at (0,0);
+\coordinate (UR) at (1.6,0);
+\coordinate (UL) at (1.6,1.2);
+\draw[dashed, gray!80] (0.8,0.6) circle (1.0);
+\draw[line width=1.2pt, red, ->] (O) -- (2.4,0) node[right] {$\underline{I}$};
+\draw[thick, blue, ->] (O) -- (UR) node[below] {$\underline{U}_R$};
+\draw[thick, blue, ->] (UR) -- (UL) node[right] {$\underline{U}_L$};
+\draw[thick, blue, ->] (O) -- (UL) node[above left] {$\underline{U}_{\text{ges}}$};
+\draw[gray] (1.45,0) -- (1.45,0.15) -- (1.6,0.15);
+\draw[->, gray, thin] (0.5,0) arc (0:36.8:0.5);
+\node[blue] at (0.7,0.2) {\small $\varphi_{ui}$};
+\end{tikzpicture}
+\end{center}
+\\ \end{tabularx}
+
+\subsection{R-L Parallelschaltung}
+\begin{center}
+\begin{circuitikz}[scale=0.9, transform shape]
+\draw (0,1) to[short, o-, i={\color{red}$\underline{I}$}] (1,1) -- (1.5,1);
+\draw (1.5,1) -- (1.5,1.8) to[R, l=$R'$] (3.5,1.8) -- (3.5,1);
+\draw (1.5,1) -- (1.5,0.2) to[L, l=$L'$] (3.5,0.2) -- (3.5,1);
+\draw (3.5,1) -- (4,1) to[short, -o] (5,1);
+\node[above=0.2cm] at (0,1) {\color{blue}$\underline{U}$};
+\end{circuitikz}
+\end{center}
+
+\noindent
+\begin{tabularx}{\textwidth}{XX}
+\begin{itemize}
+\item $\underline{Z} = \frac{\omega^2 L'^2 R' + \mathrm{j}\omega L' R'^2}{R'^2 + (\omega L')^2}$
+\item $\underline{Y} = \frac{1}{R'} - \mathrm{j}\frac{1}{\omega L'}$
+\item $\varphi_{ui} = \arctan\left(\frac{R'}{\omega L'}\right)$
+\item \textbf{Transformation nach Reihe:}
+\item $R = \frac{R'}{1 + \left(\frac{R'}{\omega L'}\right)^2}$
+\item $L = \frac{L'}{1 + \left(\frac{\omega L'}{R'}\right)^2}$
+\end{itemize}
+&
+\begin{center}
+\begin{tikzpicture}[scale=1.3, >=stealth]
+\coordinate (O) at (0,0);
+\coordinate (IR) at (1.6,0);
+\coordinate (IL) at (1.6,-1.2);
+\draw[dashed, gray!80] (0.8,-0.6) circle (1.0);
+\draw[line width=1.2pt, blue, ->] (O) -- (2.4,0) node[right] {$\underline{U}$};
+\draw[thick, red, ->] (O) -- (IR) node[above] {$\underline{I}_{R'}$};
+\draw[thick, red, ->] (IR) -- (IL) node[right] {$\underline{I}_{L'}$};
+\draw[thick, red, ->] (O) -- (IL) node[below left] {$\underline{I}_{\text{ges}}$};
+\draw[gray] (1.45,0) -- (1.45,-0.15) -- (1.6,-0.15);
+\draw[->, gray, thin] (0.5,0) arc (0:-36.8:0.5);
+\node[red] at (0.7,-0.2) {\small $\varphi_{ui}$};
+\end{tikzpicture}
+\end{center}
+\\ \end{tabularx}
+
+\subsection{Schwingkreise}
+
+\subsection*{Allgemeine Kenngrößen}
+\begin{itemize}
+\item \textbf{Resonanzfrequenz:} $f_0 = \frac{1}{2\pi\sqrt{LC}} \quad \Leftrightarrow \quad \omega_0 = \frac{1}{\sqrt{LC}}$
+\item \textbf{Gütefaktor:} $Q = \frac{1}{d}$
+\item \textbf{Bandbreite:} $B = \frac{f_0}{Q}$ (Bereich, in dem $P \geq \frac{1}{2} P_{\text{max}}$ \quad liegt mittig um $f_0$) 
+\end{itemize}
+
+\subsubsection{L-C Schaltungen (Ungedämpfter Schwingkreis)}
+\begin{tabularx}{\textwidth}{X X}
+\textbf{L-C Reihenschaltung} & \textbf{L-C Parallelschaltung} \\
+\addlinespace
+\begin{center}
+\begin{circuitikz}[scale=0.75, transform shape]
+\draw (0,1) to[short, o-] (0.6,1)
+            to[L, l=$L$] (2.2,1)
+            to[C, l=$C$] (3.8,1)
+            to[short, -o] (4.4,1);
+\node[above=0.2cm] at (0,1) {\color{blue}$\underline{U}$};
+\node[below=0.2cm] at (2.2,1) {\color{red}$\underline{I}$};
+\end{circuitikz}
+\end{center}
+&
+\begin{center}
+\begin{circuitikz}[scale=0.75, transform shape]
+\draw (0,1) to[short, o-] (0.6,1) -- (1.0,1);
+\draw (1.0,1) -- (1.0,1.8) to[L, l=$L$] (2.8,1.8) -- (2.8,1);
+\draw (1.0,1) -- (1.0,0.2) to[C, l=$C$] (2.8,0.2) -- (2.8,1);
+\draw (2.8,1) -- (3.2,1) to[short, -o] (3.8,1);
+\node[above=0.2cm] at (0,1) {\color{blue}$\underline{U}$};
+\node[below=0.2cm] at (1.0,1) {\color{red}$\underline{I}$};
+\end{circuitikz}
+\end{center}
+\\
+\begin{itemize}
+\item $\underline{Z} = \mathrm{j}\left(\omega L - \frac{1}{\omega C}\right)$
+\item $\underline{Y} = -\mathrm{j}\frac{1}{\omega L - \frac{1}{\omega C}}$
+\item \textbf{Phasenwinkel / Verhalten:}
+\begin{itemize}
+\item Überresonanz ($\omega > \omega_0$): $\varphi_{ui} = +90^\circ$
+\item Unterresonanz ($\omega < \omega_0$): $\varphi_{ui} = -90^\circ$
+\item Resonanz ($\omega = \omega_0$): $\underline{Z} = 0$ (Kurzschluss)
+\end{itemize}
+\end{itemize}
+&
+\begin{itemize}
+\item $\underline{Z} = \mathrm{j}\frac{\omega L}{1 - \omega^2 L C}$
+\item $\underline{Y} = \mathrm{j}\left(\omega C - \frac{1}{\omega L}\right)$
+\item \textbf{Phasenwinkel / Verhalten:}
+\begin{itemize}
+\item Überresonanz ($\omega > \omega_0$): $\varphi_{ui} = -90^\circ$
+\item Unterresonanz ($\omega < \omega_0$): $\varphi_{ui} = +90^\circ$
+\item Resonanz ($\omega = \omega_0$): $\underline{Z} = \infty$ (Leerlauf)
+\end{itemize}
+\end{itemize}
+\\ \end{tabularx}
+
+\noindent
+\begin{tabularx}{\textwidth}{@{} Y | Y @{}}
+\textbf{R-L-C (Reihenschwingkreis)} & \textbf{R-L-C (Parallelschwingkreis)} \\
+\hline
+\begin{minipage}[t]{\linewidth}\centering
+\begin{circuitikz}[scale=0.8, transform shape]
+\draw (0,1) to[short, o-] (0.5,1)
+            to[R, l=$R$] (1.8,1)
+            to[L, l=$L$] (3.1,1)
+            to[C, l=$C$] (4.4,1)
+            to[short, -o] (4.9,1);
+\node[above=0.1cm] at (0,1) {\color{blue}$\underline{U}$};
+\node[below=0.1cm] at (1.0,1) {\color{red}$\underline{I}$};
+\end{circuitikz}
+
+\vspace{3mm}
+
+\begin{itemize}
+  \item $\underline{Z} = R + \mathrm{j}\!\left(\omega L - \dfrac{1}{\omega C}\right)$
+  \item $\underline{Y} = \dfrac{R - \mathrm{j}\!\left(\omega L - \dfrac{1}{\omega C}\right)}{R^2 + \left(\omega L - \dfrac{1}{\omega C}\right)^2}$
+  \item $\varphi_{ui} = \arctan\!\left(\dfrac{\omega L - 1/\omega C}{R}\right)$
+  \item $Q_r = \dfrac{1}{R}\sqrt{\dfrac{L}{C}}$
+  \item $\underline{Z}(\omega_0) = R$
+  \item $E_L = \dfrac{1}{2}L\hat{I}^2 = L I_{\mathrm{eff}}^2$
+  \item $P_R = R I_{\mathrm{eff}}^2 \;\rightarrow\; P \cdot T_0 = P \cdot \dfrac{2\pi}{\omega_0}$
+  \item Kennwiderstand: $Z_0 = \sqrt{\dfrac{L}{C}}$
+  \item Spannung an Bauteil: $U \cdot Q_r$
+\end{itemize}
+
+
+\begin{tikzpicture}[scale=0.72, >=stealth]
+\coordinate (O) at (0,0);
+\coordinate (UR) at (1.4,0);
+\coordinate (Uges) at (1.4,0.8);
+\draw[dashed, gray!80] (0.7,0.4) circle (0.8);
+\draw[line width=1.1pt, red, ->] (O) -- (2.1,0) node[right] {$\underline{I}$};
+\draw[thick, blue, ->] (O) -- (UR) node[below] {\small$\underline{U}_R$};
+\draw[thick, blue, ->] (UR) -- (Uges) node[above right] {\tiny$\underline{U}_L + \underline{U}_C$};
+\draw[thick, blue, ->] (O) -- (Uges) node[above left] {\small$\underline{U}_{\text{ges}}$};
+\draw[gray] (1.25,0) -- (1.25,0.12) -- (1.4,0.12);
+\node[blue] at (0.5,0.15) {\tiny $\varphi_{ui}$};
+\node[below=0.2cm, black] at (1.1,0) {\tiny $\omega > \omega_0$};
+\end{tikzpicture}
+\hfill
+\begin{tikzpicture}[scale=0.72, >=stealth]
+\coordinate (O2) at (0,0);
+\coordinate (UR2) at (1.4,0);
+\coordinate (Uges2) at (1.4,-0.8);
+\draw[dashed, gray!80] (0.7,-0.4) circle (0.8);
+\draw[line width=1.1pt, red, ->] (O2) -- (2.1,0) node[right] {$\underline{I}$};
+\draw[thick, blue, ->] (O2) -- (UR2) node[above] {\small$\underline{U}_R$};
+\draw[thick, blue, ->] (UR2) -- (Uges2) node[below right] {\tiny$\underline{U}_L + \underline{U}_C$};
+\draw[thick, blue, ->] (O2) -- (Uges2) node[below left] {\small$\underline{U}_{\text{ges}}$};
+\draw[gray] (1.25,0) -- (1.25,-0.12) -- (1.4,-0.12);
+\node[blue] at (0.5,-0.15) {\tiny $\varphi_{ui}$};
+\node[above=0.2cm, black] at (1.1,0) {\tiny $\omega < \omega_0$};
+\end{tikzpicture}
+
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}\centering
+\begin{circuitikz}[scale=0.8, transform shape]
+\draw (0,1) to[short, o-] (0.4,1) -- (0.7,1);
+\draw (0.7,1) -- (0.7,1.8) to[R, l=$R'$] (2.1,1.8) -- (2.1,1);
+\draw (0.7,1) to[L, l=$L'$] (2.1,1);
+\draw (0.7,1) -- (0.7,0.2) to[C, l=$C'$] (2.1,0.2) -- (2.1,1);
+\draw (2.1,1) -- (2.4,1) to[short, -o] (2.8,1);
+\node[above=0.1cm] at (0,1) {\color{blue}$\underline{U}$};
+\node[below=0.1cm] at (0.4,1) {\color{red}$\underline{I}$};
+\end{circuitikz}
+
+\vspace{3mm}
+
+\begin{itemize}
+  \item $\underline{Y} = \dfrac{1}{R'} + \mathrm{j}\!\left(\omega C' - \dfrac{1}{\omega L'}\right)$
+  \item $\underline{Z} = \dfrac{\dfrac{1}{R'} - \mathrm{j}\!\left(\omega C' - \dfrac{1}{\omega L'}\right)}{\left(\dfrac{1}{R'}\right)^2 + \left(\omega C' - \dfrac{1}{\omega L'}\right)^2}$
+  \item $\varphi_{ui} = \arctan\!\left(-R'\left(\omega C' - \dfrac{1}{\omega L'}\right)\right)$
+  \item $Q_p = R'\sqrt{\dfrac{C'}{L'}}$
+  \item $\underline{Y}(\omega_0) = \dfrac{1}{R'}$
+  \item $E_C = \dfrac{1}{2}C'\hat{U}^2 = C' U_{\mathrm{eff}}^2$
+  \item $P_{R'} = \dfrac{U_{\mathrm{eff}}^2}{R'} \;\rightarrow\; P \cdot T_0 = P \cdot \dfrac{2\pi}{\omega_0}$
+  \item Kennwiderstand: $Z_0 = \sqrt{\dfrac{L'}{C'}}$
+  \item Strom am Bauteil bei Resonanz: $I \cdot Q_p$
+\end{itemize}
+
+\begin{tikzpicture}[scale=0.72, >=stealth]
+\coordinate (Oa) at (0,0);
+\coordinate (IRa) at (1.4,0);
+\coordinate (Igesa) at (1.4,-0.8);
+\draw[dashed, gray!80] (0.7,-0.4) circle (0.8);
+\draw[line width=1.1pt, blue, ->] (Oa) -- (2.1,0) node[right] {$\underline{U}$};
+\draw[thick, red, ->] (Oa) -- (IRa) node[above] {\small$\underline{I}_{R'}$};
+\draw[thick, red, ->] (IRa) -- (Igesa) node[below right] {\tiny$\underline{I}_{C'} + \underline{I}_{L'}$};
+\draw[thick, red, ->] (Oa) -- (Igesa) node[below left] {\small$\underline{I}_{\text{ges}}$};
+\draw[gray] (1.25,0) -- (1.25,-0.12) -- (1.4,-0.12);
+\node[red] at (0.5,-0.15) {\tiny $\varphi_{ui}$};
+\node[above=0.2cm, black] at (1.1,0) {\tiny $\omega > \omega_0$};
+\end{tikzpicture}
+\hfill
+\begin{tikzpicture}[scale=0.72, >=stealth]
+\coordinate (Ob) at (0,0);
+\coordinate (IRb) at (1.4,0);
+\coordinate (Igesb) at (1.4,0.8);
+\draw[dashed, gray!80] (0.7,0.4) circle (0.8);
+\draw[line width=1.1pt, blue, ->] (Ob) -- (2.1,0) node[right] {$\underline{U}$};
+\draw[thick, red, ->] (Ob) -- (IRb) node[below] {\small$\underline{I}_{R'}$};
+\draw[thick, red, ->] (IRb) -- (Igesb) node[above right] {\tiny$\underline{I}_{C'} + \underline{I}_{L'}$};
+\draw[thick, red, ->] (Ob) -- (Igesb) node[above left] {\small$\underline{I}_{\text{ges}}$};
+\draw[gray] (1.25,0) -- (1.25,0.12) -- (1.4,0.12);
+\node[red] at (0.5,0.15) {\tiny $\varphi_{ui}$};
+\node[below=0.2cm, black] at (1.1,0) {\tiny $\omega < \omega_0$};
+\end{tikzpicture}
+
+\end{minipage}
+\\
+\hline
+
+\begin{minipage}[t]{\linewidth}\centering
+\vspace{2mm}
+\textbf{Grenzfall $\varphi_{ui}=\pm 45^\circ$:}
+\begin{itemize}
+  \item $\underline{Z}=\sqrt{2}\,R,\quad I_{\mathrm{Gr}}=\dfrac{1}{\sqrt{2}}I_{\max} \;\rightarrow\; E=\dfrac{1}{2}E_{\max}$
+  \item $\omega_{1,2}=\pm\dfrac{R}{2L}+\sqrt{\dfrac{R^2}{4L^2}+\dfrac{1}{LC}}\quad \omega_0 = \sqrt{\omega_1\omega_2}$
+  \item $B_{r\omega}=\Delta\omega_r=\dfrac{R}{L},\quad B_{rf}=\Delta f_r=\dfrac{R}{2\pi L}$
+  \item Dämpfung: $d_r=\dfrac{\Delta\omega_r}{\omega_0}=R\sqrt{\dfrac{C}{L}}=\dfrac{1}{Q_r}$
+  \item norm. Kreisfreq.: $\Omega = \dfrac{\omega}{\omega_0}$
+  \item Verstimmung: $v_r = \Omega - \dfrac{1}{\Omega} \;\rightarrow\;$ norm.$ V_r = Q_r \cdot v_r$
+\end{itemize}
+
+\vspace{2mm}
+\textbf{Transformation Reihe $\rightarrow$ Parallel:}
+\begin{itemize}
+  \item $R' = R \cdot (1+Q^2) = R + \dfrac{\left(\omega L - \frac{1}{\omega C}\right)^2}{R}$
+  \item $L' = L\cdot\dfrac{1+Q^2}{Q^2} = L + \dfrac{R^2}{\omega^2 L \left(1 - \frac{1}{\omega^2 LC}\right)^2}$
+  \item $C' = C\cdot\dfrac{Q^2}{1+Q^2} = \dfrac{C}{1 + \dfrac{R^2}{\left(\omega L - \frac{1}{\omega C}\right)^2}}$
+\end{itemize}
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}\centering
+\vspace{2mm}
+\textbf{Grenzfall $\varphi_{ui}=\pm 45^\circ$:}
+\begin{itemize}
+  \item $\underline{Y}=\dfrac{\sqrt{2}}{R'},\quad U_{\mathrm{Gr}}=\dfrac{1}{\sqrt{2}}U_{\max} \;\rightarrow\; P=\dfrac{1}{2}P_{\max}$
+  \item $\omega_{1,2}=\pm\dfrac{1}{2R'C'}+\sqrt{\dfrac{1}{4R'^2C'^2}+\dfrac{1}{L'C'}}\quad \omega_0 = \sqrt{\omega_1\omega_2}$
+  \item $B_{p\omega}=\Delta\omega_p=\dfrac{1}{R'C'},\quad B_{pf}=\Delta f_p=\dfrac{1}{2\pi R'C'}$
+  \item Dämpfung: $d_p=\dfrac{\Delta\omega_p}{\omega_0}=\dfrac{1}{R'}\sqrt{\dfrac{L'}{C'}}=\dfrac{1}{Q_p}$
+  \item norm. Kreisfreq.: $\Omega = \dfrac{\omega}{\omega_0}$
+  \item Verstimmung: $v_p = \Omega - \dfrac{1}{\Omega} \;\rightarrow\;$ norm. $ V_p = Q_p \cdot v_p$
+\end{itemize}
+
+\vspace{2mm}
+\textbf{Transformation Parallel $\rightarrow$ Reihe:}
+\begin{itemize}
+  \item $R = \dfrac{R'}{1+Q^2} = \dfrac{R'}{1 + R'^2 \left(\omega C' - \frac{1}{\omega L'}\right)^2}$
+  \item $L = L'\cdot\dfrac{Q^2}{1+Q^2} = \dfrac{\omega L' R'^2 \left(\omega C' - \frac{1}{\omega L'}\right)^2}{1 + R'^2 \left(\omega C' - \frac{1}{\omega L'}\right)^2} \cdot \dfrac{1}{\omega}$
+  \item $C = C'\cdot\dfrac{1+Q^2}{Q^2} = C' + \dfrac{1}{\omega^2 R'^2 C' \left(1 - \frac{1}{\omega^2 L'C'}\right)^2}$
+\end{itemize}
+\end{minipage}
+\\
+\end{tabularx}
+
+\section*{Allgemeine Schaltungsmethoden}
+
+\subsection*{1. Stromteiler}
+\begin{tabularx}{\textwidth}{@{} m{0.55\textwidth} >{\centering\arraybackslash}m{0.40\textwidth} @{}}
+$\underline{I}_1 = \underline{I} \cdot \frac{\underline{Z}_2}{\underline{Z}_1 + \underline{Z}_2} = \underline{I} \cdot \frac{\underline{Y}_1}{\underline{Y}_1 + \underline{Y}_2}$ \\[2mm]
+\textbf{Allgemeiner Zweig $k$:} \\ 
+$\underline{I}_k = \underline{I} \cdot \frac{\underline{Y}_k}{\underline{Y}_{\text{ges}}}$
+&
+\begin{circuitikz}[scale=1, transform shape]
+    \draw (0,2) to[short, o-, i=$\underline{I}$] (1,2) node[circ] (a) {};
+    \draw (0,0) to[short, o-] (1.5,0) node[circ] (b) {};
+    \draw (a) -- (0.7,2) to[generic, l=$\underline{Z}_1$, i=$\underline{I}_1$] (0.7,0) -- (b);
+    \draw (a) -- (2.3,2) to[generic, l_=$\underline{Z}_2$, i=$\underline{I}_2$] (2.3,0) -- (b);
+\end{circuitikz}
+\end{tabularx}
+
+\subsection*{2. Spannungsteiler (unbelastet)}
+\begin{tabularx}{\textwidth}{@{} m{0.55\textwidth} >{\centering\arraybackslash}m{0.40\textwidth} @{}}
+$\underline{U}_1 = \underline{U} \cdot \frac{\underline{Z}_1}{\underline{Z}_1 + \underline{Z}_2} = \underline{U} \cdot \frac{\underline{Y}_2}{\underline{Y}_1 + \underline{Y}_2}$ \\[2mm]
+\textbf{Allgemeiner Zweig $k$:} \\
+$\underline{U}_k = \underline{U} \cdot \frac{\underline{Z}_k}{\underline{Z}_{\text{ges}}}$
+&
+\begin{circuitikz}[scale=0.8, transform shape]
+    \draw (0,3) to[short, o-] (1.5,3) 
+          to[generic, l=$\underline{Z}_1$, v=$\underline{U}_1$] (1.5,1.5) 
+          to[generic, l=$\underline{Z}_2$, v=$\underline{U}_2$] (1.5,0) 
+          to[short, -o] (0,0);
+    \draw[blue, ->] (0.3,2.7) -- (0.3,0.3) node[midway, left] {$\underline{U}$};
+\end{circuitikz}
+\end{tabularx}
+
+\subsection*{3. Quellenumrechnung}
+\begin{tabularx}{\textwidth}{@{} m{0.50\textwidth} >{\centering\arraybackslash}m{0.45\textwidth} @{}}
+\textbf{Spannung $\to$ Strom:} \\
+$\underline{I}_q = \frac{\underline{U}_q}{\underline{Z}_i} = \underline{U}_q \cdot \underline{Y}_i \quad \text{mit} \quad \underline{Y}_i = \frac{1}{\underline{Z}_i}$ \\[4mm]
+\textbf{Strom $\to$ Spannung:} \\
+$\underline{U}_q = \frac{\underline{I}_q}{\underline{Y}_i} = \underline{I}_q \cdot \underline{Z}_i \quad \text{mit} \quad \underline{Z}_i = \frac{1}{\underline{Y}_i}$
+&
+\begin{circuitikz}[scale=0.65, transform shape]
+    \draw (0,0) to[V, l=$\underline{U}_q$] (0,2) 
+          to[generic, l=$\underline{Z}_i$] (1.8,2) to[short, -o] (2.2,2) node[right] {A};
+    \draw (0,0) to[short, -o] (2.2,0) node[right] {B};
+    \draw (3.1,1) node {\Large $\Longleftrightarrow$};
+    \draw (4.0,0) to[I, l=$\underline{I}_q$] (4.0,2) -- (5.4,2) node[circ] (c) {};
+    \draw (4.0,0) -- (5.4,0) node[circ] (d) {};
+    \draw (c) to[generic, l=$\underline{Y}_i$] (d);
+    \draw (c) to[short, -o] (6.0,2) node[right] {A};
+    \draw (d) to[short, -o] (6.0,0) node[right] {B};
+\end{circuitikz}
+\end{tabularx}
+
+\subsection*{4. Zusammenfassung von Quellen}
+\textbf{Reihenschaltung (reale Spannungsquellen):} \\
+$\underline{U}_{q,\text{ges}} = \underline{U}_{q,1} + \underline{U}_{q,2} + \dots + \underline{U}_{q,n} \quad \text{und} \quad \underline{Z}_{i,\text{ges}} = \underline{Z}_{i,1} + \underline{Z}_{i,2} + \dots + \underline{Z}_{i,n}$ \\[3mm]
+\textbf{Parallelschaltung (reale Stromquellen):} \\
+$\underline{I}_{q,\text{ges}} = \underline{I}_{q,1} + \underline{I}_{q,2} + \dots + \underline{I}_{q,n} \quad \text{und} \quad \underline{Y}_{i,\text{ges}} = \underline{Y}_{i,1} + \underline{Y}_{i,2} + \dots + \underline{Y}_{i,n}$
+
+\section{Zeichnerische Umformung von Impedanzen und Admittanzen (Inversionskreis)}
+
+Die Inversion erlaubt die grafische Transformation zwischen der komplexen Widerstandsebene (Impedanz $\underline{Z} = R + \mathrm{j}X$) und der komplexen Leitwertebene (Admittanz $\underline{Y} = G + \mathrm{j}B$) durch die Beziehung $\underline{Y} = \frac{1}{\underline{Z}}$.
+
+\subsection*{Geometrische Inversionsregeln}
+Bei der Abbildung $\underline{Y} = 1/\underline{Z}$ (bzw. umgekehrt) gelten folgende geometrische Gesetzmäßigkeiten:
+\begin{itemize}
+    \item \textbf{Gerade durch den Ursprung} wird zu einer \textbf{Geraden durch den Ursprung} (gespiegelt an der reellen Achse).
+    \item \textbf{Gerade NICHT durch den Ursprung} (z.\,B. Ortskurve einer Reihenschaltung mit konstantem $R$ und variablem $X$) wird zu einem \textbf{Kreis DURCH den Ursprung}.
+    \item \textbf{Kreis DURCH den Ursprung} (z.\,B. Ortskurve einer Parallelschaltung mit konstantem $G$ und variablem $B$) wird zu einer \textbf{Gerade NICHT durch den Ursprung}.
+    \item \textbf{Kreis NICHT durch den Ursprung} wird zu einem \textbf{Kreis NICHT durch den Ursprung}.
+\end{itemize}
+
+\subsection*{Konstruktion des Inversionskreises (Thaleskreis)}
+Für eine standardmäßige Reihenschaltung mit konstantem Wirkwiderstand $R$ und variabler Reaktanz $X$ bildet die Gerade $z = R + \mathrm{j}X$ den Ausgangspunkt:
+
+\noindent
+\begin{tabularx}{\textwidth}{@{} X m{5.5cm} @{}}
+\textbf{Schritte zur Konstruktion in der $Y$-Ebene:}
+\begin{enumerate}[leftmargin=*]
+    \item Suche den Punkt mit der minimalen Impedanz auf der Geraden (hier der rein reelle Punkt $\underline{Z}_{\min} = R$).
+    \item Invertiere diesen Punkt auf der reellen Achse: $G_{\max} = \frac{1}{R}$.
+    \item Dieser Punkt $G_{\max}$ und der Ursprung $(0,0)$ bilden die Eckpunkte des Durchmessers des Inversionskreises.
+    \item Der Mittelpunkt des Kreises liegt bei $M = \left(\frac{1}{2R}, 0\right)$, der Radius beträgt $r = \frac{1}{2R}$.
+    \item \textbf{Wichtig bei Kreis-Punkten:} Da $\underline{Y} = \frac{1}{\underline{Z}}$, wechselt das Vorzeichen des Winkels ($\varphi_y = -\varphi_z$). Ein induktiver Ast im 1. Quadranten der $Z$-Ebene wird zu einem kapazitiven Kreisbogen im 4. Quadranten der $Y$-Ebene abgebildet.
+\end{enumerate}
+&
+\begin{tikzpicture}[scale=1.8, >=stealth]
+    % Koordinatensystem
+    \draw[->, gray, thin] (-0.2,0) -- (2.2,0) node[right, black] {\small $R, G$};
+    \draw[->, gray, thin] (0,-1.0) -- (0,1.2) node[above, black] {\small $X, B$};
+    
+    % Impedanz-Gerade (konstantes R)
+    \draw[thick, blue] (1.2,-0.9) -- (1.2,1.1) node[above] {\small $\underline{Z}$-Gerade ($R$)};
+    \draw[fill=blue] (1.2,0) circle (1pt) node[above right=-1pt, blue] {\tiny $R$};
+    
+    % Inversionskreis (Y-Ebene)
+    \coordinate (M) at (0.416,0); % 1 / (2 * 1.2) = 1 / 2.4 = 0.416
+    \draw[thick, red] (M) circle (0.416);
+    \draw[fill=red] (0.833,0) circle (1pt) node[below right=-2pt, red] {\tiny $\frac{1}{R}$};
+    \node[red, below left] at (0.7,-0.4) {\small $\underline{Y}$-Kreis};
+    
+    % Beispielpunkt-Inversion
+    \coordinate (Z1) at (1.2,0.7);
+    \draw[fill=blue] (Z1) circle (1pt) node[right, blue] {\tiny $\underline{Z}_1 = R + \mathrm{j}X_1$};
+    \draw[dashed, blue] (0,0) -- (Z1);
+    
+    % Invertierter Punkt (gleicher Winkel negativ, liegt auf Kreis)
+    % Betrag Z1 = sqrt(1.2^2 + 0.7^2) = sqrt(1.44 + 0.49) = sqrt(1.93) = 1.39
+    % Betrag Y1 = 1 / 1.39 = 0.72
+    % Winkel = arctan(0.7/1.2) = 30.25° -> -30.25°
+    % x = 0.72 * cos(-30.25) = 0.62, y = 0.72 * sin(-30.25) = -0.36
+    \coordinate (Y1) at (0.62,-0.36);
+    \draw[fill=red] (Y1) circle (1pt) node[below right, red] {\tiny $\underline{Y}_1 = \frac{1}{\underline{Z}_1}$};
+    \draw[dashed, red] (0,0) -- (Y1);
+\end{tikzpicture}
+\\ \end{tabularx}
+
+\newpage
+
+\section{Filterschaltungen}
+
+Filter dienen dazu, Signale in Abhängigkeit von ihrer Frequenz abzuschwächen oder passieren zu lassen. Man unterscheidet passive Filter (nur $R, L, C$) und aktive Filter (mit Operationsverstärkern). Die Charakterisierung erfolgt über die komplexe Übertragungsfunktion:
+\[ \underline{H}(\mathrm{j}\omega) = \frac{\underline{U}_{\text{aus}}(\mathrm{j}\omega)}{\underline{U}_{\text{ein}}(\mathrm{j}\omega)} \qquad \text{Betrag (Amplitudengang): } H(\omega) = |\underline{H}(\mathrm{j}\omega)| \]
+
+\subsection*{Übersicht der Standard-Filterglieder (1. und 2. Ordnung)}
+
+\begin{tabularx}{\textwidth}{@{} X | X @{}}
+\textbf{Tiefpass 1. Ordnung ($R-C$)} & \textbf{Hochpass 1. Ordnung ($R-C$)} \\
+\hline
+\begin{minipage}[t]{\linewidth}\centering
+\vspace{2mm}
+\begin{circuitikz}[scale=0.8, transform shape]
+    \draw (0,1.5) to[short, o-] (0.5,1.5)
+          to[R, l=$R$] (2,1.5) node[circ] (p) {}
+          to[C, l=$C$] (2,0) node[ground] {};
+    \draw (p) -- (3,1.5) to[short, -o] (3.2,1.5);
+    \draw (0,0) to[short, o-o] (3.2,0);
+    \node[left] at (0,0.75) {$\underline{U}_{\text{ein}}$};
+    \node[right] at (3.2,0.75) {$\underline{U}_{\text{aus}}$};
+\end{circuitikz}
+\begin{itemize}[leftmargin=*]
+    \item $\underline{H}(\mathrm{j}\omega) = \dfrac{1}{1 + \mathrm{j}\omega RC} = \dfrac{1}{1 + \mathrm{j}\frac{\omega}{\omega_g}}$
+    \item Grenzfrequenz: $\omega_g = \dfrac{1}{RC}$
+    \item Phasenverschiebung bei $\omega_g$: $\varphi = -45^\circ$
+\end{itemize}
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}\centering
+\vspace{2mm}
+\begin{circuitikz}[scale=0.8, transform shape]
+    \draw (0,1.5) to[short, o-] (0.5,1.5)
+          to[C, l=$C$] (2,1.5) node[circ] (p) {}
+          to[R, l=$R$] (2,0) node[ground] {};
+    \draw (p) -- (3,1.5) to[short, -o] (3.2,1.5);
+    \draw (0,0) to[short, o-o] (3.2,0);
+    \node[left] at (0,0.75) {$\underline{U}_{\text{ein}}$};
+    \node[right] at (3.2,0.75) {$\underline{U}_{\text{aus}}$};
+\end{circuitikz}
+\begin{itemize}[leftmargin=*]
+    \item $\underline{H}(\mathrm{j}\omega) = \dfrac{\mathrm{j}\omega RC}{1 + \mathrm{j}\omega RC} = \dfrac{\mathrm{j}\frac{\omega}{\omega_g}}{1 + \mathrm{j}\frac{\omega}{\omega_g}}$
+    \item Grenzfrequenz: $\omega_g = \dfrac{1}{RC}$
+    \item Phasenverschiebung bei $\omega_g$: $\varphi = +45^\circ$
+\end{itemize}
+\end{minipage}
+\\ 
+\hline
+\textbf{Bandpass (Reihenschwingkreis im Längszweig)} & \textbf{Bandsperre (Parallelschwingkreis im Längszweig)} \\
+\hline
+\begin{minipage}[t]{\linewidth}\centering
+\vspace{2mm}
+\begin{circuitikz}[scale=0.75, transform shape]
+    \draw (0,1.5) to[short, o-] (0.3,1.5)
+          to[L, l=$L$] (1.5,1.5)
+          to[C, l=$C$] (2.7,1.5) node[circ] (p) {}
+          to[R, l=$R$] (2.7,0) node[ground] {};
+    \draw (p) -- (3.5,1.5) to[short, -o] (3.7,1.5);
+    \draw (0,0) to[short, o-o] (3.7,0);
+\end{circuitikz}
+\begin{itemize}[leftmargin=*]
+    \item $\underline{H}(\mathrm{j}\omega) = \dfrac{R}{R + \mathrm{j}\left(\omega L - \frac{1}{\omega C}\right)}$
+    \item Resonanz (Maximum): $\omega_0 = \dfrac{1}{\sqrt{LC}}$
+    \item Übertragung bei $\omega_0$: $|\underline{H}(\mathrm{j}\omega_0)| = 1$
+\end{itemize}
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}\centering
+\vspace{2mm}
+\begin{circuitikz}[scale=0.75, transform shape]
+    \draw (0,1.5) to[short, o-] (0.4,1.5) node[circ] (a) {};
+    \draw (a) -- (0.4,2.1) to[L, l=$L$] (2.0,2.1) -- (2.0,1.5) node[circ] (b) {};
+    \draw (a) -- (0.4,0.9) to[C, l=$C$] (2.0,0.9) -- (b);
+    \draw (b) -- (2.4,1.5) node[circ] (p) {} to[R, l=$R$] (2.4,0) node[ground] {};
+    \draw (p) -- (3.2,1.5) to[short, -o] (3.4,1.5);
+    \draw (0,0) to[short, o-o] (3.4,0);
+\end{circuitikz}
+\begin{itemize}[leftmargin=*]
+    \item $\underline{H}(\mathrm{j}\omega) = \dfrac{R}{R + \dfrac{\mathrm{j}\omega L}{1 - \omega^2 LC}}$
+    \item Sperrfrequenz (Sperrung): $\omega_0 = \dfrac{1}{\sqrt{LC}}$
+    \item Übertragung bei $\omega_0$: $|\underline{H}(\mathrm{j}\omega_0)| = 0$
+\end{itemize}
+\end{minipage}
+\\
+\end{tabularx}
+
+\subsection*{Kenngrößen und logarithmische Darstellung (Bode-Diagramm)}
+\begin{itemize}
+    \item \textbf{Dämpfungsmaß (Spannungsverhältnis):} $A_{\mathrm{dB}} = 20 \cdot \log_{10}\left|\frac{\underline{U}_{\text{aus}}}{\underline{U}_{\text{ein}}}\right| = 20 \cdot \log_{10} H(\omega)$
+    \item \textbf{Leistungsverhältnis:} $A_{P,\mathrm{dB}} = 10 \cdot \log_{10}\left|\frac{P_{\text{aus}}}{P_{\text{ein}}}\right|$
+    \item \textbf{Verhalten bei der Grenzfrequenz $\omega_g$:} Das Signal ist um $3\,\mathrm{dB}$ abgefallen. $H(\omega_g) = \frac{1}{\sqrt{2}} \approx 0,707$.
+    \item \textbf{Asymptotische Steigung im Sperrbereich (pro Ordnung $n$):} 
+    \begin{itemize}
+        \item $20 \cdot n\,\mathrm{dB/Dekade}$ \quad bzw. \quad $6 \cdot n\,\mathrm{dB/Oktave}$
+    \end{itemize}
+\end{itemize}
+
+\end{document}
