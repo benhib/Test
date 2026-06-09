@@ -1,2 +1,0 @@
-User Input: asd
-Timestamp: 1773081330
